@@ -268,7 +268,7 @@ translations:
         geliştiriciler bu kategorinin mevcut genel durumundan ne kadar memnun?
 
     # newsletter
-    - key: blocks.newsletter
+    - key: blocks.newsletter.title
       t: Bizi izlemeye devam edin
     - key: blocks.newsletter.description
       t: |
