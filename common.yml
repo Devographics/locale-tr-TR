@@ -44,7 +44,7 @@ translations:
     - key: general.preview_survey
       t: Anketi Önizle »
     - key: general.finish_survey
-      t: Anketi Sonlandır »
+      t: Anketi Sonlandır
     - key: general.survey_closed
       t: Bu anket sona erdi.
     - key: general.survey_results
