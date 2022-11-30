@@ -302,7 +302,7 @@ translations:
       t: Maalesef bu veri kümesi için CSV dışa aktarımı yapılamaz.
     - key: export.graphql
       t: >
-          Bu sorguyu <a target="_blank" rel="nofollow" href="http://graphiql.stateofjs.com/"> açık GraphQL API </a> ’mize kopyalayıp yapıştırabilirsiniz.
+          Bu sorguyu <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/"> açık GraphQL API </a> ’mize kopyalayıp yapıştırabilirsiniz.
 
     ###########################################################################
     # Charts
