@@ -643,3 +643,36 @@ translations:
       t: Diğer Podcast'ler
     - key: resources.podcasts.others.description 
       t: Diğer yanıtlar (serbest yanıt alanı).
+
+      # people
+    - key: resources.people
+      t: Kişiler
+    - key: resources.people.description
+      t: Okuduğunuz, takip ettiğiniz, ya da sadece vurgulamak istediğiniz kişiler
+    # - key: resources.people.others
+    #   t: Other People
+    # - key: resources.people.others.description
+    #   t: Other answers (freeform field).
+    - key: resources.people.others
+      t: Kişiler
+    - key: resources.people.others.description
+      t: >
+        Okuduğunuz, takip ettiğiniz, ya da sadece çalışmalarını vurgulamak istediğiniz kişiler
+        (serbest alan, virgülle ayırılmış isimler).
+
+    # other surveys
+    - key: resources.other_surveys
+      t: Diğer Anketler
+    - key: resources.other_surveys.description
+      t: Başka hangi geliştirici anketlerini takip ediyorsunuz?
+    - key: resources.other_surveys.others
+      t: Yukarıda belirtilmeyen anketler
+
+    # video creators
+    - key: resources.video_creators
+      t: Video Üreticileri
+    - key: resources.video_creators.description
+      t: YouTube, Twitch, Tiktok, vb. gibi video platformlarında hangi video üreticilerini takip ediyorsunuz?
+    - key: resources.video_creators.others
+      t: Diğer Video Üreticileri
+
