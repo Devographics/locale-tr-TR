@@ -21,6 +21,41 @@ translations:
     - key: general.completion_percentage
       t: 'Tamamlanma yüzdesi:'
 
+    - key: sponsors.thanks
+      t: Bizi destekleyen partnerlerimize teşekkür ederiz!
+
+    - key: sponsors.learn_more
+      t: Daha fazla öğrenin.
+
+    - key: tabs.all_respondents
+      t: Tüm Yanıtlayanlar
+    - key: tabs.main_answers
+      t: Ana Yanıtlar
+    - key: tabs.other_answers
+      t: Diğer Yanıtlar
+    - key: tabs.bracket_wins
+      t: Kazananlar
+    - key: tabs.bracket_matchups
+      t: Eşleşmeler
+    - key: tabs.chart
+      t: Grafik
+    - key: tabs.data
+      t: Veri
+    - key: tabs.share
+      t: Paylaş
+    - key: tabs.debug
+      t: Ayıkla
+    - key: tabs.by_country
+      t: Ülkeye Göre
+    - key: tabs.by_experience
+      t: Deneyime Göre
+    - key: tabs.by_degree
+      t: Dereceye göre
+    - key: tabs.by_salary
+      t: Maaşa göre
+    - key: tabs.by_gender
+      t: Cinsiyete göre
+
     ###########################################################################
     # Options
     ###########################################################################
@@ -28,16 +63,27 @@ translations:
     - key: options.experience_ranking.satisfaction
       t: Memnuniyet
     - key: options.experience_ranking.interest
-      t: Interest
+      t: İlgi
+    - key: options.experience_ranking.usage
+      t: Kullanım
     - key: options.experience_ranking.awareness
       t: Haberdarlık
+
+    - key: options.features_mode.grouped
+      t: Gruplandırılmış
+    - key: options.features_mode.awareness_rank
+      t: Haberdarlığa Göre
+    - key: options.features_mode.usage_rank
+      t: Kullanıma Göre
+    - key: options.features_mode.usage_ratio_rank
+      t: Kullanım Oranına Göre
 
     - key: options.features_simplified.know_it
       t: Ne olduğunu biliyorum
     - key: options.features_simplified.used_it
       t: Daha önce kullandım
     - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+      t: Kullanım Oranı
 
     - key: options.quadrant.assess
       t: DEĞER BİÇ
@@ -60,6 +106,88 @@ translations:
       t: |
         DEĞERLENDİR: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
 
+    - key: options.quadrant.1
+      t: 1
+    - key: options.quadrant.1.long
+      t: |
+        1: Düşük kullanım, yüksek memnuniyet. Göz atmaya değer teknolojiler.
+    - key: options.quadrant.2
+      t: 2
+    - key: options.quadrant.2.long
+      t: |
+        2: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
+    - key: options.quadrant.3
+      t: 3
+    - key: options.quadrant.3.long
+      t: |
+        3: Düşük kullanım, düşük memnuniyet. Tavsiye etmesi zor teknolojiler.
+    - key: options.quadrant.4
+      t: 4
+    - key: options.quadrant.4.long
+      t: |
+        4: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
+
+    - key: ranges.selector.years_of_experience
+      t: Deneyim
+    - key: ranges.selector.yearly_salary
+      t: Maaş
+    - key: ranges.selector.company_size
+      t: Şirket Büyüklüğü
+
+    # other learning methods
+    - key: options.first_steps.blogs
+      t: Bloglar
+    - key: options.first_steps.forums
+      t: Forumlar
+    - key: options.first_steps.view_source
+      t: Kaynağı Gör
+    - key: options.first_steps.copy_paste
+      t: Kopyala/Yapıştır
+    - key: options.first_steps.trial_and_error
+      t: Deneme & Yanılma
+    - key: options.first_steps.documentation
+      t: Dokümantasyon
+
+    # other disablities
+    - key: options.disability_status_others.adhd
+      t: DEHB
+    - key: options.disability_status_others.autism
+      t: Otizm
+    - key: options.disability_status_others.glasses
+      t: Gözlük
+    - key: options.disability_status_others.old
+      t: Yaşlı
+    - key: options.disability_status_others.back_pain
+      t: Sırt Ağrısı
+    - key: options.disability_status_others.epilepsy
+      t: Epilepsi
+    - key: options.disability_status_others.aspergers
+      t: Asperger
+    - key: options.disability_status_others.color_blindness
+      t: Renk Körlüğü
+    - key: options.disability_status_others.anxiety
+      t: Anksiyete
+    - key: options.disability_status_others.dyslexia
+      t: Disleksi
+    - key: options.disability_status_others.diabetes
+      t: Diyabet
+    - key: options.disability_status_others.carpal_tunnel
+      t: Karpal Tünel Sendromu
+    - key: options.disability_status_others.migraine
+      t: Migren
+    - key: options.disability_status_others.speech_impairment
+      t: Konuşma Bozukluğu
+    - key: options.disability_status_others.ocd
+      t: Obsesif Kompulsif Bozukluk
+    - key: options.disability_status_others.chronic_pain
+      t: Kronik Ağrı
+    - key: options.disability_status_others.chronic_fatigue
+      t: Kronik Yorgunluk
+    - key: options.disability_status_others.crohn
+      t: Crohn Hastalığı
+    - key: options.disability_status_others.depression
+      t: Depresyon
+
     ###########################################################################
     # Sections
     ###########################################################################
@@ -76,8 +204,30 @@ translations:
     - key: sections.technologies.title
       t: Teknolojiler
 
+    - key: sections.libraries.title
+      t: Kütüphaneler
+
     - key: sections.conclusion.title
       t: Sonuç
+
+    - key: sections.about.title
+      t: Hakkında
+
+    - key: sections.how_to_help.title
+      t: Nasıl Yardım Edilir
+
+    - key: sections.support.title
+      t: Bizi Destekle
+    - key: sections.support.description
+      t: >
+        Bu anketi bir yan proje olarak çalıştırıyoruz, ancak projeyi sürdürülebilir
+        kılmak için her zaman finansal olarak ya da haberdar ederek destek sağlayabilecek ortaklar arıyoruz.
+        Eğer bize destek olabileceğinizi düşünüyorsanız, lütfen [bize ulaşın](mailto:hello@stateofjs.com)!
+
+    - key: sections.awards.title
+      t: Ödüller
+    - key: sections.awards.description
+      t: Things that stood out this year.
 
     ###########################################################################
     # User Info
@@ -87,6 +237,10 @@ translations:
       t: Dil
     - key: user_info.locale.description
       t: Katılımcılar anketi doldurmak için hangi dili seçti?
+    - key: user_info.locale.note
+      t: >
+        Bu veriler, anketi yanıtlayan kişinin ayarlarına göre otomatik olarak toplanır;
+        20'den az yanıtlanan diller gösterilmemiştir.
 
     - key: user_info.source
       t: Kaynak
@@ -103,6 +257,40 @@ translations:
 
         - İş ve Çalışma: `çalışma`, `meslektaşlar`, `iş arkadaşları`, gibi eşleşmeler.
 
+    - key: user_info.gender_by_country
+      t: Ülkeye Göre Cinsiyet
+    - key: user_info.gender_by_country.description
+      t: En az 100 yanıt veren ülkeye göre cinsiyet dağılımı, azalan "ortalama cinsiyet"e (her cinsiyete artan sırada bir tamsayı değeri atanır) göre sıralanmıştır.
+  
+    - key: user_info.years_of_experience_by_salary
+      t: Years of Experience by Salary Range
+    - key: user_info.years_of_experience_by_salary.description
+      t: Maaş Aralığına Göre Tecrübe Yılları.
+  
+    - key: user_info.yearly_salary_by_country
+      t: Ülkeye Göre Yıllık Maaş
+    - key: user_info.yearly_salary_by_country.description
+      t: Yıllık maaş dağılımı, en az 100 yanıt veren ülkeye göre, azalan "ortalama maaş"a (her ülkeye artan sırada bir tamsayı değeri atanır) göre sıralanmıştır.
+  
+    - key: user_info.yearly_salary_by_degree
+      t: Daha Yüksek Eğitim Derecesine Göre Yıllık Maaş
+    - key: user_info.yearly_salary_by_degree.description
+      t: Daha yüksek eğitim derecesine göre yıllık maaş dağılımı, azalan ortalama maaşa göre sıralanmıştır.
+  
+    - key: user_info.yearly_salary_by_experience
+      t: Tecrübeye Göre Yıllık Maaş
+    - key: user_info.yearly_salary_by_experience.description
+      t: Tecrübeye göre yıllık maaş dağılımı, azalan ortalama maaşa göre sıralanmıştır.
+  
+    - key: user_info.race_ethnicity_by_years_of_experience
+      t: Tecrübe Yıllarına Göre Irk ve Etnik Köken
+    - key: user_info.race_ethnicity_by_years_of_experience.description
+      t: Tecrübe yıllarına göre ırk ve etnik köken dağılımı, azalan ortalama tecrübe yılına göre sıralanmıştır.
+  
+    - key: user_info.higher_education_degree_by_gender
+      t: Cinsiyete Göre Daha Yüksek Eğitim Derecesi
+    - key: user_info.higher_education_degree_by_gender.description
+      t: Cinsiyete göre daha yüksek eğitim derecesi dağılımı.
     ###########################################################################
     # Locales
     ###########################################################################
@@ -115,8 +303,6 @@ translations:
       t: İspanyolca
     - key: options.locale.ru-RU
       t: Rusça
-    - key: options.locale.ua-UA
-      t: Ukrayna
     - key: options.locale.fr-FR
       t: Fransızca
     - key: options.locale.zh-Hant
@@ -124,9 +310,11 @@ translations:
     - key: options.locale.de-DE
       t: Almanca
     - key: options.locale.cs-CZ
-      t: Çek dili
+      t: Çekçe
     - key: options.locale.pt-PT
       t: Portekizce
+    - key: options.locale.pt-BR
+      t: Portuguese (Brezilya)
     - key: options.locale.it-IT
       t: İtalyanca
     - key: options.locale.sv-SE
@@ -137,10 +325,22 @@ translations:
       t: Endonezya dili
     - key: options.locale.hi-IN
       t: Hintçe
+    - key: options.locale.zh-Hans
+      t: Chinese (Basitleştirilmiş)
+    - key: options.locale.ja-JP
+      t: Japonca
+    - key: options.locale.ua-UA
+      t: Ukraynaca
     - key: options.locale.pl-PL
       t: Lehçe
+    - key: options.locale.fa-IR
+      t: Farsça
     - key: options.locale.nl-NL
       t: Flemenkçe
+    - key: options.locale.ko-KR
+      t: Korece
+    - key: options.locale.ro-RO
+      t: Romence
 
     ###########################################################################
     # Features
@@ -154,6 +354,12 @@ translations:
       t: CanIUse
     - key: features.specification_link 
       t: W3C Tanımlaması
+
+    # knowledge score
+    - key: features.knowledge_score
+      t: Bilgi Skoru
+    - key: features.knowledge_score.description
+      t: Ankette belirtilen tüm özelliklerden, yanıtlayanlar kaç tanesini biliyordu?
 
     ###########################################################################
     # Tools & Methodologies
@@ -170,6 +376,8 @@ translations:
       t: Anasayfa
     - key: tools.npm_link 
       t: NPM
+    - key: tools.technology
+      t: Teknoloji
 
     ###########################################################################
     # Blocks
@@ -202,6 +410,56 @@ translations:
       t: Anasayfa
     - key: blocks.entity.github_link
       t: GitHub
+    - key: blocks.entity.twitter_link
+      t: Twitter
+    - key: blocks.entity.mastodon_link
+      t: Mastodon
+    - key: blocks.entity.blog_link
+      t: Blog
+    - key: blocks.entity.rss_link
+      t: RSS
+    - key: blocks.entity.twitch_link
+      t: Twitch
+    - key: blocks.entity.npm_link
+      t: npm
+    - key: blocks.entity.youtube_link
+      t: YouTube
+
+    # people
+    - key: blocks.people.name
+      t: İsim
+    - key: blocks.people.social_links
+      t: Linkler
+    - key: blocks.people.responses
+      t: Yanıtlar
+
+    # cardinality
+    - key: blocks.all_sections_tools_cardinality_by_user
+      t: Teknoloji Kullanım Önem Derecesi
+    - key: blocks.all_sections_tools_cardinality_by_user.description
+      t: >
+          Her bölüm için, yanıtlayanların **kullanım** yüzdesi
+           (“tekrar kullanırım” cevabını vermiş olarak tanımlanır) bir, iki, üç vb. teknolojiler.
+           En alttaki çubuk, diğer tüm çubukların toplamını temsil eder.
+
+    - key: blocks.cardinality.max
+      t: En yaygın cevap
+      
+    # tools arrows
+    - key: blocks.tools_arrows
+      t: Zamanla Değişim
+    - key: blocks.tools_arrows.description
+      t: |
+        Her satır, mevcut en eski yıldan en son veri yılına kadar gider. Daha yüksek puan, bir teknolojinin daha fazla kişi tarafından kullanıldığı anlamına gelir,
+        ve daha sağdaki bir nokta, daha fazla kullanıcının bunu öğrenmek istediği anlamına gelir; veya kullandığı ve tekrar kullanabileceği.
+        Each line goes from the earliest to the latest available year of data. A higher point means a technology has been used by more people,
+        and a point further to the right means more users want to learn it; or have used it and would use it again.
+    - key: blocks.tools_arrows.note
+      t: |
+        - Bazı satırlar yılları atlıyor.
+        - Yalnızca bir yıllık veriye sahip teknolojiler gösterilmemiştir.
+        - Hız formülü = (en son görüş - en eski görüş) + (en son kullanım) - (en eski kullanım)
+        - Olumlu bir hız, kullanımın ve/veya olumlu görüşlerin zaman içinde arttığı anlamına gelir.
 
     # tools quadrant
     - key: blocks.tools_quadrant
@@ -238,6 +496,30 @@ translations:
     - key: blocks.tool_experience.description
       t: Yanıtlayanların {name} ile olan deneyimi.
 
+    # tool positive/negative split ("marimekko" chart)
+    - key: blocks.tools_experience_marimekko
+      t: Pozitif/Negatif Deneyim Dağılımı
+    - key: blocks.tools_experience_marimekko.description
+      t: |
+        Bu tablo pozitife karşı ("öğrenmek istiyorum", "tekrar kullanırım")
+        negatif (“ilgilenmiyorum”, “tekrar kullanmayacağım”) deneyimleri
+        merkezi bir eksende iki tarafa böler.
+
+        Çubuk kalınlığı, bir teknolojiden haberdar olan katılımcıların sayısını temsil eder.
+
+    # tool tier list
+    - key: blocks.tools_tier_list
+      t: Kütüphane Katman Listesi
+    - key: blocks.tools_tier_list.description
+      t: |
+        Bu grafik kütüphanlerin elde tutma oranlarına (kullanıcıların yüzdesi) göre sıralar.
+        bir kütüphaneyi tekrar kim kullanırdı). Anketin %10'undan daha azının kullandığı kitaplıkların 
+        dahil olmadığına dikkat edin.
+
+    - key: blocks.tools_tier_list.bounds
+      t: >
+        {altSınır}% - {üstSınır}%
+
     # tools section streams
     - key: blocks.tools_section_streams
       t: Zamana Göre Değişen Deneyim
@@ -255,9 +537,29 @@ translations:
 
     # tools experience ranking
     - key: blocks.tools_experience_ranking
+      t: Zamana Göre Sıralamalar
+    - key: blocks.tools_experience_ranking.percentages
+      t: Yüzdelikler
+    - key: blocks.tools_experience_ranking.rankings
       t: Sıralamalar
     - key: blocks.tools_experience_ranking.description
       t: Farkındalık, ilgi ve memnuniyet oranı sıralaması.
+    - key: blocks.tools_experience_ranking.note
+      t: |
+        Farkındalığı %10'dan az olan teknolojiler dahil değildir. Her oran aşağıdaki gibi tanımlanır:
+  
+         - Elde Tutma: **tekrar kullanırım** / (**tekrar kullanırım** + **tekrar kullanmam**)
+         - İlgi: **öğrenmek istiyorum** / (**öğrenmek istiyorum** + **ilgilenmiyorum**)
+         - Kullanım: (**tekrar kullanırım** + **tekrar kullanmam**) / **toplam**
+         - Farkındalık: (**toplam** - **hiç duymadım**) / **toplam**
+
+      # tools experience linechart
+    - key: blocks.tools_experience_linechart
+      t: Zamana Göre Oranlar
+    - key: blocks.tools_experience_linechart.description
+      t: Zamana göre elde tutma, ilgi, kullanım ve farkındalık oranı.
+    - key: blocks.tools_experience_linechart.note
+      aliasFor: blocks.tools_experience_ranking.note
 
     # happiness
     - key: blocks.happiness
@@ -303,6 +605,77 @@ translations:
     - key: export.graphql
       t: >
           Bu sorguyu <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/"> açık GraphQL API </a> ’mize kopyalayıp yapıştırabilirsiniz.
+    - key: export.export_json
+      t: JSON Al
+    - key: export.export_graphql
+      t: GraphQL Sorgusu Al
+
+    - key: custom_data.heading
+      t: Özel Grafik
+    - key: custom_data.custom_data
+      t: Özel Veri
+    - key: custom_data.graphql_query
+      t: GraphQL Sorgusu
+    - key: custom_data.chart_title
+      t: Grafik Başlığı
+    - key: custom_data.submit
+      t: Gönder
+    - key: custom_data.empty_contents
+      t: Lütfen "Özel Veriler" alanına veri girin.
+    - key: custom_data.edit_title
+      t: Grafik Başlığını Düzenle
+    - key: custom_data.customize
+      t: Veriyi Özelleştir
+    - key: custom_data.details
+      t: >
+          1. "GraphQL Sorgusu"na metin alanının içeriğini kopyalayın ve [GraphQL API gezgininin](https://graphiql.stateofjs.com/) orta paneline yapıştırın.
+
+          2. Soldaki gezgin kenar çubuğunu kullanarak bir veya daha fazla **filtre** ekleyerek sorguyu değiştirin. Verilerin genel yapısını aynı tuttuğunuzdan emin olun.
+
+          3. Gezgin penceresinde Oynat ("Sorguyu Yürüt") düğmesini tıklayın.
+
+          4. Değiştirilen sorgunun (`{ data: … }` ) sonuçlarını yukarıdaki "Özel Veriler" metin alanına kopyalayın ve gönderin.
+           
+    # Tools usage variations
+    - key: blocks.tools_usage_variations
+      t: Kullanım Varyasyonları
+    - key: blocks.tools_usage_variations.description
+      t: |
+        Maaş aralığı, deneyim yılı veya şirket büyüklüğü 
+        gibi farklı faktörler nasıl etkiler (“tekrar kullanırdım” veya
+        “tekrar kullanmazdım” diye yanıt veren katılımcılar).
+
+        Taban çizgisi, her araç için temel kullanımı ve her aralıkta
+        bu taban çizgisinden gelen deltaya karşılık gelen ofsetleri temsil eder. Diyelimki
+        X aracı, tüm yanıtlayanlar arasında %10'luk bir genel kullanıma sahiptir (referans),
+        1 ila 2 yıllık deneyime sahip kullanıcıların bu aracı
+        kullanma oranı %13'tür (1 ila 2 yıl deneyim),
+        o zaman +%3'lük pozitif bir deltaya sahibiz.
+
+    - key: blocks.tools_usage_variations.note
+      t: |
+        Please keep in mind that tools having a lower overall usage tends to vary more.
+
+    # Recommended Resources
+    - key: blocks.recommended_resources
+      t: Önerilen Kaynaklar
+    - key: blocks.recommended_events
+      t: Önerilen Etkinlikler
+
+    # Brackets
+    - key: tool_evaluation.tool_evaluation_wins
+      t: Kütüphane Değerlendirme Sıralamaları
+    - key: tool_evaluation.tool_evaluation_wins.description
+      t: Yeni bir kütüphaneyi değerlendirirken hangi faktörlere öncelik veriyorsunuz? Sonuçlar, kazanılan turnuva turlarının sayısına göre sıralanır.
+
+    - key: tool_evaluation.tool_evaluation_matchups
+      t: Kütüphane Değerlendirme Sıralamaları (Eşleşmeler)
+    - key: tool_evaluation.tool_evaluation_matchups.description
+      t: Yeni bir kütüphaneyi değerlendirirken hangi faktörlere öncelik veriyorsunuz? Üst taraftaki öğeye karşı sol el öğesi tarafından kazanılan turların yüzdesi.
+
+    # other
+    - key: blocks.freeform
+      t: (serbest tarz soru)
 
     ###########################################################################
     # Charts
