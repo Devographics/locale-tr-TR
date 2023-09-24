@@ -73,3 +73,9 @@ translations:
         Verilerinizi nasıl kullandığımızla ilgili herhangi bir sorunuz varsa 
         veya verilerinizi kayıtlarımızdan kaldırmamızı istiyorsanız, 
         lütfen <a href="mailto:hello@stateofjs.com">bizimle iletişime geçin</a>.
+
+  - key: accounts.token_verified
+    t: Token doğrulanması başarılı, yönlendiriliyorsunuz...
+
+  - key: accounts.your_surveys
+    t: Anketleriniz
