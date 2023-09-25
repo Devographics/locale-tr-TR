@@ -1,4 +1,5 @@
-locale: en-US
+locale: tr-TR
+# TODO maybes it should be html?
 namespace: css
 translations:
   ###########################################################################
@@ -7,75 +8,75 @@ translations:
 
   - key: general.state_of_html.intro
     t: |
-      While web developers tend to focus on JavaScript and CSS, none of what we do would be possible without HTML acting as the foundation.
+      Web geliştiriciler genellikle JavaScript ve CSS'e odaklansa da, yaptığımız hiçbir şey HTML temel olmaksızın mümkün olmazdı.
 
-      It has long seemed like HTML wasn't evolving, but things may be changing.
-      New elements like `<selectlist>` are on the horizon, cool new features like popovers,
-      and a swath of related browser APIs (Web Components, PWAs, etc.).
+      Uzun bir süre HTML'in evrilmekte olmadığı algısı hakimdi, ancak bu durum değişiyor olabilir. 
+      `<selectlist>` gibi yeni öğelerin yakın gelecekte yer alacak olması, popovers gibi sofistike yeni fonksiyonlar 
+      ve Web Components, PWAs gibi bir dizi ilgili tarayıcı API'leri, bu algıyı değiştirebilir.
 
-      This year, [Lea Verou](https://lea.verou.me/) took on the formidable task of leading the design of this brand new survey, from content to UX and beyond.
+      Bu yıl, [Lea Verou](https://lea.verou.me/) bu yepyeni anketin tasarımını liderlik etmek gibi zorlu bir göreve girişti, içerikten UX'e ve ötesine.
 
-      Building on the success of [State of JS](http://stateofjs.com/) and [State of CSS](https://stateofcss.com/), we introduce State of HTML;
-      the last missing piece that completes our web platform trilogy, so we can track the evolution of the web platform as a whole.
-      As usual, responses here help browser vendors prioritize their roadmaps and work towards better compatibility,
-      so investing time in thoughtfully answering can come back to you tenfold.
+      [State of JS](http://stateofjs.com/) ve [State of CSS](https://stateofcss.com/) projelerinin elde ettiği başarıları temel alarak, State of HTML'yi sunuyoruz;
+      web platformu üçlememizi tamamlayan son eksik bileşen, böylece web platformunun bütünlüklü evrimini izleyebiliriz.
+      Her zamanki gibi, burada verilen yanıtlar tarayıcı üreticileri için yol haritalarını önceliklendirmelerine ve daha yüksek uyumluluk için çalışmalarını sağlamaktadır,
+      dolayısıyla dikkatli bir şekilde yanıt vermek, size beklediğinizden fazla katkı sağlayabilir.
 
   - key: general.state_of_html.description
-    t: The annual developer survey about the web platform
+    t: Yıllık web platformu hakkında geliştirici anketi
 
   ###########################################################################
   # Sections
   ###########################################################################
 
   - key: sections.forms.title
-    t: Forms
+    t: Formlar
   - key: sections.forms.description
-    t: Form-related elements and attributes
+    t: Form ile ilgili elementler ve özellikler.
 
   - key: sections.interactivity.title
-    t: Interactivity
+    t: İnteraktiflik
   - key: sections.interactivity.description
-    t: APIs that enable richer user interactions.
+    t: Daha zengin kullanıcı etkileşimleri sağlayan API'ler.
 
   - key: sections.web_components.title
-    t: Web Components
+    t: Web Componentleri
   - key: sections.web_components.description
-    t: Making & using web components.
+    t: Web component'leri oluşturma ve kullanma.
 
   - key: sections.content.title
-    t: Content
+    t: İçerik
   - key: sections.content.description
-    t: Embedding, multimedia, data, and other content-related features.
+    t: Embed etme, multimedya, veri ve diğer içerikle ilgili özellikler.
 
   - key: sections.external_content.title
-    t: External Content
+    t: Harici İçerik
   - key: sections.external_content.description
-    t: Embedding external resources, and other multimedia APIs.
+    t: Harici kaynakları embed etme ve diğer multimedya API'ler.
 
   - key: sections.accessibility.title
-    t: Accessibility
+    t: Erişilebilirlik
   - key: sections.accessibility.description
-    t: Making sites and apps accessible by all.
+    t: Tüm kullanıcılar için siteleri ve uygulamaları erişilebilir hale getirme.
 
   - key: sections.mobile_web_apps.title
-    t: Native-like Web Apps
+    t: Native-Like Web Uygulamaları
   - key: sections.mobile_web_apps.description
-    t: Authoring mobile and desktop-optimized web apps.
+    t: Mobil ve masaüstü için optimize edilmiş web uygulamaları oluşturma.
 
   - key: sections.other_features.title
-    t: Other Features
+    t: Diğer Özellikler
   - key: sections.other_features.description
-    t: Other HTML elements & browser APIs.
+    t: Diğer HTML elementleri ve tarayıcı API'leri.
 
   - key: sections.other_tools.title
-    t: Other Tools & Features
+    t: Diğer Araçlar ve Özellikler
   - key: sections.other_tools.description
-    t: Other tools or features you use as part of your work.
+    t: Çalışmanızın bir parçası olarak kullandığınız diğer araçlar veya özellikler.
 
   - key: sections.usage.title
-    t: Usage
+    t: Kullanım
   - key: sections.usage.description
-    t: How you use HTML.
+    t: HTML'i nasıl kullandığınız.
 
   ###########################################################################
   # Features
@@ -84,56 +85,56 @@ translations:
   # forms
 
   - key: features.form_controls
-    t: Form Controls
+    t: Form Kontrolleri
   - key: features.form_controls.question
-    t: Which form controls have you used?
+    t: Hangi form kontrollerini kullandınız?
 
   - key: features.form_input_types
-    t: Input Types
+    t: Giriş Tipleri
   - key: features.form_input_types.question
-    t: Which input types have you used?
+    t: Hangi giriş tiplerini kullandınız?
   - key: options.form_input_types.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.form_validation_features
-    t: Form Validation
+    t: Form Validasyonu
   - key: features.form_validation_features.question
-    t: Which of the following form validation features have you used?
+    t: Aşağıdaki form validasyon özelliklerinden hangilerini kullandınız?
   - key: options.form_validation_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.forms_pain_points
-    t: Form Pain Points
+    t: Form Sıkıntı Yaratan Noktalar
   - key: features.forms_pain_points.question
-    t: What are your pain points around HTML forms?
+    t: HTML formlarla ilgili sıkıntı yaratan noktalar nelerdir?
   - key: features.forms_pain_points.description
     t: |
-      Think of the various form controls (e.g. `<input>`, `<textarea>`, `<select>`, `<button>` etc.),
-      behaviors (e.g. validation, autocomplete), handling forms via JS, editing APIs (e.g. `contentEditable`) etc.
-      Anything that bothers you is fair game — browser support, missing features, styling, etc.
+      Farklı form kontrollerini (örn. `<input>`, `<textarea>`, `<select>`, `<button>` vb.),
+      davranışları (örn. doğrulama, otomatik tamamlama), JS ile formları işleme, düzenleme API'leri (örn. `contentEditable`) vb. düşünün.
+      Sizi rahatsız eden her şey serbest — tarayıcı desteği, eksik özellikler, stil, vb.
   - key: features.forms_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   # interactivity
 
   - key: features.dom_attribute_features
-    t: DOM Attribute-related methods
+    t: DOM Attribüt-İlgili Metodlar
   - key: features.dom_attribute_features.question
-    t: Which of the following DOM attribute-related methods have you used?
+    t: Aşağıdaki DOM attribüt-ilgili metodları hangilerini kullandınız?
 
   - key: features.dom_html_features
-    t: HTML String-handling Features
+    t: HTML String ile ilgili Özellikler
   - key: features.dom_html_features.question
-    t: Which of the following DOM HTML string-handling features have you used?
+    t: Aşağıdaki DOM HTML string ile ilgili özelliklerinden hangilerini kullandınız?
 
   - key: features.dom_methods
-    t: Element reparenting DOM Methods
+    t: Element Taşıma DOM Metodları
 
   - key: features.dom_moving_element_features
-    t: Element-moving DOM Methods
+    t: Element Taşıma DOM Metodları
   - key: features.dom_moving_element_features.question
-    t: Which of the following element-moving DOM methods have you used?
+    t: Aşağıdaki element taşıma DOM metodlarından hangilerini kullandınız?
   # - key: options.dom_methods.element_innerhtml.description
   #   t: |
   #     `element.innerHTML = rawHTML`
@@ -171,44 +172,44 @@ translations:
   #   t: |
   #     `let fragment = document.createDocumentFragment()`
   - key: options.dom_methods.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.interactivity_pain_points
-    t: Interactivity Pain Points
+    t: İnteraktiflik Sıkıntı Yaratan Noktalar
   - key: features.interactivity_pain_points.question
-    t: What are your pain points around dynamic HTML changes?
+    t: Dinamik HTML değişiklikleriyle ilgili sıkıntı yaratan noktalar nelerdir?
   - key: features.interactivity_pain_points.description
     t: |
-      Browser incompatibilities or lack of support, missing features, and other problems you face
-      around interactive elements and behaviors (except forms), DOM manipulation, events, and related APIs.
+      Tarayıcı uyumsuzlukları veya destek eksikliği, eksik özellikler ve interaktif elementler ve davranışlar (formlar hariç), 
+      DOM manipülasyonu, olaylar ve ilgili API'ler çevresinde karşılaştığınız diğer problemler.
 
   - key: features.interactivity_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   - key: features.interactivity_techniques
-    t: Interactivity Methods
+    t: İnteraktiflik Metodları
   - key: features.interactivity_techniques.question
-    t: Which of these methods have you used to add interactivity or dynamically modify HTML?
+    t: Aşağıdaki metodlardan hangilerini kullanarak interaktiflik eklediniz veya HTML'i dinamik olarak değiştirdiniz?
   - key: options.interactivity_techniques.css_for_interactivity
-    t: CSS for interactivity (toggles, tabs, etc.)
+    t: İnteraktiflik için CSS (toggles, tabs, vb.)
   - key: options.interactivity_techniques.js_dom_libraries
-    t: JavaScript DOM libraries (jQuery, etc.)
+    t: JavaScript DOM kütüphaneleri (jQuery, vb.)
   - key: options.interactivity_techniques.js_framework
-    t: JavaScript frameworks (React, Vue, etc.)
+    t: JavaScript frameworkları (React, Vue, vb.)
   - key: options.interactivity_techniques.vanilla_js
-    t: Plain JavaScript (no frameworks or libraries)
+    t: Vanilla JS (frameworksuz veya kütüphaneler olmadan)
   - key: options.interactivity_techniques.web_components
-    t: Web Components
+    t: Web Componentleri
   - key: options.interactivity_techniques.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   # content
 
   - key: features.machine_readable_features
-    t: Machine-Readable Data
+    t: Makine Okunabilir Veri
   - key: features.machine_readable_features.question
-    t: Which of the following have you used to include machine-readable data in HTML?
+    t: Aşağıdakilerden hangilerini HTML'de makine okunabilir veri eklemek için kullandınız?
   - key: options.machine_readable_features.rdfa.description
     t: |
       `property`, `typeof`, etc.
@@ -220,24 +221,24 @@ translations:
       `itemprop`, `itemscope`, etc.
 
   - key: features.multiple_languages_support
-    t: Multiple-Language Support
+    t: Çoklu Dil Desteği
   - key: features.multiple_languages_support.question
-    t: How often do you work on projects that require supporting more than one language?
+    t: Projelerinizde ne sıklıkla birden fazla dil desteği gerektiren projeler üzerinde çalışıyorsunuz?
   - key: options.multiple_languages_support.never
-    t: Never
+    t: Hiçbir zaman
   - key: options.multiple_languages_support.infrequently
-    t: Infrequently (less than once a year)
+    t: Nadiren (yılda bir defadan az)
   - key: options.multiple_languages_support.frequently
-    t: Frequently (more than once a year)
+    t: Sık sık (yılda bir defadan fazla)
   - key: options.multiple_languages_support.all_the_time
-    t: All the time
+    t: Her zaman
 
   - key: features.i18n_features
-    t: Internationalization Features
+    t: Yerelleştirme Özellikleri
   - key: features.i18n_features.question
-    t: Which of the following internationalization features have you used?
+    t: Aşağıdaki yerelleştirme özelliklerinden hangilerini kullandınız?
   - key: options.i18n_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   # - key: options.i18n_features.intl_datetimeformat.description
   #   t:
@@ -259,40 +260,40 @@ translations:
   #   t:
 
   - key: features.content_pain_points
-    t: Content Pain Points
+    t: İçerik Sıkıntı Yaratan Noktalar
   - key: features.content_pain_points.question
-    t: What are your pain points around managing content in HTML?
+    t: HTML'de içerik yönetimiyle ilgili sıkıntı yaratan noktalar nelerdir?
   - key: features.content_pain_points.description
     t: |
-      Think of embedding (multimedia, iframes, SVG, etc), machine-readable data, internationalization & localization, security & privacy, performance etc.
-      Missing features, browser incompatibilities, and other problems you face are all fair game.
+      Embed etme (multimedya, iframes, SVG, vb.), makine okunabilir veri, yerelleştirme, güvenlik ve gizlilik, performans vb. düşünün.
+      Eksik özellikler, tarayıcı uyumsuzlukları ve karşılaştığınız diğer problemler hepsi serbest.
   - key: features.content_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   # Content
 
   - key: features.external_content_elements
-    t: External Content Elements
+    t: Harici İçerik Elementleri
   - key: features.external_content_elements.question
-    t: Which of the following elements have you used?
+    t: Aşağıdaki elementlerden hangilerini kullandınız?
   - key: options.external_content_elements.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.privacy_security_features
     t: |
-      Security & Privacy Features
+      Güvenlik ve Gizlilik Özellikleri
   - key: features.privacy_security_features.question
     t: |
-      Which of the following security & privacy features have you used?
+      Aşağıdaki güvenlik ve gizlilik özelliklerinden hangilerini kullandınız?
   - key: options.privacy_security_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.rel_attribute
-    t: Resource Hints
+    t: Kaynak İpuçları
   - key: features.rel_attribute.question
     t: |
-      Which of these values have you used for the `rel` attribute of `<link>` ?
+      `<link>` etiketinin `rel` özelliği için bu değerlerden hangilerini kullandınız?
 
   # - key: features.external_content_pain_points
   #   t: External Content Pain Points
@@ -308,14 +309,14 @@ translations:
   # Web Components
 
   - key: features.web_components_libraries
-    t: Web Components Libraries
+    t: Web Component Kütüphaneleri
   - key: features.web_components_libraries.question
-    t: Have you used any Web Components libraries?
+    t: Web Component kütüphanelerinden hangilerini kullandınız?
 
   - key: features.web_components_features
-    t: Other Web Component Features
+    t: Diğer Web Component Özellikleri
   - key: features.web_components_features.question
-    t: Which of the following web component features have you used?
+    t: Aşağıdaki Web Component özelliklerinden hangilerini kullandınız?
   - key: options.web_components_features.host_pseudos.description
     t: |
       `:host` , `:host()` , `:host-context()`
@@ -323,125 +324,127 @@ translations:
     t: |
       `<button is="fancy-button">`
   - key: options.web_components_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.using_web_components_pain_points
-    t: Using Web Components Pain Points
+    t: Web Componentleri Kullanırken Sıkıntı Yaratan Noktalar
   - key: features.using_web_components_pain_points.question
-    t: What are your biggest pain points around *consuming* web components?
+    t: Web Componentleri kullanırken sıkıntı yaratan noktalar nelerdir?
   - key: features.using_web_components_pain_points.description
-    t: Using Web Components that you or others have made. Missing features, browser incompatibilities, etc.
+    t: |
+      Kendinizin veya başkalarının yaptığı Web Componentleri kullanırken. Eksik özellikler, tarayıcı uyumsuzlukları vb.
   - key: features.using_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   - key: features.making_web_components_pain_points
-    t: Making Web Components Pain Points
+    t: Web Componentleri Oluştururken Sıkıntı Yaratan Noktalar
   - key: features.making_web_components_pain_points.question
-    t: What are your biggest pain points around *making* web components?
+    t: Web Componentleri oluştururken sıkıntı yaratan noktalar nelerdir?
   - key: features.making_web_components_pain_points.description
     t: |
-      What prevents you from creating the amazing components you envision? Missing features, browser incompatibilities, etc.
+      Hayal ettiğiniz harika componentleri oluşturmanızı engelleyen nedir? Eksik özellikler, tarayıcı uyumsuzlukları vb.
   - key: features.making_web_components_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   # Accessibility
 
   - key: features.accessibility_features
-    t: Accessibility Features
+    t: Erişilebilirlik Özellikleri
   - key: features.accessibility_features.question
-    t: Which of these accessibility features have you used?
+    t: Aşağıdaki erişilebilirlik özelliklerinden hangilerini kullandınız?
 
   - key: features.accessibility_tools
-    t: Accessibility Tools
+    t: Erişilebilirlik Araçları
   - key: features.accessibility_tools.question
-    t: What tools do you use for accessibility testing?
+    t: Erişilebilirlik testleri için hangi araçları kullandınız?
 
   - key: features.accessibility_pain_points
-    t: Accessibility Pain Points
+    t: Erişilebilirlik Sıkıntı Yaratan Noktalar
   - key: features.accessibility_pain_points.question
-    t: What are your biggest pain points around web accessibility?
+    t: Web erişilebilirliğiyle ilgili sıkıntı yaratan noktalar nelerdir?
   - key: features.accessibility_pain_points.placeholder
     t: |
-      Pain point #{index}…
+      Sıkıntı yaratan nokta #{index}…
 
   - key: features.accessibility_disabilities
-    t: User Disabilities
+    t: Engelli Kullanıcılar
   - key: features.accessibility_disabilities.question
-    t: What kind of user disabilities do you account for when making websites?
+    t: Web siteleri yaparken hangi tür engelli kullanıcıları hesaba katıyorsunuz?
 
   - key: options.accessibility_disabilities.hearing_impairments
-    t: Hearing impairments
+    t: İşitme engelliler
   - key: options.accessibility_disabilities.hearing_impairments.description
-    t: Deafness, tinnitus, etc.
+    t: Sağırlık, kulak çınlaması, vb.
 
   - key: options.accessibility_disabilities.mobility_impairments
-    t: Mobility impairments
+    t: Hareketlilik engelliler
   - key: options.accessibility_disabilities.mobility_impairments.description
-    t: Arthritis, carpal tunnel, etc.
+    t: Artrit, karpal tünel, vb.
 
   - key: options.accessibility_disabilities.learning_disabilities
-    t: Learning disabilities
+    t: Öğrenme zorluğu olanlar
   - key: options.accessibility_disabilities.learning_disabilities.description
-    t: Dyslexia, dyscalculia, etc.
+    t: Disleksi, dispraksi, vb.
 
   - key: options.accessibility_disabilities.cognitive_impairments
-    t: |
-      Other cognitive impairments
+    t: Diğer bilişsel engelliler
   - key: options.accessibility_disabilities.cognitive_impairments.description
-    t: |
-      Anxiety, Autism, OCD, ADHD, etc.
+    t: Anksiyete, Otizm, Obsesif Kompulsif Bozukluk, Dikkat Eksikliği Hiperaktivite Bozukluğu, vb.
 
   - key: options.accessibility_disabilities.vestibular_disorders
-    t: Vestibular disorders
+    t: Denge bozuklukları
   - key: options.accessibility_disabilities.vestibular_disorders.description
-    t: Epilepsy, vertigo, etc.
+    t: Epilepsi, vertigo, vb.
 
   - key: options.accessibility_disabilities.low_vision
-    t: Low vision
+    t: Görme bozuklukları
   - key: options.accessibility_disabilities.low_vision.description
-    t: Blindness, high myopia, etc.
+    t: Kör, yüksek miyop, vb.
 
   - key: options.accessibility_disabilities.atypical_vision
-    t: Atypical color vision
+    t: Atipik görme
   - key: options.accessibility_disabilities.atypical_vision.description
-    t: Color blindness
+    t: Renk körlüğü
 
   - key: features.accessibility_screenreaders
-    t: Screen Readers
+    t: Ekran Okuyucular
   - key: features.accessibility_screenreaders.question
-    t: Which screen readers do you use for accessibility testing?
+    t: Erişilebilirlik testleri için hangi ekran okuyucuları kullanıyorsunuz?
 
   - key: features.accessibility_techniques
-    t: Other Accessibility Techniques
+    t: Diğer Erişilebilirlik Teknikleri
   - key: features.accessibility_techniques.question
-    t: What other techniques are part of your regular accessibility strategy?
+    t: |
+      Erişilebilirlik stratejinizin bir parçası olan diğer teknikler nelerdir?
 
   - key: options.accessibility_techniques.tabindex
     t: |
-      Improving focus order with `tabindex`
+      `tabindex` ile odak sırasını iyileştirme
   - key: options.accessibility_techniques.tabindex.description
     t: |
-      Roving `tabindex`, `tabindex="0"` to enable focus, etc.
+      Roving `tabindex`, `tabindex="0"` ile odaklanmayı etkinleştirme, vb.
   - key: options.accessibility_techniques.keyboard_navigation
-    t: Intuitive keyboard navigation
+    t: |
+      Klavye gezinmesi
   - key: options.accessibility_techniques.keyboard_navigation.description
-    t: Other than tab order.
+    t: |
+      Tab sırası dışında.
   - key: options.accessibility_techniques.aria_attributes
-    t: ARIA attributes
+    t: ARIA özellikleri
   - key: options.accessibility_techniques.aria_attributes.description
     t: |
-      `role` and `aria-*` attributes
+      `role` ve `aria-*` özellikleri
   - key: options.accessibility_techniques.descriptive_alt_text
-    t: |
-      Descriptive `alt` text
+    t: Açıklayıcı `alt` metni
   - key: options.accessibility_techniques.descriptive_alt_text.description
-    t: Providing alt text that describes the purpose or content of an image.
+    t: |
+      Resmin amacını veya içeriğini açıklayan `alt` metni sağlama.
   - key: options.accessibility_techniques.skip_to_content
-    t: Skip-to-content link
+    t: İçeriğe atla bağlantısı
   - key: options.accessibility_techniques.skip_to_content.description
-    t: Letting users skip straight to the main content of a page.
+    t: Kullanıcıların sayfanın ana içeriğine doğrudan atlamasına izin verme.
   - key: options.accessibility_techniques.fieldset_and_legend
     t: |
       `<fieldset>` and `<legend>`
@@ -449,112 +452,112 @@ translations:
     t: |
       Using `<fieldset>` and `<legend>`  to group related form elements.
   - key: options.accessibility_techniques.headings_hierarchy
-    t: Information Hierarchy
+    t: Bilgi Hiyerarşisi
   - key: options.accessibility_techniques.headings_hierarchy.description
     t: |
-      Using headings (`<h1>` - `<h6>`) that correctly represent a page's information hierarchy.
+      Sayfanın bilgi hiyerarşisini doğru şekilde temsil eden başlıklar (`<h1>` - `<h6>`) kullanma.
   - key: options.accessibility_techniques.meaningful_link_text
-    t: Meaningful Link Text
+    t: Anlamlı Link Metni
   - key: options.accessibility_techniques.meaningful_link_text.description
-    t: Ensuring that link text makes sense out of context
+    t: Link metninin bağlam dışında anlamlı olduğundan emin olma.
   - key: options.accessibility_techniques.form_control_label
-    t: Form Control Labels
+    t: Form Kontrol Etiketleri
   - key: options.accessibility_techniques.form_control_label.description
     t: |
-      Ensuring every form control has a `<label>` (or `aria-label`, etc.).
+      Her form kontrolünün bir `<label>` (veya `aria-label`, vb.) içerdiğinden emin olma.
   - key: options.accessibility_techniques.visible_focus
-    t: Visible Focus Ring
+    t: Odaklanma Halkasının Görünürlüğü
   - key: options.accessibility_techniques.visible_focus.description
-    t: Ensuring focus ring outline is clearly visible when needed.
+    t: Gerekli olduğunda odak halkasının net bir şekilde görülebildiğinden emin olma.
   - key: options.accessibility_techniques.pointer_alternative
-    t: Not Relying on Pointer Only
+    t: Pointer etkileşimlerine (örn. hover) klavye alternatifi sağlama.
   - key: options.accessibility_techniques.pointer_alternative.description
-    t: Ensuring pointer interactions (e.g. hover) have a keyboard alternative.
+    t: Pointer etkileşimlerine (örn. hover) klavye alternatifi sağlama.
   - key: options.accessibility_techniques.good_color_contrast
-    t: Sufficient Contrast
+    t: Yeterli Kontrast
   - key: options.accessibility_techniques.good_color_contrast.description
-    t: Using contrast checkers to ensure sufficient color contrast.
+    t: Yeterli kontrastı sağlamak için kontrast kontrolcülerini kullanma.
   - key: options.accessibility_techniques.color_alternative
-    t: Not Relying on Color Only
+    t: Renklerin Tek Başına Kullanılmaması
   - key: options.accessibility_techniques.color_alternative.description
-    t: Ensuring that no information is conveyed by color alone.
+    t: Renklerin tek başına bilgi aktarmadığından emin olma.
   - key: options.accessibility_techniques.prefers_reduced_motion
     t: |
       `prefers-reduced-motion` media query
   - key: options.accessibility_techniques.prefers_reduced_motion.description
-    t: Providing alternative CSS for users who prefer reduced motion.
+    t: Azaltılmış hareket tercih eden kullanıcılar için alternatif CSS sağlama.
   - key: options.accessibility_techniques.prefers_contrast
     t: |
       `prefers-contrast` media query
   - key: options.accessibility_techniques.prefers_contrast.description
-    t: Providing alternative CSS for users who prefer increased contrast.
+    t: Yüksek kontrast tercih eden kullanıcılar için alternatif CSS sağlama.
 
   # PWAs
 
   - key: features.pwa_features
-    t: PWA Features
+    t: PWA Özellikleri
   - key: features.pwa_features.question
-    t: Have you used any of the following PWA technologies/APIs?
+    t: Aşağıdaki PWA teknolojilerini/API'lerini kullandınız mı?
   - key: options.pwa_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.local_storage_features
-    t: Local storage features
+    t: Local Storage Özellikleri
   - key: features.local_storage_features.question
-    t: Have you used any of the following to store data client-side?
+    t: Aşağıdakilerden hangilerini kullanarak client-side veri depoladınız?
   - key: options.local_storage_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: features.pwa_app_manifest_fields
-    t: App Manifest Fields
+    t: App Manifest Alanları
   - key: features.pwa_app_manifest_fields.question
-    t: |
-      Which of these app manifest fields (`<link rel="manifest">`) have you used, if any?
+    t: Aşağıdaki app manifest alanlarından hangilerini kullandınız? (`<link rel="manifest">`)
 
   - key: features.native_apps_tools
-    t: Native Apps Tools
+    t: Native App Araçları
   - key: features.native_apps_tools.question
-    t: Have you used any of these tools to build native apps?
+    t: Native uygulamalar oluşturmak için aşağıdaki araçlardan hangilerini kullandınız?
   - key: features.native_apps_tools.description
-    t: Excluding scripts, command-line apps, server-side code, etc.
+    t: Scriptler, komut satırı uygulamaları, sunucu tarafı kodu vb. hariç.
   - key: options.native_apps_tools.na
-    t: <span aria-hidden="true">🚫</span> I haven't developed native apps
+    t: <span aria-hidden="true">🚫</span> Native uygulama geliştirmedim
   - key: options.native_apps_tools.native_languages
-    t: Native technologies
+    t: Native Teknolojiler
   - key: options.native_apps_tools.native_languages.description
     t: Objective-C, Swift, Kotlin, .NET, etc.
   - key: options.native_apps_tools.webviews
-    t: Web app loaded via Webviews
+    t: Webview ile yüklenen web uygulaması
   - key: options.native_apps_tools.js_frameworks
-    t: JavaScript-based frameworks
+    t: JavaScript tabanlı frameworkler
   - key: options.native_apps_tools.js_frameworks.description
     t: React Native, Ionic, Electron, etc.
   - key: options.native_apps_tools.other_frameworks
-    t: Non-JavaScript frameworks
+    t: JavaScript dışındaki frameworkler
   - key: options.native_apps_tools.other_frameworks.description
     t: Tauri, Flutter, etc.
 
   - key: features.mobile_web_apps_pain_points
-    t: Native-like Web Apps Pain Points
+    t: Native Uygulama Gibi Web Uygulamaları Sıkıntı Yaratan Noktalar
   - key: features.mobile_web_apps_pain_points.question
-    t: What are your biggest pain points around making web apps that feel native?
+    t: Native uygulama gibi hissettiren web uygulamaları yaparken sıkıntı yaratan noktalar nelerdir?
   - key: features.mobile_web_apps_pain_points.description
-    t: Capabilities the Web Platform doesn't yet have, browser differences in related APIs, etc.
+    t: |
+      Web Platformunun henüz sahip olmadığı yetenekler, ilgili API'lerdeki tarayıcı farklılıkları, vb.
   - key: features.mobile_web_apps_pain_points.placeholder
     t: |
-      Pain point #{index}
+      Sıkıntı yaratan nokta #{index}…
 
   # Other Tools
 
   - key: other_tools.site_generators
-    t: Site Generators
+    t: Site Oluşturucular (Site Generators)
   - key: other_tools.site_generators.question
-    t: Which of these static or dynamic site generators do you regularly use?
+    t: Aşağıdaki statik veya dinamik site oluşturuculardan hangilerini kullanıyorsunuz?
 
   - key: other_tools.ai_tools
-    t: AI Tools
+    t: Yapay Zeka Araçları
   - key: other_tools.ai_tools.question
-    t: Which of these AI tools do you regularly use to help you write code?
+    t: Aşağıdaki yapay zeka araçlarından hangilerini kod yazmanıza yardımcı olması için düzenli olarak kullanıyorsunuz?
 
   - key: other_tools.machine_readable_features
     aliasFor: features.machine_readable_features
@@ -562,16 +565,16 @@ translations:
     aliasFor: features.machine_readable_features.question
 
   - key: options.machine_readable_features.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   - key: other_tools.blast_from_the_past
-    t: Blast from the Past!
+    t: Geçmişten Esintiler1
   - key: other_tools.blast_from_the_past.question
-    t: Have you ever used any of the following old-school elements?
+    t: Aşağıdaki eski elementlerden hangilerini kullandınız?
   - key: other_tools.blast_from_the_past.description
-    t: Blast from the past!
+    t: Geçmişten esintiler!
   - key: options.blast_from_the_past.na
-    t: <span aria-hidden="true">🚫</span> None of the above
+    t: <span aria-hidden="true">🚫</span> Yukarıdakilerin hiçbiri
 
   # Usage
 
@@ -587,37 +590,37 @@ translations:
   #     ﹤foo type="bar"﹥ (browser incompatibilities, styling limitations, doesn't do X)
 
   - key: usage.html_interoperability_features
-    t: Browser Interoperability
+    t: Tarayıcı Uyumluluğu
   - key: usage.html_interoperability_features.question
-    t: Which existing HTML features or browser APIs are you unable to use because of browser differences or lack of support?
+    t: Tarayıcı farklılıkları veya destek eksikliği nedeniyle kullanamadığınız mevcut HTML özellikleri veya tarayıcı API'leri hangileridir?
   # - key: usage.html_interoperability_features.description
   #   t: |
   #     Any type of API the survey has asked about is within scope.
   - key: usage.html_interoperability_features.placeholder
     t: |
-      Feature #{index}
+      Özellik #{index}
 
   - key: usage.html_functionality_features
-    t: Limited Functionality
+    t: Sınırlı Fonksiyonellik
   - key: usage.html_functionality_features.question
-    t: Which existing HTML features or browser APIs are you unable to use for other reasons (and why)?
+    t: Hangi mevcut HTML özelliklerini veya tarayıcı API'lerini başka nedenlerle kullanamıyorsunuz (ve neden)?
   - key: usage.html_functionality_features.description
     t: |
-      Good candidates might be existing HTML features that you often have to recreate or augment using JS.
+      İyi adaylar, sık sık JS kullanarak yeniden oluşturmak veya geliştirmek zorunda kaldığınız mevcut HTML özellikleri olabilir.
 
-      Please also specify the reason, such as lack of functionality, difficult styling, poor accessibility, etc.
+      Lütfen eksik özellikler, zor stil, kötü erişilebilirlik vb. gibi nedenleri de belirtin.
 
   - key: usage.html_functionality_features.placeholder.1
     t: |
-      Feature #1 (hard to style)
+      Özellik #{index} (stillemesi zor)
   - key: usage.html_functionality_features.placeholder.2
     t: |
-      Feature #2 (limited functionality, poor accessibility)
+      Özellik #{index} (sınırlı fonksiyonellik, kötü erişilebilirlik)
 
   - key: usage.what_do_you_use_html_for
-    t: HTML Usage
+    t: HTML Kullanımı
   - key: usage.what_do_you_use_html_for.question
-    t: What do you use HTML for?
+    t: HTML'i ne için kullanıyorsunuz?
   - key: options.what_do_you_use_html_for.blogs
     aliasFor: options.what_do_you_use_css_for.blogs
   - key: options.what_do_you_use_html_for.design_systems
@@ -636,33 +639,33 @@ translations:
     aliasFor: options.what_do_you_use_css_for.web_apps
 
   - key: usage.tools_for_other_developers
-    t: Ecosystem Impact
+    t: Ekosistem Etkisi
   - key: usage.tools_for_other_developers.question
-    t: Other than yourself, how many developers use the libraries, packages, components, APIs etc. that you create or maintain?
+    t: Kendinizden başka, oluşturduğunuz veya bakımını yaptığınız kütüphaneleri, paketleri, bileşenleri, API'leri vb. kaç geliştirici kullanıyor?
   - key: usage.tools_for_other_developers.description
     t: |
-      Total, if you work on multiple projects that are used by other developers.
-      If you’re not sure, pick the closest to your best estimate.
-      For open source code, npm downloads might offer a useful data point.
+      Toplam, eğer başka geliştiricilerin kullandığı birden fazla projede çalışıyorsanız.
+      Emin değilseniz, en iyi tahmininize en yakın olanı seçin.
+      Açık kaynak kod için, npm indirmeleri kullanışlı bir veri sunabilir.
   - key: options.tools_for_other_developers.na
-    t: 🚫 None (Just me)
+    t: 🚫 Kimse (Sadece ben)
   - key: options.tools_for_other_developers.a_few
-    t: A few other developers (e.g. developers within a small team)
+    t: Birkaç geliştirici (örn. küçük bir ekip içindeki geliştiriciler)
   - key: options.tools_for_other_developers.less_than_100
-    t: Less than a hundred developers
+    t: Yüzden az geliştirici
   - key: options.tools_for_other_developers.less_than_1000
-    t: Less than a thousand developers
+    t: Binden az geliştirici
   - key: options.tools_for_other_developers.more_than_100
-    t: Hundreds of developers
+    t: Yüzlerce geliştirici
   - key: options.tools_for_other_developers.more_than_1000
-    t: Thousands of developers
+    t: Binlerce geliştirici
   - key: options.tools_for_other_developers.more_than_1000000
-    t: Millions of developers
+    t: Milyonlarca geliştirici
 
   - key: usage.html_missing_elements
-    t: Missing Elements
+    t: Eksik Elementler
   - key: usage.html_missing_elements.question
-    t: If you could add 3 elements to HTML, what would they be?
+    t: HTML'e 3 element ekleyebilseydiniz, bunlar neler olurdu?
   # - key: usage.html_missing_elements.description
   #   t: |
   #     If you use any component technologies, the components you find yourself reusing across multiple projects could be good candidates.
@@ -715,14 +718,14 @@ translations:
     t: Star Rating
 
   - key: usage.html_pain_points_freeform
-    t: Other Pain Points
+    t: HTML ile ilgili diğer sıkıntı yaratan noktalar
   - key: usage.html_pain_points_freeform.question
-    t: Any other pain points around using HTML and related technologies?
+    t: HTML ve ilgili teknolojileri kullanırken sıkıntı yaratan noktalar nelerdir?
 
   - key: usage.html_css_js_balance
-    t: HTML/CSS vs JavaScript/TypeScript Balance
+    t: HTML/CSS ve JavaScript/TypeScript Dengesi
   - key: usage.html_css_js_balance.question
-    t: How do you divide your time between writing HTML/CSS and JavaScript (or TypeScript) code?
+    t: HTML/CSS ve JavaScript/TypeScript kodu yazarken zamanınızı nasıl bölüyorsunuz?
   - key: options.html_css_js_balance.0
     t: 100% HTML/CSS
   - key: options.html_css_js_balance.4
@@ -850,13 +853,13 @@ translations:
     t: Navigation API
 
   - key: features.custom_elements_defining
-    t: Defining Custom Elements
+    t: Custom element tanımlama
 
   - key: features.decoding
     t: "`decoding` attribute"
 
   - key: features.custom_elements_using
-    t: Using Custom Elements
+    t: Custom element kullanımı
 
   - key: features.fencedframe
     t: Fenced frames
@@ -891,7 +894,6 @@ translations:
 
   - key: features.features_intro_html
     t: |
-      Welcome to the survey! These first couple sections are all about figuring out
-      which **features** of HTML (and related APIs) you know about.
+      Anketimize hoş geldiniz! Bu ilk birkaç bölüm, HTML'nin (ve ilgili API'lerin) hangi **özelliklerini** bildiğinizi bulmaya yöneliktir.
 
-      By the way, if you want to learn more about any item in the survey, you can add it to your reading list by clicking its little "+" icon!
+      Bu arada, anketin herhangi bir öğesi hakkında daha fazla bilgi edinmek isterseniz, küçük "+" simgesine tıklayarak okuma listenize ekleyebilirsiniz!
