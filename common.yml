@@ -617,7 +617,7 @@ translations:
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Bloglar ve Dergiler
-  - key: resources.blogs_news_magazines.description
+  - key: resources.blogs_news_magazines.question
     t: Hangi blog/dergi/vb. lerini okuyorsunuz ?
   - key: resources.blogs_news_magazines.others
     t: Diğer Bloglar ve Dergiler
@@ -627,7 +627,7 @@ translations:
   # sites & courses
   - key: resources.sites_courses
     t: Siteler ve Kurslar
-  - key: resources.sites_courses.description
+  - key: resources.sites_courses.question
     t: Hangi siteler/kurslar/vb. dan faydalanırsınız
   - key: resources.sites_courses.others
     t: Diğer Siteler ve Kurslar
@@ -637,7 +637,7 @@ translations:
   # podcasts
   - key: resources.podcasts
     t: Podcast'ler
-  - key: resources.podcasts.description
+  - key: resources.podcasts.question
     t: Programlamayla ilgili hangi podcast'leri dinliyorsunuz?
   - key: resources.podcasts.others
     t: Diğer Podcast'ler
