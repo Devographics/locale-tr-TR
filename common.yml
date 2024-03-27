@@ -504,45 +504,45 @@ translations:
   # years of experience
   - key: user_info.years_of_experience
     t: Yıllık Deneyim
-  - key: user_info.years_of_experience.description
+  - key: user_info.years_of_experience.question
     t: Bu alanı ne kadar süredir öğreniyorsunuz veya ne kadar süredir bu alanda çalışıyorsunuz?
 
   # company size
   - key: user_info.company_size
     t: Şirket Büyüklüğü
-  - key: user_info.company_size.description
+  - key: user_info.company_size.question
     t: Şirketinizin büyüklüğü nedir?
 
   # salary ranges
   - key: user_info.yearly_salary
     t: Yıllık Gelir
-  - key: user_info.yearly_salary.description
+  - key: user_info.yearly_salary.question
     t: Amerikan Doları (USD) olarak.
 
   # job title
   - key: user_info.job_title
     t: Ünvan
-  - key: user_info.job_title.description
+  - key: user_info.job_title.question
     t: Partilerde kendini nasıl tanıtırsınız?
 
   # javascript proficiency
 
   - key: user_info.javascript_proficiency
     t: JavaScript Yetkinliği
-  - key: user_info.javascript_proficiency.description
+  - key: user_info.javascript_proficiency.question
     t: JavaScript konusunda ne kadar yetkinsiniz?
 
   # css proficiency
 
   - key: user_info.css_proficiency
     t: CSS Yetkinliği
-  - key: user_info.css_proficiency.description
+  - key: user_info.css_proficiency.question
     t: CSS konusunda ne kadar yetkinsiniz?
 
   # backend proficiency
   - key: user_info.backend_proficiency
     t: Arkayüz (Back-end) Yetkinliği
-  - key: user_info.backend_proficiency.description
+  - key: user_info.backend_proficiency.question
     t: Arkayüz (back-end) geliştirme konusunda ne kadar yetkinsiniz?
 
   # gender
