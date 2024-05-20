@@ -20,13 +20,20 @@ translations:
       - Sonuçlar açıklandığında sizi bilgilendirmek
   - key: general.survey_closed_detailed
     t: >
-      Üzgünüz, anket sona erdi! Yantılarınızı görüntüleyebilirsiniz fakat değiştiremezsiniz.
+      Üzgünüz, anket sona erdi! Yanıtlarınızı görüntüleyebilirsiniz fakat değiştiremezsiniz.
   - key: general.survey_read_only
     t: >
-      Anketi saltokunur olarak görüntülüyorsunuz.
+      Anketi salt okunur olarak görüntülüyorsunuz.
+  - key: general.survey_preview
+    t: >
+      Bu anket **ön izleme modundadır**. Sorular değişebilir ve şu anda girdiğiniz tüm veriler **anket gerçekten başladığında** silinecektir.
+  - key: general.survey_feedback
+    t: Geri bildirim bırakın
   - key: general.survey_read_only_back
     t: >
       Ankate başlamak veya devam etmek için anket sayfasına <a href="{link}">geri dön</a>.
+  - key: options.na
+    t: 🚫 Yok
 
   # surveys
   - key: general.open_surveys
@@ -35,16 +42,32 @@ translations:
     t: Şu an devam eden bir anket bulunmuyor.
   - key: general.closed_surveys
     t: Sona Eren Anketler
+  - key: general.no_closed_surveys
+    t: Şu anda kapalı anket bulunmamaktadır.
+  - key: general.preview_surveys
+    t: Anketleri ön izleyin
+  - key: general.no_preview_surveys
+    t: Ön izleme için anket mevcut değildir.
   - key: general.start_survey
     t: Ankete Başla »
   - key: general.continue_survey
     t: Ankete Devam Et »
+  - key: general.completion
+    t: "{completion}% tamamlandı"
+  - key: general.started_on
+    t: {createdAt} tarihinde başlatıldı
+  - key: general.last_modified_on
+    t: En son {updatedAt} tarihinde değiştirildi
   - key: general.review_survey
     t: Anketi İncele »
   - key: general.preview_survey
-    t: Anketi Önizle »
+    t: Anketi Ön izle »
   - key: general.finish_survey
     t: Anketi Sonlandır
+  - key: general.next_section
+    t: Sonraki bölüm
+  - key: general.previous_section
+    t: Önceki bölüm
   - key: general.survey_closed
     t: Bu anket sona erdi.
   - key: general.survey_results
@@ -57,6 +80,45 @@ translations:
     t: Çevirmenler
   - key: general.translation_help
     t: Çeviri Yardımı
+  - key: general.newly_added
+    t: Bu yıl yeni eklenenler
+  - key: general.new
+    t: Yeni
+  - key: general.devographics_banner
+    t: <a href="https://www.devographics.com/" target="_blank">Devographics</a>, State of JavaScript, CSS ve GraphQL anketlerini yürüten kolektifin yeni adıdır.
+
+  # credits
+  - key: credits.thanks
+    t: Özel Teşekkürlerimizle
+  - key: credits.contributors
+    t: Katkıda Bulunanlar
+  - key: credits.contributors.description
+    t: Anketi tasarlamamıza yardımcı olan aşağıdaki kişilere özel olarak teşekkür ederiz.
+  - key: credits.accessibility
+    t: Erişilebilirlik Danışmanlığı
+  - key: credits.survey_design
+    t: Anket Tasarımı
+  - key: credits.logo_design
+    t: Logo Tasarımı
+  - key: credits.mobile_testing
+    t: Mobil Testler
+  - key: credits.data_visualizations
+    t: Veri Görselleştirmeleri
+  - key: credits.repo_architecture
+    t: Repo Mimarisi
+  - key: credits.code_refactoring
+    t: Kod Yeniden Düzenlemesi
+  - key: credits.data_processing
+    t: Veri İşleme
+  - key: credits.back_end_development
+    t: Arka Uç Geliştirme
+  - key: credits.survey_review
+    t: Anket İncelemesi
+
+  # support
+  - key: general.support_from
+    t: Destekleriyle
+  
 
   # footer
   - key: general.privacy_policy
@@ -64,16 +126,25 @@ translations:
   - key: general.leave_issue
     t: Sorularınız mı var? Bir hata mı buldunuz? <a href="{link}" target="_blank">Bir sorun iletisi yaratın</a>.
   - key: general.emoji_icons
-    t: Emojiler, <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a>
+    t: Emoji simgeleri <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> tarafından
 
-  # navigation
+ # navigation
   - key: general.table_of_contents
-    t: İçindekiler
+    t: >
+      {sectionCount} bölümler ({completion}% tamamlandı)
   - key: general.all_questions_optional
     t: >
-      Not: tüm sorular isteğe bağlıdır, 100% olarak tamamlamak zorunlu değildir.
+      Not: tüm sorular isteğe bağlıdır, %100'e ulaşmak gerekli değildir.
   - key: general.data_is_saved
-    t: Önceki veya sonraki bölümlere geçtiğinizde şu anki verileriniz kaydedilir.
+    t: Bir önceki veya bir sonraki bölüme geçtiğinizde verileriniz kaydedilir.
+  - key: general.close_nav
+    t: Menüyü kapat
+  - key: general.open_nav
+    t: Menüyü aç
+  - key: general.more_actions
+    t: Diğer işlemler
+  - key: general.skip_to_content
+    t: İçeriğe atla
 
   # thanks
   - key: general.back
@@ -111,6 +182,47 @@ translations:
   # forms
   - key: forms.select_option
     t: Bir seçim yapın
+  - key: forms.clear_field
+    t: Soruyu temizle
+  - key: forms.more_options
+    t: Daha fazla göster...
+  - key: forms.less_options
+    t: Daha az göster
+
+  # partners & sponsors
+  - key: sponsors.with_support_from
+    t: Özel Destekleriyle
+  - key: sponsors.our_partners
+    t: Ortaklarımız
+  - key: sponsors.become_partner
+    t: Ortak olun
+
+  # 404
+  - key: notfound.title
+    t: 404 Not Found
+  - key: notfound.description
+    t: Sorry, we couldn't find what you were looking for.
+
+  # other
+  - key: general.join_discord
+    t: <a href="{link}">Discord</a> üzerinden bize katılın.
+  - key: general.translator_mode
+    t: Çevirmen modunu etkinleştirmek için option/alt tuşuna basın.
+  - key: general.charts_nivo
+    t: Çizelgeler <a href="{link}">Nivo</a> ile oluşturuldu.
+  - key: general.made_by_devographics
+    t: <a href="{link}">Devographics</a> tarafından yapılmıştır
+  - key: general.view_code_example
+    t: Kod Örneğini Görüntüle
+  - key: general.feature_code_example
+    t: "**{featureName}** Kod Örneği"
+  - key: general.code_example
+    t: Kod Örneği
+  - key: general.language_code
+    t: |
+      {language} Kodu
+
+
 
   ###########################################################################
   # Nav
@@ -133,7 +245,7 @@ translations:
   - key: sections.features.title
     t: Özellikler
   - key: sections.features.description
-    t: Sözdizimi, anahtar kelimeler, ve dildeki diğer özellikler.
+    t: Söz dizimi, anahtar kelimeler, ve dildeki diğer özellikler.
 
   - key: sections.resources.title
     t: Kaynaklar
@@ -150,9 +262,34 @@ translations:
   - key: sections.other_tools.description
     t: Bu araçlar ve teknolojiler arasında sadece düzenli olarak kullandıklarını işaretleyin.
 
+  - key: section.tools_others.title
+    aliasFor: section.other_tools.title
+  - key: section.tools_others.description
+    aliasFor: section.other_tools.description
+
+  - key: sections.report.title
+    t: Trend raporu
+
+  - key: sections.usage.title
+    t: Kullanım Alanı
+
+  - key: sections.finish.title
+    t: Anketi bitir
+
+  - key: sections.finish.description
+    t: Anketi bitirin
   ###########################################################################
   # Options
   ###########################################################################
+
+  - key: options.experience.title
+    t: Deneyim
+
+  # other answer
+  - key: options.other
+    t: Diğer…
+  - key: options.other.placeholder
+    t: Yukarıda belirtilmeyen diğer ögeler, virgülle ayrılmış şekilde
 
   # features
   - key: options.features.never_heard
@@ -161,6 +298,24 @@ translations:
     t: ✅ Ne olduğunu biliyorum, fakat henüz hiç kullanmadım
   - key: options.features.used
     t: 👍 Daha önce kullandım
+
+
+  # features v2
+  - key: options.features2.never_heard
+    t: <span class="option-chip option-main option-main-never_heard">Hiç duymadım/Ne olduğundan emin değilim</option>
+  - key: options.features2.interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Duydum</span> » <span class="option-chip option-positive">İlgileniyorum</span>
+  - key: options.features2.not_interested
+    t: |
+      <span class="option-chip option-main option-main-heard">Duydum</span> » <span class="option-chip option-negative">İlgilenmiyorum</span>
+  - key: options.features2.used_positive
+    t: |
+      <span class="option-chip option-main option-main-used">Kullandım</span> » <span class="option-chip option-positive">Olumlu deneyim</span>
+  - key: options.features2.used_negative
+    t: |
+      <span class="option-chip option-main option-main-used">Kullandım</span> » <span class="option-chip option-negative">Olumsuz deneyim</span>
+
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -177,6 +332,69 @@ translations:
     t: Hakkında bilgim var
   - key: options.features.used.short
     t: Daha önce kullandım
+
+    # sentiments
+
+  - key: options.sentiment.title
+    t: Duygu
+
+  - key: options.sentiment.positive.label
+    t: Pozitif Duygu
+  - key: options.sentiment.neutral.label
+    t: Nötr Duygu
+  - key: options.sentiment.negative.label
+    t: Negatif Duygu
+
+  - key: options.sentiment.never_heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.label.short
+    t: Pozitif
+  - key: options.sentiment.neutral.label.short
+    t: Nötr
+  - key: options.sentiment.negative.label.short
+    t: Negatif
+  - key: options.sentiment.positive.short
+    aliasFor: options.sentiment.positive.label.short
+  - key: options.sentiment.neutral.short
+    aliasFor: options.sentiment.neutral.label.short
+  - key: options.sentiment.negative.short
+    aliasFor: options.sentiment.negative.label.short
+
+  - key: options.sentiment.never_heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.never_heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.heard.positive.label.short
+    aliasFor: followups.sentiment_interested
+  - key: options.sentiment.heard.negative.label.short
+    aliasFor: followups.sentiment_not_interested
+
+  - key: options.sentiment.used.positive.label.short
+    aliasFor: followups.sentiment_positive_experience
+  - key: options.sentiment.used.negative.label.short
+    aliasFor: followups.sentiment_negative_experience
+
+  - key: options.sentiment.positive.description
+    t: Bir teknoloji hakkında daha fazla bilgi edinmek isteyen veya bu teknolojiyi tekrar kullanmak isteyen katılımcılar.
+  - key: options.sentiment.neutral.description
+    t: Bir teknoloji hakkında herhangi bir duygu belirtmeyen yanıtlayıcılar.
+  - key: options.sentiment.negative.description
+    t: Bir teknoloji hakkında daha fazla bilgi edinmekle ilgilenmeyen veya bu teknolojiyi kullanmış ve olumsuz bir deneyim yaşamış katılımcılar.
+
 
   # patterns
   - key: options.patterns.use_never
@@ -262,6 +480,71 @@ translations:
   - key: options.opinions.4
     t: Kesinlikle Katılıyorum
 
+  # age
+  - key: options.age.range_less_than_10
+    t: 10 yaşında veya altı
+  - key: options.age.range_10_18
+    t: 11-18 yaş arası
+  - key: options.age.range_18_24
+    t: 19-24 yaş arası
+  - key: options.age.range_25_34
+    t: 25-34 yaş arası
+  - key: options.age.range_35_44
+    t: 35-44 yaş arası
+  - key: options.age.range_45_54
+    t: 45-54 yaş arası
+  - key: options.age.range_55_64
+    t: 55-64 yaş arası
+  - key: options.age.range_more_than_65
+    t: 65 yaş ve üzeri
+
+  # age (short versions)
+  - key: options.age.range_less_than_10.short
+    t: "<10"
+  - key: options.age.range_10_18.short
+    t: 11-18
+  - key: options.age.range_18_24.short
+    t: 19-24
+  - key: options.age.range_25_34.short
+    t: 25-34
+  - key: options.age.range_35_44.short
+    t: 35-44
+  - key: options.age.range_45_54.short
+    t: 45-54
+  - key: options.age.range_55_64.short
+    t: 55-64
+  - key: options.age.range_more_than_65.short
+    t: ">65"
+
+    # age 2
+  - key: options.age.range_under_20
+    t: 20 yaş veya altı
+  - key: options.age.range_20_29
+    t: 20-29 yaş arası
+  - key: options.age.range_30_39
+    t: 30-39 yaş arası
+  - key: options.age.range_40_49
+    t: 40-49 yaş arası
+  - key: options.age.range_50_59
+    t: 50-59 yaş arası
+  - key: options.age.range_over_60
+    t: 60 yaş veya üstü
+
+
+  - key: options.age.range_under_20.short
+    t: "<20"
+  - key: options.age.range_20_29.short
+    t: 20-29
+  - key: options.age.range_30_39.short
+    t: 30-39
+  - key: options.age.range_40_49.short
+    t: 40-49
+  - key: options.age.range_50_59.short
+    t: 50-59
+  - key: options.age.range_over_60.short
+    t: ">60"
+
+
   # years of experience
   - key: options.years_of_experience.range_less_than_1
     t: Bir yıldan az
@@ -290,21 +573,24 @@ translations:
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20"
 
+
   # company size
+   - key: options.company_size.na
+    t: 🚫 Uygulanabilir Değil
   - key: options.company_size.range_1
     t: Bir çalışan
   - key: options.company_size.range_1_5
-    t: 1 - 5 çalışan
+    t: 2 - 5 çalışan
   - key: options.company_size.range_5_10
-    t: 5 - 10 çalışan
+    t: 6 - 10 çalışan
   - key: options.company_size.range_10_20
-    t: 10 - 20 çalışan
+    t: 11 - 20 çalışan
   - key: options.company_size.range_20_50
-    t: 20 - 50 çalışan
+    t: 21 - 50 çalışan
   - key: options.company_size.range_50_100
-    t: 50 - 100 çalışan
+    t: 51 - 100 çalışan
   - key: options.company_size.range_100_1000
-    t: 100 - 1000 çalışan
+    t: 101 - 1000 çalışan
   - key: options.company_size.range_more_than_1000
     t: 1000'den fazla çalışan
 
@@ -312,19 +598,19 @@ translations:
   - key: options.company_size.range_1.short
     t: 1
   - key: options.company_size.range_1_5.short
-    t: 1-5
+    t: 2-5
   - key: options.company_size.range_5_10.short
-    t: 5-10
+    t: 6-10
   - key: options.company_size.range_10_20.short
-    t: 10-20
+    t: 11-20
   - key: options.company_size.range_20_50.short
-    t: 20-50
+    t: 21-50
   - key: options.company_size.range_50_100.short
-    t: 50-100
+    t: 51-100
   - key: options.company_size.range_100_1000.short
-    t: 100-1000
+    t: 101-1000
   - key: options.company_size.range_more_than_1000.short
-    t: ">1000"
+    t: "1000+"
 
   # salary
   - key: options.yearly_salary.range_work_for_free
@@ -436,9 +722,28 @@ translations:
   - key: options.gender.male
     t: Erkek
   - key: options.gender.non_binary
-    t: İkili cinsiyet sisteminin dışında
+    t: İkilik Dışı Cinsiyet or Cinsiyete Uyumsuz
+  - key: options.gender.questioning
+    t: Sorgulayış
   - key: options.gender.prefer_not_to_say
-    t: Belirtmeyi tercih etmiyorum
+    t: Söylememeyi Tercih Ediyorum
+  - key: options.gender.not_listed
+    t: Listede Yok
+
+  # Gender (short)
+
+  - key: options.gender.female.short
+    t: Kadın
+  - key: options.gender.male.short
+    t: Erkek
+  - key: options.gender.non_binary.short
+    t: İkilik Dışı veya GNC
+  - key: options.gender.questioning.short
+    t: Sorgulayış
+  - key: options.gender.prefer_not_to_say.short
+    t: Söylememeyi Tercih Ediyorum
+  - key: options.gender.not_listed.short
+    t: Listelenmemiş
 
   # Race & Ethnicity
 
@@ -448,6 +753,8 @@ translations:
     t: Güney Asyalı
   - key: options.race_ethnicity.hispanic_latin
     t: İspanyol kökenli veya Latin
+  - key: options.race_ethnicity.south_east_asian
+    t: Güney Doğu Asyalı
   - key: options.race_ethnicity.east_asian
     t: Doğu Asyalı
   - key: options.race_ethnicity.middle_eastern
@@ -460,6 +767,83 @@ translations:
     t: Çift ırklı
   - key: options.race_ethnicity.native_american_islander_australian
     t: Yerli Amerikalı, Pasifik Adalarından veya Yerli Avustralyalı
+  - key: options.race_ethnicity.not_listed
+    t: Listede Yok
+
+  - key: options.race_ethnicity.european
+    t: Avrupalı
+  - key: options.race_ethnicity.indian
+    t: Hint
+  - key: options.race_ethnicity.human
+    t: İnsan
+  - key: options.race_ethnicity.slav
+    t: Slav
+  - key: options.race_ethnicity.north_african
+    t: Kuzey Afrikalı
+  - key: options.race_ethnicity.jewish
+    t: Yahudi
+
+  # Race & Ethnicity (short)
+
+  - key: options.race_ethnicity.white_european.short
+    t: Beyaz, Avrupalı
+  - key: options.race_ethnicity.south_asian.short
+    t: Güney Asyalı
+  - key: options.race_ethnicity.south_east_asian.short
+    t: GD Asyalı
+  - key: options.race_ethnicity.hispanic_latin.short
+    t: Hispanik/Latin
+  - key: options.race_ethnicity.east_asian.short
+    t: Doğu Asyalı
+  - key: options.race_ethnicity.middle_eastern.short
+    t: Orta Doğulu
+  - key: options.race_ethnicity.black_african.short
+    t: Siyah/Afrika Kökenli
+  - key: options.race_ethnicity.multiracial.short
+    t: Çok ırklı
+  - key: options.race_ethnicity.biracial.short
+    t: Çift ırklı
+  - key: options.race_ethnicity.native_american_islander_australian.short
+    t: Yerli Amerikalı/Pasifik Adalı/Yerli Avustralyalı
+  - key: options.race_ethnicity.not_listed.short
+    t: Listede Yok
+
+
+  # Disability Status
+  - key: options.disability_status.na
+    t: 🚫 Engellilik Durumum Yok
+  - key: options.disability_status.visual_impairments
+    t: >
+      Görme bozuklukları (örneğin: körlük, renk körlüğü, vb.)
+  - key: options.disability_status.hearing_impairments
+    t: >
+      İşitme bozuklukları (örneğin: sağırlık, kulak çınlaması, vb.)
+  - key: options.disability_status.mobility_impairments
+    t: >
+      Hareketlilik bozuklukları (örneğin: artrit, karpal tünel vb.)
+  - key: options.disability_status.cognitive_impairments
+    t: >
+      Bilişsel bozukluklar (örneğin: anksiyete, disleksi, DEHB, vb.)
+  - key: options.disability_status.not_listed
+    t: >
+      Durumum Listede Yok
+
+ # Disability Status (short)
+  - key: options.disability_status.visual_impairments.short
+    t: >
+      Görme bozuklukları
+  - key: options.disability_status.hearing_impairments.short
+    t: >
+      İşitme bozuklukları
+  - key: options.disability_status.mobility_impairments.short
+    t: >
+      Hareketlilik bozuklukları
+  - key: options.disability_status.cognitive_impairments.short
+    t: >
+      Bilişsel bozukluklar
+  - key: options.disability_status.not_listed.short
+    t: >
+      Listede Yok
 
   # Form Factors
   - key: options.form_factors.desktop
