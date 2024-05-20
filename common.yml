@@ -55,7 +55,7 @@ translations:
   - key: general.completion
     t: "{completion}% tamamlandı"
   - key: general.started_on
-    t: {createdAt} tarihinde başlatıldı
+    t: "{createdAt} tarihinde başlatıldı"
   - key: general.last_modified_on
     t: En son {updatedAt} tarihinde değiştirildi
   - key: general.review_survey
@@ -118,7 +118,6 @@ translations:
   # support
   - key: general.support_from
     t: Destekleriyle
-  
 
   # footer
   - key: general.privacy_policy
@@ -128,7 +127,7 @@ translations:
   - key: general.emoji_icons
     t: Emoji simgeleri <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> tarafından
 
- # navigation
+  # navigation
   - key: general.table_of_contents
     t: >
       {sectionCount} bölümler ({completion}% tamamlandı)
@@ -222,8 +221,6 @@ translations:
     t: |
       {language} Kodu
 
-
-
   ###########################################################################
   # Nav
   ###########################################################################
@@ -299,7 +296,6 @@ translations:
   - key: options.features.used
     t: 👍 Daha önce kullandım
 
-
   # features v2
   - key: options.features2.never_heard
     t: <span class="option-chip option-main option-main-never_heard">Hiç duymadım/Ne olduğundan emin değilim</option>
@@ -315,7 +311,6 @@ translations:
   - key: options.features2.used_negative
     t: |
       <span class="option-chip option-main option-main-used">Kullandım</span> » <span class="option-chip option-negative">Olumsuz deneyim</span>
-
 
   # features (no emoji)
   - key: options.features.never_heard.label
@@ -394,7 +389,6 @@ translations:
     t: Bir teknoloji hakkında herhangi bir duygu belirtmeyen yanıtlayıcılar.
   - key: options.sentiment.negative.description
     t: Bir teknoloji hakkında daha fazla bilgi edinmekle ilgilenmeyen veya bu teknolojiyi kullanmış ve olumsuz bir deneyim yaşamış katılımcılar.
-
 
   # patterns
   - key: options.patterns.use_never
@@ -530,7 +524,6 @@ translations:
   - key: options.age.range_over_60
     t: 60 yaş veya üstü
 
-
   - key: options.age.range_under_20.short
     t: "<20"
   - key: options.age.range_20_29.short
@@ -543,7 +536,6 @@ translations:
     t: 50-59
   - key: options.age.range_over_60.short
     t: ">60"
-
 
   # years of experience
   - key: options.years_of_experience.range_less_than_1
@@ -573,10 +565,9 @@ translations:
   - key: options.years_of_experience.range_more_than_20.short
     t: ">20"
 
-
   # company size
-   - key: options.company_size.na
-    t: 🚫 Uygulanabilir Değil
+  - key: options.company_size.na
+    t: Uygulanabilir Değil
   - key: options.company_size.range_1
     t: Bir çalışan
   - key: options.company_size.range_1_5
@@ -808,7 +799,6 @@ translations:
   - key: options.race_ethnicity.not_listed.short
     t: Listede Yok
 
-
   # Disability Status
   - key: options.disability_status.na
     t: 🚫 Engellilik Durumum Yok
@@ -828,7 +818,7 @@ translations:
     t: >
       Durumum Listede Yok
 
- # Disability Status (short)
+  # Disability Status (short)
   - key: options.disability_status.visual_impairments.short
     t: >
       Görme bozuklukları
