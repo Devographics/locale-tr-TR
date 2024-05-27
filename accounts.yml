@@ -68,6 +68,8 @@ translations:
     t: Başlamak için lütfen giriş yapın veya kaydolun.
   - key: accounts.logged_in_as
     t: "{email} olarak giriş yapıldı"
+  - key: accounts.logged_in_as_guest
+    t: Misafir olarak giriş yapıldı
   - key: accounts.questions
     t: >
       Verilerinizi nasıl kullandığımızla ilgili herhangi bir sorunuz varsa 

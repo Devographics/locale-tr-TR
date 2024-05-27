@@ -124,13 +124,15 @@ translations:
     t: Gizlilik Politikası
   - key: general.leave_issue
     t: Sorularınız mı var? Bir hata mı buldunuz? <a href="{link}" target="_blank">Bir sorun iletisi yaratın</a>.
+  - key: general.leave_issue2
+    aliasFor: homepage.leave_issue
   - key: general.emoji_icons
-    t: Emoji simgeleri <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> tarafından
+    t: Emoji simgeleri <a target="_blank" rel="noreferrer" href="https://icons8.com">Icons8</a> tarafından sağlanmıştır.
 
   # navigation
   - key: general.table_of_contents
     t: >
-      {sectionCount} bölümler ({completion}% tamamlandı)
+      {sectionCount} bölüm ({completion}% tamamlandı)
   - key: general.all_questions_optional
     t: >
       Not: tüm sorular isteğe bağlıdır, %100'e ulaşmak gerekli değildir.
@@ -148,6 +150,8 @@ translations:
   # thanks
   - key: general.back
     t: Geri
+  - key: general.back_to_survey
+    t: Ankete geri dön
   - key: general.thanks
     t: >
       Anketimize katıldığınız için teşekkür ederiz!
@@ -156,15 +160,36 @@ translations:
 
       Ayrıca, bu anketi paylaşarak daha fazla insana ulaşmamıza yardımcı olabilirsiniz. Her katılım, bizim için önemli ve
       her biri anketimizin daha temsil edici olmasına katkı sağlıyor:
+  - key: general.thanks1
+    t: >
+      Anketi doldurduğunuz için teşekkür ederiz! Verileriniz kaydedildi.
+  - key: general.thanks2
+    t: >
+      Bu anketi paylaşarak daha fazla insana ulaşmamıza yardımcı olun! Her katkı önemlidir ve verilerimizin daha temsil edici olmasına yardımcı olacaktır.
   - key: thanks.learn_more_about
     t: "Öğrenmek isteyebileceğiniz bazı özellikler:"
   - key: thanks.knowledge_score
     t: Haberdarlık Puanı
+  - key: thanks.features_score
+    t: Özellikler Puanı
+  - key: thanks.quiz_score
+    t: Test Puanı
   - key: thanks.score_explanation
     t: >
       Bu ankette bahsedilen <span class="score-number score-number-total">{total}</span> özellikten <span class="score-number score-number-known">{known}</span>
       tanesinden haberdarsınız, bu sizi katılanlar arasında <span class="score-number score-number-ranking">{knowledgeRankingFromTop}%</span>
       arasına yerleştiriyor.
+  - key: thanks.score_statistics
+    t: >
+      Ankette belirtilen {total} özellikten {usage_count} tanesini kullandınız ve {awareness_count} tanesinden daha haberdarsınız, bu sizi tüm katılımcılar arasında ilk {knowledgeRankingFromTop} içine yerleştiriyor. Aferin!
+  - key: thanks.score_statistics_noranking
+    t: >
+      Ankette belirtilen {total} özellikten {usage_count} tanesini kullandınız ve {awareness_count} tanesinden daha haberdarsınız. Aferin!
+  - key: thanks.points
+    t: Puanlar
+  - key: thanks.score_awareness_explanation
+    t: >
+      Eşitlik adına, bu yüzde sadece haberdar olduğunuzu belirtebildiğiniz {awareness_total} özellik üzerinden hesaplanır
   - key: thanks.share_on_twitter
     t: Twitter'da Paylaşın
   - key: thanks.share_score_message
@@ -177,7 +202,7 @@ translations:
   - key: general.share_text
     t: >
       Bu yılki {surveyName} anketi başladı! {link}
-
+s
   # forms
   - key: forms.select_option
     t: Bir seçim yapın
@@ -198,9 +223,9 @@ translations:
 
   # 404
   - key: notfound.title
-    t: 404 Not Found
+    t: 404 Sayfa Bulunamadı
   - key: notfound.description
-    t: Sorry, we couldn't find what you were looking for.
+    t: Üzgünüz, aradığınız şeyi bulamadık.
 
   # other
   - key: general.join_discord
@@ -265,7 +290,7 @@ translations:
     aliasFor: section.other_tools.description
 
   - key: sections.report.title
-    t: Trend raporu
+    t: Trend Raporu
 
   - key: sections.usage.title
     t: Kullanım Alanı
@@ -396,7 +421,7 @@ translations:
   - key: options.patterns.use_sparingly
     t: Nadiren kullanırım
   - key: options.patterns.use_neutral
-    t: Nötrüm
+    t: Nötr
   - key: options.patterns.use_frequently
     t: Sıklıkla kullanırım
   - key: options.patterns.use_always
@@ -607,33 +632,33 @@ translations:
   - key: options.yearly_salary.range_work_for_free
     t: Ücretsiz çalışıyorum
   - key: options.yearly_salary.range_0_10
-    t: $0k-$10k
+    t: $0b-$10b
   - key: options.yearly_salary.range_10_30
-    t: $10k-$30k
+    t: $10b-$30b
   - key: options.yearly_salary.range_30_50
-    t: $30k-$50k
+    t: $30b-$50b
   - key: options.yearly_salary.range_50_100
-    t: $50k-$100k
+    t: $50b-$100b
   - key: options.yearly_salary.range_100_200
-    t: $100k-$200k
+    t: $100b-$200b
   - key: options.yearly_salary.range_more_than_200
-    t: $200k'dan fazla
+    t: $200 binden fazla
 
   # salary (short versions)
   - key: options.yearly_salary.range_work_for_free.short
     t: "$0"
   - key: options.yearly_salary.range_0_10.short
-    t: $0k-$10k
+    t: $0b-$10b
   - key: options.yearly_salary.range_10_30.short
-    t: $10k-$30k
+    t: $10b-$30b
   - key: options.yearly_salary.range_30_50.short
-    t: $30k-$50k
+    t: $30b-$50b
   - key: options.yearly_salary.range_50_100.short
-    t: $50k-$100k
+    t: $50b-$100b
   - key: options.yearly_salary.range_100_200.short
-    t: $100k-$200k
+    t: $100b-$200b
   - key: options.yearly_salary.range_more_than_200.short
-    t: ">$200k"
+    t: ">$200b"
 
   # job titles
   - key: options.job_title.cto
@@ -684,13 +709,13 @@ translations:
   # Back-end proficiency
 
   - key: options.backend_proficiency.0
-    t: Arkayüz (back-end) ilgili herhangi bir şeyin üstesinden gelemem
+    t: Arka yüz (back-end) ilgili herhangi bir şeyin üstesinden gelemem
   - key: options.backend_proficiency.1
     t: CMS'ler (WordPress, etc.) veya statik site oluşturucular ile (Jekyll, etc.) çalışabilirim
   - key: options.backend_proficiency.2
-    t: Hali hazırdaki arkayüz (back-end) çerçevleri ile uygulamalar geliştirebilirim (Rails, Laravel, etc.)
+    t: Hali hazırdaki arka yüz (back-end) çerçevleri ile uygulamalar geliştirebilirim (Rails, Laravel, etc.)
   - key: options.backend_proficiency.3
-    t: Tüm bir arkayüzü (back-end) baştan inşa edebilirim (Go, Node.js, etc.)
+    t: Tüm bir arka yüzü (back-end) baştan inşa edebilirim (Go, Node.js, etc.)
   - key: options.backend_proficiency.4
     t: Karmaşık çok sunuculu veya mikro servislerden oluşan yapıların üstesinden gelebilirim
 
@@ -715,7 +740,7 @@ translations:
   - key: options.gender.non_binary
     t: İkilik Dışı Cinsiyet or Cinsiyete Uyumsuz
   - key: options.gender.questioning
-    t: Sorgulayış
+    t: Sorgulama
   - key: options.gender.prefer_not_to_say
     t: Söylememeyi Tercih Ediyorum
   - key: options.gender.not_listed
@@ -730,7 +755,7 @@ translations:
   - key: options.gender.non_binary.short
     t: İkilik Dışı veya GNC
   - key: options.gender.questioning.short
-    t: Sorgulayış
+    t: Sorgulama
   - key: options.gender.prefer_not_to_say.short
     t: Söylememeyi Tercih Ediyorum
   - key: options.gender.not_listed.short
@@ -855,6 +880,417 @@ translations:
   - key: options.form_factors.print
     t: Baskı
 
+  # Industry Sector
+  - key: options.industry_sector.ecommerce
+    t: E-ticaret & Perakende
+  - key: options.industry_sector.news_media
+    t: Haber, Medya & Blog Yazarlığı
+  - key: options.industry_sector.healthcare
+    t: Sağlık
+  - key: options.industry_sector.finance
+    t: Finans
+  - key: options.industry_sector.programming_tools
+    t: Programlama & Teknik Araçlar
+  - key: options.industry_sector.socialmedia
+    t: Sosyal Medya
+  - key: options.industry_sector.marketing_tools
+    t: Pazarlama/Satış/Analitik Araçlar
+  - key: options.industry_sector.education
+    t: Eğitim
+  - key: options.industry_sector.real_estate
+    t: Emlak
+  - key: options.industry_sector.government
+    t: Hükümet
+  - key: options.industry_sector.entertainment
+    t: Eğlence
+  - key: options.industry_sector.consulting
+    t: Danışmanlık & Hizmetler
+  - key: options.industry_sector.travel
+    t: Seyahat
+  - key: options.industry_sector.tourism
+    t: Turizm
+  - key: options.industry_sector.insurance
+    t: Sigorta
+  - key: options.industry_sector.logistics
+    t: Lojistik
+  - key: options.industry_sector.energy
+    t: Enerji
+  - key: options.industry_sector.telecommunications
+    t: Telekomünikasyon
+  - key: options.industry_sector.student
+    t: Öğrenci
+  - key: options.industry_sector.hospitality
+    t: Konaklama
+  - key: options.industry_sector.cyber_security
+    t: Siber Güvenlik
+  - key: options.industry_sector.construction
+    t: İnşaat
+  - key: options.industry_sector.automotive
+    t: Otomotiv
+  - key: options.industry_sector.agriculture
+    t: Tarım
+  - key: options.industry_sector.transport
+    t: Ulaşım
+  - key: options.industry_sector.manufacturing
+    t: Üretim
+  - key: options.industry_sector.tech_it
+    t: Teknoloji & IT
+  - key: options.industry_sector.human_resources
+    t: İnsan Kaynakları
+  - key: options.industry_sector.sports
+    t: Spor
+  - key: options.industry_sector.gaming
+    t: Oyun
+  - key: options.industry_sector.research
+    t: Araştırma
+  - key: options.industry_sector.law
+    t: Hukuk
+  - key: options.industry_sector.non_profit
+    t: Kar Amacı Gütmeyen Kuruluş
+  - key: options.industry_sector.art
+    t: Sanat
+  - key: options.industry_sector.crypto
+    t: Kripto
+  - key: options.industry_sector.aerospace
+    t: Havacılık
+  - key: options.industry_sector.web3
+    t: Web3
+  - key: options.industry_sector.iot
+    t: Nesnelerin İnterneti (IOT)
+  - key: options.industry_sector.gambling
+    t: Kumar
+  - key: options.industry_sector.blockchain
+    t: Blok Zinciri
+  - key: options.industry_sector.design
+    t: Tasarım
+  - key: options.industry_sector.unemployed
+    t: İşsiz
+  - key: options.industry_sector.recruiting
+    t: İşe Alım
+  - key: options.industry_sector.agency
+    t: Ajans
+  - key: options.industry_sector.business
+    t: İş Dünyası
+  - key: options.industry_sector.communication
+    t: İletişim
+  - key: options.industry_sector.security
+    t: Güvenlik
+
+
+  # tool evaluation
+  - key: options.tool_evaluation.learning_curve_documentation
+    t: Dokümantasyon
+  - key: options.tool_evaluation.learning_curve_documentation.description
+    t: Öğrenmesi kolay mı ve/veya iyi belgelenmiş mi?
+  - key: options.tool_evaluation.momentum_popularity
+    t: Hype & Momentum
+  - key: options.tool_evaluation.momentum_popularity.description
+    t: Şu anda çok fazla ilgi görüyor mu?
+  - key: options.tool_evaluation.user_base_size
+    t: Kullanıcı Tabanı Boyutu
+  - key: options.tool_evaluation.user_base_size.description
+    t: Uzun bir geçmişi olan, iyi yerleşmiş bir seçenek mi?
+  - key: options.tool_evaluation.developer_experience_tooling
+    t: Geliştirici Deneyimi
+  - key: options.tool_evaluation.developer_experience_tooling.description
+    t: İyi geliştirici araçlarına, geniş bir eklenti ekosistemine sahip mi?
+  - key: options.tool_evaluation.performance_user_experience
+    t: Kullanıcı Deneyimi
+  - key: options.tool_evaluation.performance_user_experience.description
+    t: Sorunsuz, performanslı kullanıcı deneyimleri oluşturmanıza yardımcı oluyor mu?
+  - key: options.tool_evaluation.creator_team
+    t: Yaratıcı & Ekip
+  - key: options.tool_evaluation.creator_team.description
+    t: İyi bilinen, iyi finanse edilen veya deneyimli bir ekip tarafından mı destekleniyor?
+  - key: options.tool_evaluation.accessibility_features
+    t: Erişilebilirlik Özellikleri
+  - key: options.tool_evaluation.accessibility_features.description
+    t: Tüm kullanıcılar için erişilebilir deneyimler yaratmada iyi mi?
+  - key: options.tool_evaluation.community_inclusivity
+    t: Topluluk & Kapsayıcılık
+  - key: options.tool_evaluation.community_inclusivity.description
+    t: Etrafında canlı, misafirperver bir topluluk var mı?
+
+
+    # accessibility features
+  - key: options.accessibility_features.keyboard_navigation
+    t: Klavye gezintisi
+  - key: options.accessibility_features.compliant_contrast
+    t: WCAG uyumlu kontrast
+  - key: options.accessibility_features.focus_indicators
+    t: Odak göstergeleri
+  - key: options.accessibility_features.skip_to_content_link
+    t: İçeriğe atla bağlantısı
+  - key: options.accessibility_features.color_themes
+    t: Renk temaları (karanlık mod, yüksek kontrast modu, vb.)
+  - key: options.accessibility_features.prefers_reduced_motion
+    t: Hareket azaltma tercihi
+  - key: options.accessibility_features.alt_text
+    t: Alternatif metinler
+  - key: options.accessibility_features.semantic_markup
+    t: Anlamsal işaretleme
+  - key: options.accessibility_features.aria_attributes
+    t: ARIA HTML öznitelikleri
+
+  # learning methods
+  - key: options.first_steps.na
+    t: 🚫 Yok
+  - key: options.first_steps.books
+    t: Kitaplar
+  - key: options.first_steps.videos
+    t: Videolar & ekran kayıtları
+  - key: options.first_steps.school
+    t: Okul & yüksek öğrenim
+  - key: options.first_steps.courses_free
+    t: Çevrimiçi kurslar (ücretsiz)
+  - key: options.first_steps.courses_paid
+    t: Çevrimiçi kurslar (ücretli)
+  - key: options.first_steps.podcasts
+    t: Podcast'ler
+  - key: options.first_steps.bootcamp
+    t: Kodlama bootcamp'i
+  - key: options.first_steps.on_the_job
+    t: İş başında eğitim
+  - key: options.first_steps.self_directed
+    t: Kendi kendine öğrenme (Google, Stack Overflow, vb.)
+  - key: options.first_steps.mentoring
+    t: Mentorluk
+  - key: options.first_steps.documentation
+    t: Dokümantasyon
+  - key: options.first_steps.blogs
+    t: Bloglar
+  - key: options.first_steps.view_source
+    t: Kaynağı Görüntüle
+  - key: options.first_steps.trial_and_error
+    t: Deneme & Yanılma
+  - key: options.first_steps.forums
+    t: Forumlar
+  - key: options.first_steps.newsletters
+    t: Bültenler
+  - key: options.first_steps.events
+    t: Etkinlikler
+
+     # learning methods
+
+  - key: resources.learning_methods
+    t: Öğrenme Metodları
+  - key: options.learning_methods.na
+    aliasFor: options.first_steps.na
+  - key: options.learning_methods.books
+    aliasFor: options.first_steps.books
+  - key: options.learning_methods.videos
+    aliasFor: options.first_steps.videos
+  - key: options.learning_methods.school
+    aliasFor: options.first_steps.school
+  - key: options.learning_methods.courses_free
+    aliasFor: options.first_steps.courses_free
+  - key: options.learning_methods.courses_paid
+    aliasFor: options.first_steps.courses_paid
+  - key: options.learning_methods.podcasts
+    aliasFor: options.first_steps.podcasts
+  - key: options.learning_methods.bootcamp
+    aliasFor: options.first_steps.bootcamp
+  - key: options.learning_methods.on_the_job
+    aliasFor: options.first_steps.on_the_job
+  - key: options.learning_methods.self_directed
+    aliasFor: options.first_steps.self_directed
+  - key: options.learning_methods.mentoring
+    aliasFor: options.first_steps.mentoring
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.blogs
+    aliasFor: options.first_steps.blogs
+  - key: options.learning_methods.view_source
+    aliasFor: options.first_steps.view_source
+  - key: options.learning_methods.documentation
+    aliasFor: options.first_steps.documentation
+  - key: options.learning_methods.trial_and_error
+    aliasFor: options.first_steps.trial_and_error
+  - key: options.learning_methods.forums
+    aliasFor: options.first_steps.forums
+  - key: options.learning_methods.newsletters
+    aliasFor: options.first_steps.newsletters
+  - key: options.learning_methods.events
+    aliasFor: options.first_steps.events
+
+
+  # degree
+  - key: options.higher_education_degree.no_degree
+    t: Hayır
+  - key: options.higher_education_degree.yes_related
+    t: Evet, mevcut mesleğimle ilgili bir alanda
+  - key: options.higher_education_degree.yes_unrelated
+    t: Evet, ama mevcut mesleğimle ilgisiz bir alanda
+
+  # degree (short versions)
+  - key: options.higher_education_degree.no_degree.short
+    t: Hayır
+  - key: options.higher_education_degree.yes_related.short
+    t: Evet, ilgili alan
+  - key: options.higher_education_degree.yes_unrelated.short
+    t: Evet, ilgisiz alan
+
+  # employment_status
+  - key: options.employment_status.full_time
+    t: Tam zamanlı
+  - key: options.employment_status.student
+    t: Öğrenci
+  - key: options.employment_status.self_employed
+    t: Serbest meslek
+  - key: options.employment_status.contractor
+    t: Sözleşmeli
+  - key: options.employment_status.part_time
+    t: Yarı zamanlı
+  - key: options.employment_status.between_jobs
+    t: İşsiz
+  - key: options.employment_status.retired
+    t: Emekli
+
+  # bracket
+  - key: options.bracket.round1
+    t: 1. tur zaferleri
+  - key: options.bracket.round2
+    t: 2. tur zaferleri
+  - key: options.bracket.round3
+    t: 3. tur zaferleri
+  - key: options.bracket.combined
+    t: Birleşik
+
+  # email_temporary (receive updates?)
+  - key: options.receive_notifications.yes
+    t: Evet, sonuçlar açıklandığında beni e-posta ile bilgilendirin
+
+   # usage type
+  - key: usage.usage_type
+    t: Kullanım Türü
+
+  - key: options.usage_type.professionally
+    t: Profesyonel olarak
+  - key: options.usage_type.student
+    t: Öğrenci olarak
+  - key: options.usage_type.hobby
+    t: Hobi olarak
+
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_11_20
+    t: 11-20%
+  - key: options.percentage_segments.range_21_30
+    t: 21-30%
+  - key: options.percentage_segments.range_31_40
+    t: 31-40%
+  - key: options.percentage_segments.range_41_50
+    t: 41-50%
+  - key: options.percentage_segments.range_51_60
+    t: 51-60%
+  - key: options.percentage_segments.range_61_70
+    t: 61-70%
+  - key: options.percentage_segments.range_71_80
+    t: 71-80%
+  - key: options.percentage_segments.range_81_90
+    t: 81-90%
+  - key: options.percentage_segments.range_91_100
+    t: 91-100%
+
+  - key: options.percentage_segments.range_0_10
+    t: 0-10%
+  - key: options.percentage_segments.range_10_20
+    t: 10-20%
+  - key: options.percentage_segments.range_20_30
+    t: 20-30%
+  - key: options.percentage_segments.range_30_40
+    t: 30-40%
+  - key: options.percentage_segments.range_40_50
+    t: 40-50%
+  - key: options.percentage_segments.range_50_60
+    t: 50-60%
+  - key: options.percentage_segments.range_60_70
+    t: 60-70%
+  - key: options.percentage_segments.range_70_80
+    t: 70-80%
+  - key: options.percentage_segments.range_80_90
+    t: 80-90%
+  - key: options.percentage_segments.range_90_100
+    t: 90-100%
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.completion_stats.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.completion_stats.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.completion_stats.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.completion_stats.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.completion_stats.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.completion_stats.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.completion_stats.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.completion_stats.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  - key: options.completion_stats.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.completion_stats.range_10_20
+    aliasFor: options.percentage_segments.range_10_20
+  - key: options.completion_stats.range_20_30
+    aliasFor: options.percentage_segments.range_20_30
+  - key: options.completion_stats.range_30_40
+    aliasFor: options.percentage_segments.range_30_40
+  - key: options.completion_stats.range_40_50
+    aliasFor: options.percentage_segments.range_40_50
+  - key: options.completion_stats.range_50_60
+    aliasFor: options.percentage_segments.range_50_60
+  - key: options.completion_stats.range_60_70
+    aliasFor: options.percentage_segments.range_60_70
+  - key: options.completion_stats.range_70_80
+    aliasFor: options.percentage_segments.range_70_80
+  - key: options.completion_stats.range_80_90
+    aliasFor: options.percentage_segments.range_80_90
+  - key: options.completion_stats.range_90_100
+    aliasFor: options.percentage_segments.range_90_100
+
+  - key: options.knowledge_score.range_0_10
+    aliasFor: options.percentage_segments.range_0_10
+  - key: options.knowledge_score.range_11_20
+    aliasFor: options.percentage_segments.range_11_20
+  - key: options.knowledge_score.range_21_30
+    aliasFor: options.percentage_segments.range_21_30
+  - key: options.knowledge_score.range_31_40
+    aliasFor: options.percentage_segments.range_31_40
+  - key: options.knowledge_score.range_41_50
+    aliasFor: options.percentage_segments.range_41_50
+  - key: options.knowledge_score.range_51_60
+    aliasFor: options.percentage_segments.range_51_60
+  - key: options.knowledge_score.range_61_70
+    aliasFor: options.percentage_segments.range_61_70
+  - key: options.knowledge_score.range_71_80
+    aliasFor: options.percentage_segments.range_71_80
+  - key: options.knowledge_score.range_81_90
+    aliasFor: options.percentage_segments.range_81_90
+  - key: options.knowledge_score.range_91_100
+    aliasFor: options.percentage_segments.range_91_100
+
+  # source
+  - key: options.source.angular_community
+    t: Angular Topluluğu
+  - key: options.source.work
+    t: İş Yeri
+  - key: options.source.word_of_mouth
+    t: Ağızdan Ağıza
+  - key: options.source.podcast
+    t: Podcastler
+  - key: options.source.other_online_sources
+    t: Diğer Çevrim içi Kaynaklar
+  - key: options.source.blog
+    t: Bloglar
+
+
   ###########################################################################
   # Tools
   ###########################################################################
@@ -874,6 +1310,13 @@ translations:
   ###########################################################################
   # Demographics (About You/User Info)
   ###########################################################################
+
+  # age
+  - key: user_info.age
+    t: Yaş
+  - key: user_info.age.question
+    t: Kaç yaşındasınız?
+
 
   # years of experience
   - key: user_info.years_of_experience
@@ -922,18 +1365,132 @@ translations:
   # gender
   - key: user_info.gender
     t: Cinsiyet
+  - key: user_info.gender.question
+    t: >
+      Aşağıdaki seçeneklerden hangisi sizi tanımlıyor?
+  - key: user_info.gender.note
+    t: >
+      Çeşitlilik verilerinin toplanması ve yayınlanmasının hassas bir konu olabileceğini biliyoruz,
+      ancak bu verilerin elde edilmesinin anketin kapsayıcılık ve temsil açısından çabalarını ölçmeye
+      ve iyileştirmeye yardımcı olacağını düşünüyoruz.
 
-  # skin tone/appearance
+
+  # race & ethnicity
   - key: user_info.race_ethnicity
     t: Irk & Etnik Köken
+  - key: user_info.race_ethnicity.question
+    t: >
+      Aşağıdaki seçeneklerden hangisi sizi tanımlıyor?
+  - key: user_info.race_ethnicity.note
+    t: >
+      Çeşitlilik verilerinin toplanması ve yayınlanmasının hassas bir konu olabileceğini biliyoruz,
+      ancak bu verilerin elde edilmesinin anketin kapsayıcılık ve temsil açısından çabalarını ölçmeye
+      ve iyileştirmeye yardımcı olacağını düşünüyoruz.
+  - key: user_info.race_ethnicity.not_allowed
+    t: >
+      Yerel politikalara uymak amacıyla, ırk veya etnik köken verilerinin toplanması
+      ülkeniz veya bölgeniz için devre dışı bırakılmıştır.
+  - key: user_info.race_ethnicity.others
+    t: Diğer Irklar veya Etnik Kökenler
+  - key: user_info.race_ethnicity_freeform
+    aliasFor: user_info.race_ethnicity.others
+
+  # disability status
+  - key: user_info.disability_status
+    t: Engellilik Durumu
+  - key: user_info.disability_status.question
+    t: >
+      Hangi engellilik durumlarını yaşıyorsunuz?
+  - key: user_info.disability_status.note
+    t: >
+      Lütfen geçici engellilik durumlarını veya yaralanmaları da içerebileceğini unutmayarak, 
+      geçerli olan tüm seçenekleri işaretleyin.
+
+  # disability status (other)
+  - key: user_info.disability_status.others
+    t: Diğer Engellilik Durumları
+  - key: user_info.disability_status_freeform
+    aliasFor: user_info.disability_status.others
 
   # other info
   - key: user_info.how_did_user_find_out_about_the_survey
-    t: Bu anketten nasıl haberdar oldunuz?
+    t: Kaynak
+  - key: user_info.how_did_user_find_out_about_the_survey.question
+    t: Bu anketi nereden duydunuz?
   - key: user_info.email
-    t: E-posta adresiniz
+    t: E-posta Adresiniz
+  - key: user_info.email.description
+    t: >
+      Anketi anonim olarak doldurdunuz. İsterseniz, verilerinize daha sonra erişebilmek ve anket sonuçları yayınlandığında bildirilmek üzere isteğe bağlı olarak e-posta adresinizi girebilirsiniz.
+  - key: user_info.email.note
+    t: >
+      Herhangi bir kişisel veriyi saklamıyoruz, bu nedenle e-posta adresinizi girdikten sonra, benzersiz bir anonimleştirilmiş kimlik oluşturmak için kullanacağız ve ardından adresi kayıtlarımızdan sileceğiz.
   - key: user_info.country
-    t: Ülkeniz
+    t: Ülke veya Bölge
+  - key: user_info.country.question
+    t: Şu anda nerede yaşıyorsunuz?
+  - key: user_info.github_username
+    t: GitHub Kullanıcı Adınız
+  - key: user_info.github_username.description
+    t: >
+      Gelecekte GitHub kullanıcı adlarını, depoları incelemek ve kamuya açık bilgileri çapraz referanslamak için kullanabiliriz.
+  - key: user_info.twitter_username
+    t: Twitter Kullanıcı Adınız
+  - key: user_info.twitter_username.description
+    t: >
+      Gelecekte Twitter kullanıcı adlarını, Twitter etkinliklerini incelemek ve kamuya açık bilgileri
+      (takip ettiğiniz kişilerin listesi gibi) çapraz referanslamak için kullanabiliriz.
+  - key: user_info.industry_sector
+    t: Sektör
+  - key: user_info.industry_sector.question
+    t: Hangi sektör(ler)de çalışıyorsunuz?
+  - key: user_info.industry_sector.others
+    t: Diğer Sektörler
+  - key: user_info.industry_sector.others.description
+    t: Yukarıda belirtilmeyen diğer sektör(ler)de çalışıyorsanız belirtiniz.
+  - key: usage.industry_sector
+    aliasFor: user_info.industry_sector
+  - key: usage.industry_sector.description
+    aliasFor: user_info.industry_sector.question
+  - key: usage.industry_sector.others
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector_freeform
+    aliasFor: user_info.industry_sector.others
+  - key: usage.industry_sector.others.description
+    aliasFor: user_info.industry_sector.question
+
+  # degree
+  - key: user_info.higher_education_degree
+    t: Yükseköğretim Derecesi
+  - key: user_info.higher_education_degree.question
+    t: Yükseköğretim dereceniz var mı?
+
+  # employment status
+  - key: user_info.employment_status
+    t: İstihdam Durumu
+  - key: user_info.employment_status.description
+    t: İstihdam durumunuz nedir?
+
+  # completion
+  - key: user_info.completion_stats
+    t: Anket Tamamlanması
+  - key: user_info.completion_stats.description
+    t: Katılımcılar tarafından doldurulan anketin oranı.
+
+  # email_temporary (receive updates?)
+  - key: user_info.receive_notifications
+    t: Anket sonuçları yayınlandığında bildirim almak ister misiniz?
+  - key: user_info.receive_notifications.note
+    t: >
+      Herhangi bir özel veriyi saklamıyoruz, bu nedenle e-posta adresiniz posta listesi 
+      sağlayıcımıza gönderildikten sonra kendi kayıtlarımızdan silinecektir.
+
+  # how can we improve the survey?
+  - key: user_info.how_can_we_improve
+    t: Anket İyileştirmeleri
+  - key: user_info.how_can_we_improve.question
+    t: Bu anketi nasıl iyileştirebiliriz?
+
 
   ###########################################################################
   # Other Tools
@@ -988,32 +1545,166 @@ translations:
   # Resources
   ###########################################################################
 
+  # first steps
+  - key: resources.first_steps
+    t: İlk Öğrenme Yöntemleri
+  - key: resources.first_steps.question
+    t: Kodlamaya ilk başladığınızda, başlangıçta nasıl öğrendiniz?
+  - key: resources.first_steps.others
+    t: Diğer İlk Öğrenme Yöntemleri
+  - key: resources.first_steps.others.description
+    t: Diğer cevaplar (serbest alan).
+
+
   # blogs & magazines
   - key: resources.blogs_news_magazines
-    t: Bloglar ve Dergiler
+    t: Bloglar & Dergiler
   - key: resources.blogs_news_magazines.question
-    t: Hangi blog/dergi/vb. lerini okuyorsunuz ?
+    t: Hangi blogları/dergileri/bültenleri vb. okuyorsunuz?
   - key: resources.blogs_news_magazines.others
-    t: Diğer Bloglar ve Dergiler
+    t: Diğer Bloglar & Dergiler
   - key: resources.blogs_news_magazines.others.description
-    t: Diğer yanıtlar (serbest yanıt alanı).
+    t: Diğer cevaplar (serbest alan).
+  - key: options.blogs_news_magazines.na
+    t: 🚫 Hiçbiri
+  - key: resources.blogs_news_magazines.placeholder
+    t: |
+      Blog/bülten #{index}…
+
 
   # sites & courses
   - key: resources.sites_courses
-    t: Siteler ve Kurslar
+    t: Siteler & Kurslar
   - key: resources.sites_courses.question
-    t: Hangi siteler/kurslar/vb. dan faydalanırsınız
+    t: JavaScript öğrenmek için hangi siteleri/kursları vb. kullanıyorsunuz?
   - key: resources.sites_courses.others
-    t: Diğer Siteler ve Kurslar
+    t: Diğer Siteler & Kurslar
   - key: resources.sites_courses.others.description
-    t: Diğer yanıtlar (serbest yanıt alanı).
+    t: Diğer cevaplar (serbest alan).
+  - key: options.sites_courses.na
+    t: 🚫 Hiçbiri
+  - key: resources.sites_courses.placeholder
+    t: |
+      Site/kurs #{index}…
+
+  # paid courses
+  - key: resources.paid_courses
+    t: Ücretli Kurslar
+  - key: resources.paid_courses.question
+    t: JavaScript öğrenmek için hangi **ücretli kaynakları** (kurslar, videolar, kitaplar, vb.) kullandınız?
+  - key: options.paid_courses.na
+    t: 🚫 Hiçbiri
+  - key: resources.paid_courses.placeholder
+    t: |
+      Kurs/kitap #{index}…
+
+
 
   # podcasts
   - key: resources.podcasts
     t: Podcast'ler
   - key: resources.podcasts.question
-    t: Programlamayla ilgili hangi podcast'leri dinliyorsunuz?
+    t: Hangi programlama ile ilgili podcast'leri dinliyorsunuz?
   - key: resources.podcasts.others
     t: Diğer Podcast'ler
   - key: resources.podcasts.others.description
-    t: Diğer yanıtlar (serbest yanıt alanı).
+    t: Diğer cevaplar (serbest alan).
+  - key: options.podcasts.na
+    t: 🚫 Hiçbiri
+  - key: resources.podcasts.placeholder
+    t: |
+      Podcast #{index}…
+
+  # people
+  - key: resources.people
+    t: Kişiler
+  - key: resources.people.question
+    t: JavaScript topluluğunda hangi bireyleri okuyorsunuz, takip ediyorsunuz veya öne çıkarmak istiyorsunuz?
+  - key: resources.people.others
+    t: Diğer Kişiler
+  - key: resources.people.others.description
+    t: >
+      Okuduğunuz, takip ettiğiniz veya çalışmalarını öne çıkarmak istediğiniz kişiler
+      (serbest alan, virgülle ayrılmış isimler).
+  - key: options.people.na
+    t: 🚫 Hiçbiri
+  - key: resources.people.placeholder
+    t: |
+      Kişi #{index}…
+      
+  # other surveys
+  - key: resources.other_surveys
+    t: Diğer Anketler
+  - key: resources.other_surveys.question
+    t: Başka hangi geliştirici anketlerine katılıyorsunuz?
+  - key: resources.other_surveys.others
+    t: Yukarıda belirtilmeyen ek anketler
+  - key: options.other_surveys.na
+    t: 🚫 Hiçbiri
+  - key: user_info.other_surveys.question
+    t: Başka hangi geliştirici anketlerine katılıyorsunuz?
+
+  - key: user_info.other_surveys
+    aliasFor: resources.other_surveys
+  - key: user_info.other_surveys.question
+    aliasFor: resources.other_surveys.question
+
+  # video creators
+  - key: resources.video_creators
+    t: Video İçerik Oluşturucuları
+  - key: resources.video_creators.question
+    t: Programlama ile ilgili hangi video içerik oluşturucuları takip ediyorsunuz (YouTube'ta, Twitch'te, vb.)?
+  - key: resources.video_creators.others
+    t: Diğer Video İçerik Oluşturucuları
+  - key: options.video_creators.na
+    t: 🚫 Hiçbiri
+  - key: resources.video_creators.placeholder
+    t: |
+      Video içerik oluşturucusu #{index}…
+
+  ###########################################################################
+  # Follow-Up Questions
+  ###########################################################################
+
+  - key: followups.button
+    t: Daha fazla bilgi verin…
+
+  - key: followups.description
+    t: |
+      İsterseniz, bu cevabı neden seçtiğiniz hakkında daha fazla bilgi verebilirsiniz:
+
+  - key: followups.description.short
+    t: |
+      Daha fazla bilgi verin:
+
+  - key: followups.placeholder
+    t: Diğer neden…
+
+  - key: followups.want_to_learn_more
+    t: Daha fazla öğrenmek istiyorum
+  - key: followups.not_interested
+    t: İlgilenmiyorum
+  - key: followups.insufficient_browser_support
+    t: Yetersiz tarayıcı desteği
+  - key: followups.not_needed
+    t: İhtiyacım olmadı
+  - key: followups.hard_to_use
+    t: Kullanması zordu
+  - key: followups.positive_experience
+    t: Olumlu bir deneyim yaşadım
+  - key: followups.not_powerful
+    t: Yeterince güçlü değildi
+
+  - key: followups.sentiment_interested
+    t: İlgili
+  - key: followups.sentiment_not_interested
+    t: İlgisiz
+  - key: followups.sentiment_positive_experience
+    t: Tekrar kullanmak istiyorum
+  - key: followups.sentiment_negative_experience
+    t: Olumsuz deneyim
+
+  # entities info
+
+  - key: entity.learn_more
+    t: Daha fazla bilgi...
