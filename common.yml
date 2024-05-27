@@ -202,7 +202,7 @@ translations:
   - key: general.share_text
     t: >
       Bu yılki {surveyName} anketi başladı! {link}
-s
+
   # forms
   - key: forms.select_option
     t: Bir seçim yapın
@@ -976,7 +976,6 @@ s
   - key: options.industry_sector.security
     t: Güvenlik
 
-
   # tool evaluation
   - key: options.tool_evaluation.learning_curve_documentation
     t: Dokümantasyon
@@ -1010,7 +1009,6 @@ s
     t: Topluluk & Kapsayıcılık
   - key: options.tool_evaluation.community_inclusivity.description
     t: Etrafında canlı, misafirperver bir topluluk var mı?
-
 
     # accessibility features
   - key: options.accessibility_features.keyboard_navigation
@@ -1068,9 +1066,10 @@ s
   - key: options.first_steps.newsletters
     t: Bültenler
   - key: options.first_steps.events
-    t: Etkinlikler
+    t:
+      Etkinlikler
 
-     # learning methods
+      # learning methods
 
   - key: resources.learning_methods
     t: Öğrenme Metodları
@@ -1112,7 +1111,6 @@ s
     aliasFor: options.first_steps.newsletters
   - key: options.learning_methods.events
     aliasFor: options.first_steps.events
-
 
   # degree
   - key: options.higher_education_degree.no_degree
@@ -1160,7 +1158,7 @@ s
   - key: options.receive_notifications.yes
     t: Evet, sonuçlar açıklandığında beni e-posta ile bilgilendirin
 
-   # usage type
+    # usage type
   - key: usage.usage_type
     t: Kullanım Türü
 
@@ -1290,7 +1288,6 @@ s
   - key: options.source.blog
     t: Bloglar
 
-
   ###########################################################################
   # Tools
   ###########################################################################
@@ -1316,7 +1313,6 @@ s
     t: Yaş
   - key: user_info.age.question
     t: Kaç yaşındasınız?
-
 
   # years of experience
   - key: user_info.years_of_experience
@@ -1373,7 +1369,6 @@ s
       Çeşitlilik verilerinin toplanması ve yayınlanmasının hassas bir konu olabileceğini biliyoruz,
       ancak bu verilerin elde edilmesinin anketin kapsayıcılık ve temsil açısından çabalarını ölçmeye
       ve iyileştirmeye yardımcı olacağını düşünüyoruz.
-
 
   # race & ethnicity
   - key: user_info.race_ethnicity
@@ -1491,7 +1486,6 @@ s
   - key: user_info.how_can_we_improve.question
     t: Bu anketi nasıl iyileştirebiliriz?
 
-
   ###########################################################################
   # Other Tools
   ###########################################################################
@@ -1555,7 +1549,6 @@ s
   - key: resources.first_steps.others.description
     t: Diğer cevaplar (serbest alan).
 
-
   # blogs & magazines
   - key: resources.blogs_news_magazines
     t: Bloglar & Dergiler
@@ -1570,7 +1563,6 @@ s
   - key: resources.blogs_news_magazines.placeholder
     t: |
       Blog/bülten #{index}…
-
 
   # sites & courses
   - key: resources.sites_courses
@@ -1597,8 +1589,6 @@ s
   - key: resources.paid_courses.placeholder
     t: |
       Kurs/kitap #{index}…
-
-
 
   # podcasts
   - key: resources.podcasts
@@ -1631,7 +1621,7 @@ s
   - key: resources.people.placeholder
     t: |
       Kişi #{index}…
-      
+
   # other surveys
   - key: resources.other_surveys
     t: Diğer Anketler
