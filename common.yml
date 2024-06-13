@@ -1492,7 +1492,7 @@ translations:
 
   - key: tools_others.text_editors
     t: Metin Düzenleyiciler
-  - key: tools_others.text_editors.description
+  - key: tools_others.text_editors.question
     t: Düzenli olarak hangi metin düzenleyicisini/düzenleyicilerini kullanıyorsunuz?
   - key: tools_others.text_editors.others
     t: Diğer Metin Düzenleyiciler
@@ -1501,7 +1501,7 @@ translations:
 
   - key: tools_others.utilities
     t: Yardımcı Araçlar
-  - key: tools_others.utilities.description
+  - key: tools_others.utilities.question
     t: Düzenli olarak hangi yardımcı programlama kütüphanelerini kullanıyorsunuz?
   - key: tools_others.utilities.others
     t: Diğer Yardımcı Araçlar
@@ -1510,7 +1510,7 @@ translations:
 
   - key: tools_others.browsers
     t: Tarayıcılar
-  - key: tools_others.browsers.description
+  - key: tools_others.browsers.question
     t: Asıl geliştirme sırasında esas olarak hangi tarayıcıda çalışıyorsunuz?
   - key: tools_others.browsers.others
     t: Diğer Tarayıcılar
@@ -1519,7 +1519,7 @@ translations:
 
   - key: tools_others.build_tools
     t: Derleme Araçları
-  - key: tools_others.build_tools.description
+  - key: tools_others.build_tools.question
     t: Hangi derleme araçlarını kullanıyorsunuz
   - key: tools_others.build_tools.others
     t: Diğer derleme araçları
@@ -1528,7 +1528,7 @@ translations:
 
   - key: tools_others.non_js_languages
     t: JavaScript Dışındaki Diller
-  - key: tools_others.non_js_languages.description
+  - key: tools_others.non_js_languages.question
     t: Başka hangi programlama dillerini kullanıyorsunuz?
   - key: tools_others.non_js_languages.others
     t: Diğer Diller
