@@ -449,17 +449,17 @@ translations:
 
   - key: environments.form_factors
     t: Form Faktörleri
-  - key: environments.form_factors.description
+  - key: environments.form_factors.question
     t: Hangi form faktörlerini test ediyorsunuz?
 
   - key: environments.css_for_print
     t: Baskı için CSS
-  - key: environments.css_for_print.description
+  - key: environments.css_for_print.question
     t: Baskı stilleri yazıyor musunuz?
 
   - key: environments.css_for_email
     t: E-posta İstemcileri için CSS
-  - key: environments.css_for_email.description
+  - key: environments.css_for_email.question
     t: E-posta istemcileri için CSS yazıyor musunuz?
 
   ###########################################################################
