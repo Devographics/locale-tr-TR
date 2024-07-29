@@ -1,0 +1,657 @@
+locale: tr-TR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.state_of_react.intro
+    t: |
+      React bir süredir ortalıkta ve baskın ön yüz framework'lerinden biri hâline geldiği açıkça ortada.
+
+      Aktif olarak gelişmekte olan React topluluğu da bu gelişmelere ayak uydurmak için elinden geleni yapıyor.
+
+      State of React geliştirici anketiyle bu evrimi anlamlandırmayı ve geliştiricilerin geniş React ekosisteminde yardımcı olacak yolları bulmalarını umuyoruz.
+
+  - key: general.state_of_react.description
+    t: React ekosistemi hakkında yıllık geliştirici anketi
+
+  - key: features.features_intro_react
+    t: |
+      Ankete hoş geldiniz! Bu ilk bölüm aşağıdakileri bulmakla ilgilidir:
+      Resmi React API'lerinden hangilerini bildiğinizi ve kullandığınızı
+
+      Bu arada, seçimlerinizden herhangi birinin hakkında daha çok yorum eklemek isterseniz, şu küçük 'yorum' simgesine tıklamanız yeterli!
+
+  - key: tools.tools_intro_react
+    t: |
+      Sonraki birkaç bölüm, React ekosistemindeki **kütüphaneler** ve **çerçeveler** üzerine odaklanmaktadır. 
+
+      Nelerden heyecan duyduğunuzu bize bildirin!
+
+  # sections
+  - key: sections.main_apis.title
+    t: Ana API'ler
+  - key: sections.main_apis.description
+    t: Stabil, yerleşik React özellikleri
+
+  - key: sections.hooks.title
+    t: Hook'lar
+  - key: sections.hooks.description
+    t: React'in yerleşik hook'ları
+
+  - key: sections.new_apis.title
+    t: Yeni API'ler
+  - key: sections.new_apis.description
+    t: Yeni tanıtılmış ve deneysel özellikler
+
+  - key: sections.component_libraries.title
+    t: Bileşen Kütüphaneleri
+  - key: sections.component_libraries.description
+    t: Ön yüzünüzün/Frontend'inizin yapı taşları
+
+  # - key: sections.data_management.title
+  #   t: Veri Yönetimi
+  # - key: sections.data_management.description
+  #   t: Uygulama verilerinin yüklenmesi ve yönetilmesi
+
+  - key: sections.state_management.title
+    t: State yönetimi
+  - key: sections.state_management.description
+    t: State kontrolü için kullanılan kütüphaneler
+
+  - key: sections.data_loading.title
+    t: Veri Yüklemesi
+  - key: sections.data_loading.description
+    t: Veri yüklemesi ve yönetimi için araçlar
+
+  - key: sections.back_end_infrastructure.title
+    t: Arka yüz & Altyapı
+  - key: sections.back_end_infrastructure.description
+    t: Uygulamanızın paketlenmesi ve sunulması
+
+  # - key: sections.usage.title
+  #   t: Arka yüz & Altyapı
+  # - key: sections.usage.description
+  #   t: Uygulamanızın paketlenmesi ve sunulması
+
+  # old sections
+
+  # - key: sections.ui_libraries.title
+  #   t: UI Libraries
+  # - key: sections.ui_libraries.description
+  #   t: Component libraries and other UI toolkits.
+
+  # - key: sections.meta_frameworks.title
+  #   t: Meta Frameworks
+  # - key: sections.meta_frameworks.description
+  #   t: Frameworks that help render and serve your React app
+
+  # - key: sections.testing.title
+  #   t: Testing
+  # - key: sections.testing.description
+  #   t: Testing utilities and libraries
+
+  - key: sections.tools.title
+    t: Diğer Araçlar
+  - key: sections.tools.description
+    t: Diğer React araçları ve kütüphaneleri
+
+  - key: sections.usage_react.title
+    t: Kullanım
+  - key: sections.usage_react.description
+    t: React'i günlük olarak nasıl kullanıyorsunuz?
+
+  - key: tools.data_loading_heading
+    t: Veri Yükleme Kütüphaneleri
+
+  - key: tools.state_management_heading
+    t: State Yönetim Kütüphaneleri
+
+  # features
+
+  - key: features.main_apis_pain_points
+    t: Ana API'lerin Sorun Noktaları
+  - key: features.main_apis_pain_points.question
+    t: Yukarıda bahsedilen Ana API'lerde hangi sorunlarla karşılaştınız?
+
+  - key: features.hooks_pain_points
+    t: Hook'ların Sorun Noktaları
+  - key: features.hooks_pain_points.question
+    t: Hook'larda hangi sorunlarla karşılaştınız?
+
+  - key: features.new_apis_pain_points
+    t: Yeni API'lerde Sorun Noktaları
+  - key: features.new_apis_pain_points.question
+    t: Yeni API'lerde hangi sorunlarla karşılaştınız?
+
+  # main features
+  - key: features.fragment.description
+    t: >
+      `<Fragment>`, genellikle `<>...</>` sözdizimiyle kullanılır. Sarmalayıcı bir Node olmadan ögeleri gruplamanızı sağlar.
+  - key: features.profiler.description
+    t: >
+      `<Profiler>` React Ağacı/React Tree'nin render performansını programlı olarak ölçmenizi sağlar.
+  - key: features.strictmode.description
+    t: >
+      `<StrictMode>` geliştirme aşamasında bileşenlerinizdeki yaygın hataları erkenden bulmanıza yardımcı olur.
+
+  - key: features.createportal.description
+    t: >
+      `createPortal`, ögeleri DOM'un farklı bir bölümünde oluşturmanızı sağlar.
+
+  - key: features.createcontext.description
+    t: >
+      `createContext` bileşenlerin birbirleri arasında sağlayabileceği veya okunabileceği bir bağlam yaratmanızı sağlar.
+
+  - key: features.forwardref.description
+    t: >
+      `forwardRef` bileşeninizdeki bir DOM ögesini ref ile üst bileşene göstermesini sağlar.
+
+  - key: features.lazy.description
+    t: >
+      `lazy` ilk kez işlenen bileşenin render edilene dek ertelenmesini sağlar.
+
+  - key: features.memo.description
+    t: >
+      `memo` bileşenlerdeki prop'lar değişmediği sürece yeniden render'ı(re-render) atlamanıza olanak tanır.
+
+  - key: features.createroot.description
+    t: >
+      `createRoot`, React bileşenlerini bir tarayıcı DOM Node'u üzerinde görüntülemek için bir kök oluşturur.
+
+  - key: features.hydrateroot.description
+    t: >
+      `hydrateRoot`, React bileşenlerini, `react-dom/server` tarafından oluşturulmuş tarayıcı DOM içinde görüntülemenizi sağlar.
+
+  # hooks
+
+  - key: features.usecallback.description
+    t: >
+      `useCallback`, oluşturulan fonksiyonların re-render sırasında bu fonksiyonların önbelleğe alınmasına yardımcı olan bir React Hook'udur.
+
+  - key: features.usecontext.description
+    t: >
+      `useContext`, bileşeninizden bağlamı okumanızı ve abone olmanızı sağlayan bir React Hook'udur.
+
+  - key: features.usedebugvalue.description
+    t: >
+      `useDebugValue` React DevTools eklentisindeki özel bir Hook'a etiket eklemenizi sağlayan bir React Hook'udur.
+
+  - key: features.usedeferredvalue.description
+    t: >
+      `useDeferredValue`, kullanıcı arayüzünde bir bölümün güncellenmesini ertelemenize yardımcı olan bir React Hook'udur.
+
+  - key: features.useeffect.description
+    t: >
+      `useEffect` bir bileşeni harici bir sistemle senkronize etmenizi sağlayan bir React Hook'udur.
+
+  - key: features.useid.description
+    t: >
+      `useId` React'te erişilebilirlik nitelikleri aktarılabilen benzersiz ID oluşturmaya yardımcı olan bir React Hook'udur.
+
+  - key: features.usememo.description
+    t: >
+      `useMemo`, re-render'lar sırasında yapılan işlemleri önbelleğe almanızı sağlayan bir React Hook'udur.
+
+  - key: features.usereducer.description
+    t: >
+      `useReducer` bileşeninize reducer eklemenizi sağlayan bir React Hook'udur.
+
+  - key: features.useref.description
+    t: >
+      `useRef` render için gerekli olmayan bir değere referans vermenizi sağlayan bir React Hook'udur.
+
+  - key: features.usestate.description
+    t: >
+      `useState` bileşeninize state değişkeni eklemenizi sağlayan bir React Hook'udur.
+
+  - key: features.usesyncexternalstore.description
+    t: >
+      `useSyncExternalStore`, harici bir stora abone olmanızı sağlayan bir React Hook'udur..
+
+  - key: features.usetransition.description
+    t: >
+      `useTransition`, kullanıcı arayüzünü engellemeden state verisini güncellemenizi sağlayan bir React Hook'udur.
+
+  # new features
+
+  - key: features.suspense.description
+    t: >
+      `<Suspense>`, alt ögelerin yüklenmesi bitene kadar bir geri dönüş görüntülemenizi sağlar.
+
+  - key: features.use_hook.description
+    t: >
+      `use`, Promise veya context gibi bir kaynağın değerini okumanızı sağlayan bir React Hook'udur.
+
+  - key: features.starttransition.description
+    t: >
+      `startTransition` kullanıcı arayüzünü engellemeden state'i güncellemenizi sağlar.
+
+  - key: features.react_server_components.description
+    t: >
+      Yalnızca sunucu üzerinde çalışan bileşenler.
+
+  - key: features.use_client.description
+    t: >
+      `'use client'` bileşenlerin istemci üzerinde çalıştırılmasını işaretler.
+
+  - key: features.use_server.description
+    t: >
+      `'use server'` istemci tarafı kodundan çağrılabilen sunucu tarafı işlevleri işaretler.
+
+  - key: features.server_actions.description
+    t: >
+      React'in sunucu mutasyonları için yerleşik çözümü.
+
+  - key: features.taint_api.description
+    t: >
+      Belirli bir object veya değerin İstemci Bileşenine aktarılmasını önler.
+
+  - key: features.cache.description
+    t: >
+      `cache`, bir veri getirme veya hesaplama sonucunu önbelleğe almanızı sağlar.
+
+  - key: features.useformstatus.description
+    t: >
+      `useFormStatus`, form gönderiminin durum bilgisini veren bir hook'tur.
+
+  - key: features.useformstate.description
+    t: >
+      `useFormState` form eyleminin sonucuna göre durumu güncellemeyi sağlayan bir hook'tur.
+
+  # tools
+
+  - key: tools.component_libraries_others
+    t: Diğer Bileşen Kütüphaneleri
+  - key: tools.component_libraries_others.question
+    t: Başka hangi bileşen kütüphanelerini kullandınız?
+
+  - key: tools.component_libraries_pain_points
+    t: Bileşenlerin Sorun Noktaları
+  - key: tools.component_libraries_pain_points.question
+    t: Bileşenlerle çalışırken ne gibi sorunlarla karşılaştınız?
+
+  # - key: tools.ui_libraries_happiness
+  #   t: Happiness
+  # - key: tools.ui_libraries_happiness.description
+  #   t: How happy are you with the state of UI libraries?
+
+  - key: tools.state_management_others
+    t: Diğer State Yönetim Kütüphaneleri
+  - key: tools.state_management_others.question
+    t: Uygulamalarınızda state yönetimi için diğer hangi state yönetim kütüphanelerini kullandınız?
+
+  - key: tools.state_management_pain_points
+    t: State Yönetiminin Sorun Noktaları
+  - key: tools.state_management_pain_points.question
+    t: State yönetiminde hangi sorunlarla karşılaştınız?
+
+  # - key: tools.state_management_happiness
+  #   t: Happiness
+  # - key: tools.state_management_happiness.description
+  #   t: How happy are you with the available state management libraries?
+
+  - key: tools.data_loading_others
+    t: Diğer Veri Yükleme Kütüphaneleri
+  - key: tools.data_loading_others.question
+    t: Diğer hangi Veri Yükleme kütüphanelerini kullandınız?
+
+  - key: tools.data_loading_pain_points
+    t: Veri Yüklemenin Sorun Noktaları
+  - key: tools.data_loading_pain_points.question
+    t: Veri yükleme ile ilgili hangi sorunlarla karşılaştınız?
+
+  # - key: tools.data_loading_happiness
+  #   t: Happiness
+  # - key: tools.data_loading_happiness.description
+  #   t: How happy are you with the state of data loading libraries?
+
+  - key: tools.meta_frameworks_others
+    t: Diğer Meta Framework'leri
+  # - key: tools.meta_frameworks_happiness
+  #   t: Happiness
+  # - key: tools.meta_frameworks_happiness.description
+  #   t: How happy are you with the current state of meta-frameworks?
+
+  - key: tools.meta_frameworks_heading
+    t: Meta Framework'leri
+
+  - key: tools.other_back_end_tools_heading
+    t: Diğer Arka yüz/Backend Araçları & Servisleri
+
+  - key: tools.back_end_infrastructure_pain_points
+    t: Arka yüz/Backend Sorun Noktaları
+  - key: tools.back_end_infrastructure_pain_points.question
+    t: Arka yüz ve altyapı ile ilgili ne gibi sorunlarla karşılaştınız?
+
+  - key: tools.testing
+    t: Test Kütüphaneleri
+  - key: tools.testing.question
+    t: React uygulamalarınızı test etmek için hangi test kütüphanelerini kullanıyorsunuz?
+
+  # - key: tools.testing_happiness
+  #   t: Happiness
+  # - key: tools.testing_happiness.description
+  #   t: How happy are you with the current state of testing libraries?
+
+  - key: tools.mobile_development
+    t: Mobil Geliştirme
+  - key: tools.mobile_development.question
+    t: Mobil Geliştirme için hangi kütüphaneleri kullanıyorsunuz?
+
+  # - key: tools.mobile_development_others
+  #   t: Other Mobile Development Tools
+  # - key: tools.mobile_development_happiness
+  #   t: Happiness
+  # - key: tools.mobile_development_happiness.description
+  #   t: How happy are you with the current state of mobile development?
+
+  # other tools
+  - key: tools.form_libraries
+    t: Form Kütüphaneleri
+  # - key: tools.form_libraries.description
+  #   t: Libraries for generating and validating forms.
+  - key: tools.form_libraries.question
+    t: Formları yönetmek için hangi kütüphaneleri kullandınız?
+  - key: options.form_libraries.na
+    t: Hiçbiri
+
+  - key: tools.build_tools
+    t: Build Araçları
+  # - key: tools.build_tools.description
+  #   t: Build tools and bundlers.
+  - key: tools.build_tools.question
+    t: Hangi build araçlarını ve paketleyicileri kullandınız?
+
+  - key: tools.animation_libraries
+    t: Animasyon
+  # - key: tools.animation.description
+  #   t: Libraries to help manage animations and transitions.
+  - key: tools.animation_libraries.question
+    t: Hangi animasyon kütüphanelerini kullandınız?
+
+  - key: tools.auth
+    t: Kimlik Doğrulama
+  # - key: tools.auth.description
+  #   t: Libraries and services for managing authentication and accounts.
+  - key: tools.auth.question
+    t: Kimlik doğrulama işlemini gerçekleştirmek için hangi kütüphaneleri ve hizmetleri kullandınız?
+
+  - key: tools.data_visualization_libraries
+    t: Veri Görselleştirme
+  # - key: tools.data_visualization.description
+  #   t: Data visualization and graphics libraries.
+  - key: tools.data_visualization_libraries.question
+    t: Hangi veri görselleştirme ve grafik kütüphanelerini kullandınız?
+
+  - key: tools.css_tools
+    t: CSS Araçları & Kütüphaneleri
+  # - key: tools.css_tools.description
+  #   t: CSS libraries, frameworks, and utilities you use to style your React app.
+  - key: tools.css_tools.question
+    t: React uygulamalarınıza stil vermek için hangi kütüphaneleri veya framework'leri kullandınız?
+
+  - key: tools.other_frontend_frameworks
+    t: Diğer Ön Yüz Framework'leri
+  # - key: tools.other_frontend_frameworks.description
+  #   t: >
+  #     Other front-end frameworks
+  - key: tools.other_frontend_frameworks.question
+    t: >
+      Başka hangi ön yüz framework'lerini kullandınız?
+
+  - key: tools.hosting
+    t: Hosting Servisleri
+  # - key: tools.hosting.description
+  #   t: Services you use to host your React apps.
+  - key: tools.hosting.question
+    t: React uygulamalarınız için hangi host hizmetlerini kullandınız?
+
+  - key: tools.backend_language
+    t: Arka Yüz Dilleri
+  - key: tools.backend_language.question
+    t: Arka uç uygulamalarınız hangi dil(ler)de yazılıyor?
+
+  - key: tools.other_services
+    t: Diğer Servisler
+  - key: tools.other_services.question
+    t: React uygulamalarınızla başka hangi hizmetleri kullandınız?
+
+  - key: tools.validation
+    t: Şema & Doğrulama Kütüphaneleri
+  - key: tools.validation.question
+    t: Verileri bir şemaya göre doğrulamak için hangi kütüphaneleri kullandınız?
+
+  - key: tools.ai_tools
+    t: Yapay Zeka Araçları
+  - key: tools.ai_tools.question
+    t: React kodu yazmanıza yardımcı olması için hangi yapay zeka araçlarını veya hizmetlerini kullandınız?
+
+  - key: tools.renderers
+    t: React Renderlayıcıları
+  - key: tools.renderers.question
+    t: React'i farklı platformlarda veya ortamlarda görüntülenebilmesi için hangi kütüphaneleri kullandınız?
+
+  - key: tools.other_tools
+    t: Diğer Araçlar
+  - key: tools.tools.question
+    t: React uygulamaları geliştirmek için başka hangi araçları kullandınız?
+
+  # CSS
+  - key: options.css_tools.plain_css
+    t: CSS (düz, "vanilya" CSS)
+
+  # react pain points
+
+  - key: options.react_pain_points.rerenders
+    t: Bileşenlerin re-renderlarını yönetme
+  - key: options.react_pain_points.testing
+    t: Test
+  - key: options.react_pain_points.data_loading
+    t: Veri yükleme ve asenkron işlemler
+  - key: options.react_pain_points.state_management
+    t: State yönetimi (`useState`, Redux, Context, vb.)
+  - key: options.react_pain_points.bundle_sizes
+    t: İstemci paket boyutlarını düşük tutmak
+  - key: options.react_pain_points.server_rendering
+    t: Sunucu Tarafı Oluşturma ve Sunucu Bileşenleri
+  - key: options.react_pain_points.css_styling
+    t: CSS ve Stil Oluşturma
+  - key: options.react_pain_points.attribute_names
+    t: "Yanlış" attribute adları. Örneğin `className`, `htmlFor`, vb.
+  - key: options.react_pain_points.synthetic_events
+    t: Sentetik Event
+  - key: options.react_pain_points.ref_management
+    t: Ref yönetimi
+  - key: options.react_pain_points.memoization
+    t: Memoizasyon
+  - key: options.react_pain_points.animations
+    t: Animasyonlar ve Geçişler
+  - key: options.react_pain_points.forms
+    t: Formlar
+  - key: options.react_pain_points.typescript
+    t: Resmi yerel TypeScript desteğinin olmaması
+
+  # usage type
+  - key: usage.react_usage_type
+    t: React Kullanımı
+  - key: usage.react_usage_type.question
+    t: React'i öncelikli olarak hangi bağlamda kullanıyorsunuz?
+
+  # react version
+
+  - key: usage.react_version
+    t: React Sürümü
+  - key: usage.react_version.question
+    t: Günlük olarak en çok hangi React sürümünü kullanıyorsunuz?
+
+  - key: options.react_version.react_v16x
+    t: 16.x
+  - key: options.react_version.react_v17x
+    t: 17.x
+  - key: options.react_version.react_v18x
+    t: 18.x
+  - key: options.react_version.react_canary
+    t: Canary sürümü
+  - key: options.react_version.not_sure
+    t: Emin değilim
+
+  # JS App Patterns
+
+  - key: usage.js_app_patterns
+    t: Uygulama Pattern'leri
+  - key: usage.js_app_patterns.question
+    t: Aşağıdaki mimari ve işleme modellerinden hangilerini **geçen yıl** kullandınız?
+
+  - key: options.js_app_patterns.single_page_app
+    t: Tek Sayfa Uygulaması (SPA)
+  - key: options.js_app_patterns.single_page_app.description
+    t: Tamamen tarayıcıda çalışan uygulamalar
+  - key: options.js_app_patterns.multiple_page_app
+    t: Çok Sayfalı Uygulama (MPA)
+  - key: options.js_app_patterns.multiple_page_app.description
+    t: İstemci tarafında minimum dinamik davranışla tamamen sunucu üzerinde çalışan uygulamalar
+  - key: options.js_app_patterns.static_site_generation
+    t: Statik Site Oluşturma (SSG)
+  - key: options.js_app_patterns.static_site_generation.description
+    t: İstemci tarafı dinamik öğe içeren veya içermeyen önceden oluşturulmuş statik içerik
+  - key: options.js_app_patterns.server_side_rendering
+    t: Sunucu Tarafı İşleme (SSR)
+  - key: options.js_app_patterns.server_side_rendering.description
+    t: HTML içeriğini istemcide yeniden oluşturmadan önce sunucuda dinamik olarak oluşturma
+  - key: options.js_app_patterns.partial_hydration
+    t: Kısmı Hydration
+  - key: options.js_app_patterns.partial_hydration.description
+    t: stemcide yalnızca bazı bileşenlerinizin hidratlanması (örn. React Sunucu Bileşenleri)
+  - key: options.js_app_patterns.progressive_rehydration
+    t: Kademeli Hidrasyon
+  - key: options.js_app_patterns.progressive_rehydration.description
+    t: Müşteri üzerinde bileşen hidrasyonunun sırasını kontrol etme
+  - key: options.js_app_patterns.islands_architecture
+    t: Adalar Mimarisi
+  - key: options.js_app_patterns.islands_architecture.description
+    t: Statik bir sitede birden fazla giriş noktasına sahip izole edilmiş dinamik davranış adaları (Astro, Eleventy)
+  - key: options.js_app_patterns.progressive_enhancement
+    t: Aşamalı İyileştirme
+  - key: options.js_app_patterns.progressive_enhancement.description
+    t: Bir uygulamanın JavaScript olmadan da işlevsel olduğundan emin olma
+  - key: options.js_app_patterns.incremental_static_generation
+    t: Incremental Static Regeneration (ISR)
+  - key: options.js_app_patterns.incremental_static_generation.description
+    t: İlk derlemeden sonra bile statik bir siteyi dinamik olarak büyütebilme veya değiştirebilme (Next.js ISR, Gatsby DSG)
+  - key: options.js_app_patterns.streaming_ssr
+    t: SSR Akışı
+  - key: options.js_app_patterns.streaming_ssr.description
+    t: Sunucu tarafından işlenen içeriği daha küçük akış parçalarına bölme
+  - key: options.js_app_patterns.resumability
+    t: Devam ettirilebilirlik
+  - key: options.js_app_patterns.resumability.description
+    t: Sunucuda çerçeve durumunun serileştirilmesi, böylece istemcinin yinelenen kod yürütmesi olmadan yürütmeye devam edebilmesi.
+  - key: options.js_app_patterns.edge_rendering
+    t: Edge Rendering
+  - key: options.js_app_patterns.edge_rendering.description
+    t: İşlenen HTML'yi istemciye göndermeden önce kenarda değiştirme
+
+  - key: options.js_app_patterns.micro_frontend
+    t: Mikro Ön Yüz
+  - key: options.js_app_patterns.domain_driven_design
+    t: Domain-Driven Tasarım(DDD)
+  - key: options.js_app_patterns.serverless
+    t: Sunucusuz
+  - key: options.js_app_patterns.pespa
+    t: PESPA
+
+  - key: usage.what_do_you_use_react_for
+    t: React Kullanımı
+  - key: usage.what_do_you_use_react_for.question
+    t: React'i ne için kullanıyorsunuz?
+
+  - key: usage.react_pain_points
+    t: React'in Sorun Noktaları
+
+  - key: usage.state_of_react
+    t: Memnuniyet
+  - key: usage.state_of_react.question
+    t: React'in mevcut durumundan ne kadar memnunsunuz?
+
+  - key: usage.usage_pain_points
+    t: Diğer Sorun Noktaları
+  - key: usage.usage_pain_points.question
+    t: Bahsetmek istediğiniz başka React sorun noktaları var mı?
+
+  # new features
+  - key: usage.new_features
+    t: Yeni Özellikler
+  - key: usage.new_features.question
+    t: Bu yeni ve gelecek özelliklerden sizi en çok heyecanlandıran hangisi?
+
+  - key: options.new_features.asset_loading
+    t: Varlık Yüklemesi
+  - key: options.new_features.asset_loading.description
+    t: Suspense'in stil sayfalarıyla, yazı tipleriyle ve görüntülerin yüklenmesi yaşam döngüsüyle tamamen entegre edilmesi
+  - key: options.new_features.cache.description
+    t: Verilerin önbelleğe alınmasına yardımcı olan bir API.
+  - key: options.new_features_react_forget.description
+    t: React için otomatik bir reaktivite derleyicisi
+  - key: options.new_features.new_docs
+    t: Yeni Dokümantasyon
+  - key: options.new_features.new_docs.description
+    t: React'in güncellenmiş dokümantasyon sitesi.
+  - key: options.new_features.offscreen_rendering
+    t: Ekran Dışı Render
+  - key: options.new_features_offscreen_rendering.description
+    t: Ek performans ek yükü olmadan ekranları arka planda oluşturma.
+  - key: options.new_features.use_hook
+    t: >
+      `use` Hook
+  - key: options.new_features.use_hook.description
+    t: >
+      `use` bir Promise'in değerini açar, ancak istemci de dahil olmak üzere normal bileşenler ve Hook'lar içinde kullanılabilir.
+
+  - key: options.new_features.transition_tracing
+    t: Transition Takibi
+  - key: options.new_features.transition_tracing.description
+    t: React Transition'ların ne zaman yavaşladığını tespit edin ve neden yavaş olabileceğini araştırın.
+
+  # what do you use React for?
+  - key: options.what_do_you_use_react_for.static_sites
+    t: Statik siteler
+  - key: options.what_do_you_use_react_for.design_systems
+    t: Tasarım sistemleri
+  - key: options.what_do_you_use_react_for.web_apps
+    t: Web uygulamaları
+  - key: options.what_do_you_use_react_for.mobile_apps
+    t: Mobil uygulamalar
+  - key: options.what_do_you_use_react_for.desktop_apps
+    t: Masaüstü uygulamaları
+
+  # resources
+  - key: resources.learning_methods_react
+    t: Öğrenme Yöntemleri
+  - key: resources.learning_methods_react.question
+    t: React'i öğrenmek için ne tür kaynaklar kullandınız?
+
+  - key: resources.blogs_news_magazines_react
+    t: Bloglar & Haber Bültenleri
+  - key: resources.blogs_news_magazines_react.question
+    t: React haberlerini takip etmek için hangi bloglara, dergilere veya haber bültenlerine başvuruyorsunuz?
+
+  - key: resources.sites_courses_react
+    t: Siteler & Kurslar
+  - key: resources.sites_courses_react.question
+    t: React öğrenmek için hangi siteleri veya kursları kullandınız?
+
+  - key: resources.podcasts_react
+    t: Podcast'ler
+  - key: resources.podcasts_react.question
+    t: Hangi React veya web geliştirme podcast'lerini dinliyorsunuz?
+
+  - key: resources.video_creators_react
+    t: Video Yaratıcıları
+  - key: resources.video_creators_react.question
+    t: YouTube, Twitch vb. platformlarda hangi React veya web geliştirme videolarını izliyorsunuz?
+
+  - key: resources.people_react
+    t: Topluluk
+  - key: resources.people_react.question
+    t: React topluluğunda kimleri okuyor, takip ediyor veya sadece vurgulamak istiyorsunuz?
