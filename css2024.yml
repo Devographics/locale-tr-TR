@@ -1,0 +1,540 @@
+locale: tr-TR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: CSS ekosisteminin en son trendler hakkında yıllık anketin 2024 sürümü.
+
+  - key: general.css2024.results_intro
+    t: |
+
+      Yalan söylemeyeceğim, CSS'e ayak uydurmak son zamanlarda pek kolay olmadı. Neyse ki bu yıl [Chen Hui Jing](https://chenhuijing.com/), geçen yıl [Lea Verou] (https://lea.verou.me/) tarafından yapılan çalışma üzerine inşa edilen anket tasarım sürecinin liderliğini üstlendi.
+
+      Ayrıca, (diğer tarayıcı satıcılarıyla birlikte) bu sonuçları yol haritalarına rehberlik etmek için kullanan Google Chrome ekibinden destek alacak kadar şanslıydık.
+
+      Tüm bu ekstra yardım sayesinde, grafikleri **özelleştirme** becerisinden başlayarak bir dizi yeni özellik sunabildik. Bir grafiğin yanındaki <span class="customize-chart-icon">"settings"</span> simgesine tıklayarak artık grafiği maaş, ülke veya istediğiniz başka bir değişkene göre filtreleyebilirsiniz!
+
+      Tüm bunlarla birlikte, 2023'de CSS'in gelişimine bakalım!
+
+  ###########################################################################
+  # Introduction
+  ###########################################################################
+
+  - key: introduction.css2024
+    t: |
+      <span class="first-letter">C</span>SS benzeri görülmemiş bir ilerleme döneminden geçiyor. has()`, konteyner sorguları, subgrid ve daha pek çok yeni özellik her ay tarayıcılarda yerini alıyor. 
+
+      Tüm bu büyümenin sonucu olarak işler biraz içinden çıkılmaz bir hal alabiliyor. Neyse ki bu yıl anketin tasarlanmasına yardımcı olacak ve CSS ormanında bize rehberlik edecek [Chen Hui Jing] (https://chenhuijing.com/) vardı. 
+
+      Anketten bahsetmişken, tarayıcı satıcılarının [Interop](https://web.dev/interop-2023/) girişiminin bir parçası olarak, bir sonraki adımda hangi özellikler üzerinde çalışılacağına öncelik vermek için bu verileri kullandığını biliyor muydunuz?
+
+      Son olarak, bu yıl yeni bir özellik sunuyoruz: kendi veri filtrelerinizle grafikleri **özelleştirme** yeteneği. Ne tür yeni içgörüler ortaya çıkaracağınızı görmek için heyecanlıyız!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  ###########################################################################
+  # Tshirt
+  ###########################################################################
+
+  - key: sections.tshirt.title
+    t: Tişört
+
+  - key: sections.tshirt.description
+    t: |
+      ## State of CSS Tişörtüyle Anketi Destekleyin
+
+      Kötü video kalitesi, hantal kasetler ve geri sarma zorunluluğu arasında, VHS dönemine dair özlenecek pek bir şey yok. Ancak *özlediğimiz* bir şey varsa o da boş VHS kasetlerini süsleyen 90'ların muhteşem görselleridir. 
+
+      Ama şimdi, yetenekli Christopher Kirk-Nielsen sayesinde tüm bu retro radikalliğin tadını çıkarırken aynı zamanda CSS'e olan sevginizi de kutlayabilirsiniz!
+
+  - key: tshirt.about
+    t: Tişört Hakkında
+
+  - key: tshirt.description
+    t: |
+      Cotton Bureau'daki ortaklarımız tarafından basılan dar kesim, yüksek kaliteli, süper yumuşak tri-blend gömlek kullanıyoruz.
+
+  - key: tshirt.getit
+    t: Satın Al
+
+  - key: tshirt.price
+    t: USD $29 + kargo
+
+  - key: tshirt.designer.heading
+    t: Tasarımcı Hakkında
+
+  - key: tshirt.designer.name
+    t: Christopher Kirk-Nielsen
+
+  - key: tshirt.designer.bio
+    t: |
+      Aslen Fransız olan ancak şu anda Amerika Birleşik Devletleri'nde yaşayan Chris, sadece harika bir ön uç geliştiricisi değil, aynı zamanda retro görseller konusunda uzmanlaşmış yetenekli bir illüstratördür. Aslında, [diğer tişört tasarımlarına] (https://chriskirknielsen.com/designs) da göz atmanızı öneririz!
+
+  ###########################################################################
+  # Sections Introductions
+  ###########################################################################
+
+  - key: sections.user_info.description.css2024
+    t: |
+      Bu yılki anket dünya çapında **9.190** geliştiriciye ulaştı.
+
+  - key: sections.features.description.css2024
+    t: |
+      CSS son zamanlarda hızla gelişiyor ve sunulan yeni özelliklerin birçoğu
+      yavaş ama emin adımlarla geliştirici topluluğu tarafından benimseniyor.
+
+  - key: sections.css_frameworks.description.css2024
+    t: |
+      Bir kez daha, Tailwind CSS, geliştiricilerin kullanmaya devam etmekten mutlu oldukları tek büyük UI framework'ü olarak öne çıkarken; Open Props küçük ama tutkulu bir takipçi kitlesi oluşturuyor.
+
+  - key: sections.css_in_js.description.css2024
+    t: |
+      Başlangıçtaki bazı büyümelerin ardından, CSS-in-JS sektörü durgunlaşmış gibi görünüyor ve
+      yerel CSS'nin kendisinin ana avantajlarının çoğunu benimsemesi muhtemelen bunun nedenlerinden biri.
+
+  - key: sections.other_tools.description.css2024
+    t: |
+      Tarayıcıların icadından 30 yıl sonra, bu alanda Brave ve Arc gibi yeni girenlerle veya Polypane gibi pazar payı kazanan özel araçlarla hala yenilikler görüyoruz.
+
+  - key: sections.usage.description.css2024
+    t: |
+      CSS'i nasıl kullanırsanız kullanın, veriler kodunuzun tüm tarayıcılarda çalıştığından emin olmanın, özellikle `:has()` gibi yeni özellikler için hala bir endişe kaynağı olduğunu göstermektedir.
+
+  - key: sections.resources.description.css2024
+    t: |
+      Bloglar, YouTube kanalları ve podcast'ler arasında CSS topluluğu her zamankinden daha canlı.
+
+  ###########################################################################
+  # Charts
+  ###########################################################################
+
+  - key: options.features_categories.layout
+    aliasFor: sections.layout.title
+  - key: options.features_categories.shapes_graphics
+    aliasFor: sections.shapes_graphics.title
+  - key: options.features_categories.interactions
+    aliasFor: sections.interactions.title
+  - key: options.features_categories.typography
+    aliasFor: sections.typography.title
+  - key: options.features_categories.accessibility
+    aliasFor: sections.accessibility.title
+  - key: options.features_categories.other_features
+    aliasFor: sections.other_features.title
+  - key: options.features_categories.colors
+    aliasFor: sections.colors.title
+  - key: options.features_categories.selectors
+    aliasFor: sections.selectors.title
+
+  - key: user_info.country_low_vs_high_income.description.css2024
+    t: >
+      Katılımcıların düşük gelirli ve yüksek gelirli dilimler arasında bölünmesi,
+      bize iki çok farklı ülke listesi vermektedir.
+
+  - key: user_info.higher_education_degree_by_gender.description.css2024
+    t: >
+      Katılımcıların CSS ile ilgili alanları dışındaki yüksek eğitim diplomasına sahip olduğu
+      görüldü. Bu oranlar potansiyel olarak kariyer değişimlerini belirtirken, 
+      kadınların katılımı beklenenden daha yüksek oldu.
+
+  - key: user_info.source_by_gender.description.css2024
+    t: >
+      Toplam sayının düşük olması herhangi bir sonuca varmayı zorlaştırsa da
+      özellikle Twitter ve YouTube gibi sosyal ağlarla karşılaştırıldığında,
+      anketle işyerlerinden veya kulaktan kulağa iletişim yoluyla karşılaşan
+      katılımcılar arasında kadınların oranı yüksek seviyedeydi.
+
+  - key: user_info.source_by_race_ethnicity.description.css2024
+    t: >
+      Yine düşük örneklem sayısı, ırk ve etnik köken göz önünde bulundurulduğunda YouTube,
+      ankete gelen en çeşitli trafik kaynaklarından biri olarak öne çıkmaktadır.
+
+  - key: user_info.average_income_by_company_size.description.css2024
+    t: >
+      En yüksek maaşı alan katılımcıların büyük şirketlerde çalıştığını görüyoruz, 
+      ancak solo çalışanların küçük şirketlere göre hafif bir gelir avantajı göstermesi dikkat çekici.
+
+  - key: user_info.yearly_salary_usa_vs_the_world.description.css2024
+    t: >
+      ABD'nin gelirleri dünyanın geri kalanıyla karşılaştırıldığında, ABD'li geliştiricilerin 
+      yüksek gelir dilimlerinde yer aldığı açıkça görülmektedir.
+
+  ###########################################################################
+  # Awards
+  ###########################################################################
+
+  - key: award.feature_adoption_delta_award.comment
+    t: |
+      Flexbox için `gap` özelliği o kadar kullanışlı bir eklentidir ki 
+      2023'te **{value}** ilerlemesi görmesi şaşırtıcı değildir
+
+  # - key: award.tool_usage_delta_award.comment
+  #   t: No other tool comes even close to Tailwind CSS's dramatic **{value}** progression over the last year.
+
+  - key: award.most_commented_feature_award.comment
+    t: Subgrid için **{value}** yorum yapıldı. Başka hiçbir özellik bu kadar geri bildirim almadı veya yaklaşamadı.
+
+  - key: award.tool_satisfaction_award.comment
+    t: |
+      Tüm CSS-in-JS çözümleri arasında Open Props, çok yüksek bir **{value}** tutma oranını koruyan tek çözümdür.
+
+  # - key: award.tool_interest_award.comment
+  #   t: With a **{value}** ratio, CSS Modules again generated the most interest among CSS developers this year.
+
+  - key: award.most_write_ins_award.comment
+    t: |
+      Panda, **{value}** yorumla serbest form sorularında açık ara en çok bahsedilen araç oldu.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.css2024
+    t: |
+      <span class="first-line">Yeni CSS özelliklerinin kullanımı artış eğilimi gösterirken, CSS çerçevelerinin kullanımı düşüş eğilimindedir</span>.
+
+      Bu, insanların daha yeni CSS özelliklerini kullanmak için beklemek zorunda olmadıkları fikrine alışmaya başladıklarının bir göstergesi olabilir, çünkü tarayıcılar eskisinden çok daha hızlı bir şekilde yetişecektir.
+
+      İç içe yerleştirme ve `:has()` (bir üst seçici gibi davranabilir, ancak bundan çok daha fazlasıdır!) gibi yerel CSS özelliklerinin yüksek farkındalığı ile, yaygın olarak benimsenmenin eşiğindeyiz gibi görünüyor.
+
+      Tüm bu özellikler arasında bu yıl için kişisel bir favorim var ve o da `text-wrap: balance`. Tüm web geliştirme kariyerim boyunca sürekli olarak aldığım bir istek için tek satırlık bir düzeltme sağlıyor: "Şu başlığı son kelimenin öksüz kalmayacağı şekilde ayarlayabilir miyiz?"
+
+      Pek çok geliştiricinin otomatik animasyon ve masonry düzeninin eksik CSS özellikleri olduğunu düşünmesi de ilginçti. Açıkça belirtilmediklerinde tarayıcılar için öğe boyutlarını (özellikle yükseklik) belirlemenin her zaman zor olduğu doğrudur. 
+
+      Ancak [Lea Verou](https://lea.verou.me/)'nun geçen yıl bahsettiği gibi, tarayıcıları bir araya getiren [Interop](https://wpt.fyi/interop-2023) gibi girişimler sayesinde, daha önce imkansız olduğu düşünülen özellikler artık potansiyel olarak gerçeğe dönüşebilir!
+
+  - key: conclusion.css2024.bio
+    t: Geliştirici Deneyimi Mühendisi @ Interledger Foundation
+
+  ###########################################################################
+  # Picks
+  ###########################################################################
+
+  - key: picks.my_pick
+    t: "Benim 2023 Seçimim:"
+  - key: picks.intro
+    t: CSS topluluğu üyelerinden "yılın seçimi" hakkında bilgi paylaşmalarını istedik
+
+  # - key: picks.david_east.name
+  #   t: CSS Subgrid
+  # - key: picks.david_east.bio
+  #   t: Advocate for building on the web
+  # - key: picks.david_east.description
+  #   t: |
+  #     CSS Subgrid allows child elements to inherit their parents grid properties.
+  #     Soon, it will be much easier to lay elements out to the same grid
+  #     lines across the entire page.
+
+  # - key: picks.bramus_van_damme.name
+  #   t: The `:has()` Selector
+  # - key: picks.bramus_van_damme.bio
+  #   t: Chrome Developer Relations Engineer at Google
+  # - key: picks.bramus_van_damme.description
+  #   t: |
+  #     You might know this one as the so-called “parent selector” but that name does it
+  #     no justice as it only covers a small part of what it can do.
+  #     This selector has essentially changed the way I write my CSS.
+
+  - key: picks.kevin_j_powell.name
+    t: Ahmad Shadeed
+  - key: picks.kevin_j_powell.bio
+    t: CSS Evanjelisti
+  - key: picks.kevin_j_powell.description
+    t: |
+      Ahmad'ın blogu, harika görseller ve kullanım örnekleri de dahil olmak üzere konuların derinlemesine araştırılmasıyla bir bilgi ve ilham kaynağıdır.
+
+  # - key: picks.samuel_kraft.name
+  #   t: The `:has()` Selector
+  # - key: picks.samuel_kraft.bio
+  #   t: Design Engineer
+  # - key: picks.samuel_kraft.description
+  #   t: |
+  #     The new :has() selector is super powerful and unlocks new styling possibilities.
+  #     This great article from Jen Simmons breaks it down with explanations and practical examples.
+
+  - key: picks.josh_comeau.name
+    t: CSS Podcast
+  - key: picks.josh_comeau.bio
+    t: Eğitmen, JavaScript Geliştiricileri için CSS
+  - key: picks.josh_comeau.description
+    t: |
+      Bu podcast, çeşitli önemli ve modern CSS özelliklerinin keyifli bir turunu içeriyor.
+      Kesinlikle harika iki insan olan Una Kravets ve Adam Argyle tarafından sunuluyor.
+
+  - key: picks.adam_argyle.name
+    t: Zag.js
+  - key: picks.adam_argyle.bio
+    t: Google Chrome Geliştirici İlişkileri
+  - key: picks.adam_argyle.description
+    t: |
+      ChakraUI'deki yetenekli insanlar bazı yeni nesil bileşenler ve fikirler geliştiriyor,
+      başka neler bulacaklarını görmek için sabırsızlanıyorum.
+
+  # - key: picks.eric_w_bailey.name
+  #   t: “Style with Stateful, Semantic Selectors” by Ben Myers
+  # - key: picks.eric_w_bailey.bio
+  #   t: Accessibility advocate and CSS nerd
+  # - key: picks.eric_w_bailey.description
+  #   t: |
+  #     Ben demonstrates how utilizing ARIA
+  #     attribute selectors can simply and powerfully tie appearance to state.
+
+  # - key: picks.michelle_barker.name
+  #   t: Interop 2022
+  # - key: picks.michelle_barker.bio
+  #   t: Writer and creator of front-end blog CSS { In Real Life }
+  # - key: picks.michelle_barker.description
+  #   t: |
+  #     Interop is a collaboration between all of the major browser vendors,
+  #     agreeing 15 key areas of focus for implementation —
+  #     including game-changing new CSS features like container queries,
+  #     cascade layers and color functions.
+
+  - key: picks.jhey_tompkins.name
+    t: |
+      `:has()` Seçicisi
+  - key: picks.jhey_tompkins.bio
+    t: Fancy CSS CEO'su
+  - key: picks.jhey_tompkins.description
+    t: |
+      `:has()`, konteyner sorguları, anchor konumlandırma gibi diğer API'leri bir araya getirmek için kullanabileceğiniz sihirdir. Topluluğun bunu kullanmak için nasıl yeni ve yenilikçi yollar bulduğunu görmek beni heyecanlandırıyor.
+
+  # - key: picks.gift_egwuenu.name
+  #   t: Learn CSS
+  # - key: picks.gift_egwuenu.bio
+  #   t: Developer Advocate at Cloudflare
+  # - key: picks.gift_egwuenu.description
+  #   t: |
+  #     My recommended resource for anyone looking to learn CSS from the ground up,
+  #     I also use it as a reference everytime I need to look up any CSS property.
+
+  - key: picks.ahmad_shadeed.name
+    t: Kaydırmaya Dayalı Animasyonlar
+  - key: picks.ahmad_shadeed.bio
+    t: Tasarım Mühendisi ve Yazar [ishadeed.com](https://ishadeed.com/)
+  - key: picks.ahmad_shadeed.description
+    t: |
+      İki sene öncesine kadar CSS'te kaydırmaya dayalı animasyonları asla
+      hayal edemezdim. Ancak, işte burada!
+
+  # - key: picks.georgedoescode.name
+  #   t:
+  # - key: picks.georgedoescode.bio
+  #   t:
+  # - key: picks.georgedoescode.description
+  #   t: |
+
+  # - key: picks.jen_simmons.name
+  #   t: The `:has()` Selector
+  # - key: picks.jen_simmons.bio
+  #   t: Web technologies evangelist at Apple
+  # - key: picks.jen_simmons.description
+  #   t: |
+  #     For two decades, “parent selector” was a top requested feature for CSS.
+  #     Then in 2022, in a total surprise, the :has() pseudo-class arrived to solve this and far more.
+
+  - key: picks.sara_soueidan.name
+    t: |
+      `color-contrast()`
+  - key: picks.sara_soueidan.bio
+    t: Kapsayıcı tasarım mühendisi ve eğitimci
+  - key: picks.sara_soueidan.description
+    t: |
+      Benim oyum color-contrast()'a gidiyor çünkü biraz daha dikkat çekmesi gerektiğini düşünüyorum.
+      Bu, kullanıcılarımız için tasarım yapmamızı kolaylaştıran birkaç özellikten biri.
+      Tarayıcılar arası destek bir an önce gelmeli.
+
+  - key: picks.adam_wathan.name
+    t: Lightning CSS
+  - key: picks.adam_wathan.bio
+    t: Tailwind CSS'in Yaratıcısı
+  - key: picks.adam_wathan.description
+    t: |
+      Vendor önekleri, küçültme ve modern özelliklerin dönüştürülmesi gibi işlemleri son derece hızlı bir şekilde halleden, diğer geliştiricilerin üzerine CSS araçları inşa edebileceği mükemmel bir platform olan hepsi bir arada CSS işleme aracı.
+
+  # - key: picks.christianoliff.bio
+  #   t: Front-end developer for Trimble MAPS
+  # - key: picks.christianoliff.description
+  #   t: |
+  #       One thing I've really started using and appreciating this year though is Purge CSS- an awesome tool for removing unused CSS. It can greatly reduce the size of your CSS, and its fast and easy to use.
+
+  - key: picks.kilian_valkhof.name
+    t: Devtoolstips
+  - key: picks.kilian_valkhof.bio
+    t: Geliştiriciler için tarayıcı olan Polypane'in yaratıcısı.
+  - key: picks.kilian_valkhof.description
+    t: |
+      Tüm tarayıcılardaki geliştirme araçları çok güçlü. Bu küçük ipuçları, 
+      hangi tarayıcıyı kullandığınızdan bağımsız olarak onlardan en iyi şekilde yararlanmanıza yardımcı olur.
+
+  - key: picks.ahmad_awais.name
+    t: |
+      `text-wrap: balance`
+  - key: picks.ahmad_awais.bio
+    t: VP DevRel & Google Geliştiriciler Danışma Kurulu kurucu üyesi
+  - key: picks.ahmad_awais.description
+    t: |
+      Başlıklar göz kamaştırmalı ve ekranda nasıl görüneceği zor tahmin edilse bile kolay okunmalıdır. 
+      Satır sonlarındaki yalnız kelimelerle (merhaba, dul kelimeler!) savaşmışımdır, 
+      ama ne dersiniz? Karşınızda text-wrap: balance – tek satırlık mucizevi çözüm!
+
+  # - key: picks.piccalilli_.bio
+  #   t:  piccalil.li'yi yöneten Serbest Tasarımcı ve Geliştirici
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #        Bu blog CSS bilgisi açısından tam bir altın madeni. Michelle bir CSS efsanesi ve yazdıkları her yazı veya öğretici faydalı içerikle dolu.
+
+  # - key: picks.piccalilli_.bio
+  #   t: piccalil.li'yi yöneten Serbest Tasarımcı ve Geliştirici
+  # - key: picks.piccalilli_.description
+  #   t: |
+  #        Bu blog CSS bilgisi açısından tam bir altın madeni. Michelle bir CSS efsanesi ve yazdıkları her yazı veya öğretici faydalı içerikle dolu.
+
+  # - key: picks.sarasoueidan.bio
+  #   t: Bağımsız kullanıcı arayüzü/tasarım mühendisi
+  # - key: picks.sarasoueidan.description
+  #   t: |
+  #       Benim seçimim bir kişi, yani Rachel Andrew. Kendisi CSS Grid'i bir nesil geliştiriciye öğretti.
+
+  # - key: picks.5t3ph.bio
+  #   t: Yazılım Mühendisi @ Microsoft
+  # - key: picks.5t3ph.description
+  #   t: |
+  #        Bu konferans konuşmasında Manuel Matuzovic, ilgi çekici, 
+  #        ulaşılabilir ve eyleme geçirilebilir, özenle hazırlanmış örnekler sunuyor.
+
+  # - key: picks.hugogiraudel.bio
+  #   t: İkili olmayan erişilebilirlik ve çeşitlilik savunucusu
+  # - key: picks.hugogiraudel.description
+  #   t: |
+  #       Fela inanılmaz bir yazılım parçası.
+  #       Oldukça güçlü, kullanımı nispeten kolay ve çok performanslı
+
+  # - key: picks.foolip.bio
+  #   t: Yazılım Mühendisi @ Google
+  # - key: picks.foolip.description
+  #   t: |
+  #       Sergio yakın zamanda WebKit'teki ve hatta Chromium'daki birçok Flexbox sorununu düzeltti,
+  #       WebKit'e flex gap'ı dahil ediyor,
+  #       bu da yakında tüm modern tarayıcılarda kullanılabilir olacağı anlamına geliyor.
+
+  # - key: picks.jina.bio
+  #   t: Tasarım sistemleri savunucusu ve uygulayıcısı
+  # - key: picks.jina.description
+  #   t: |
+  #       Hareketi azaltma media query'si, 
+  #       baş dönmesi ve rahatsızlığı tetiklemekten kaçınmaya yardımcı olur.
+
+  ###########################################################################
+  # Quiz
+  ###########################################################################
+
+  - key: quiz.quiz_dave_shea
+    t: "Soru 01"
+  - key: quiz.quiz_dave_shea.question
+    t: >
+      Mayıs 2003'te Dave Shea, CSS'nin esnekliğini ve uyarlanabilirliğini sergileyen bir site başlattı. Bu sitenin adı neydi?
+  - key: options.quiz_dave_shea.css_playground
+    t: CSS Playground
+  - key: options.quiz_dave_shea.style_jungle
+    t: Style Jungle
+  - key: options.quiz_dave_shea.css_zen_garden
+    t: CSS Zen Garden
+  - key: quiz.quiz_dave_shea.answer
+    t: >
+       [CSS Zen Garden] (https://www.csszengarden.com/), biçimlendirme ve stili ayrı tuttuğunuzda nelerin mümkün olduğunu göstererek büyük bir etki yarattı.
+  - key: quiz.quiz_dave_shea.description
+    aliasFor: quiz.quiz_dave_shea.question
+
+  - key: quiz.quiz_css_spec
+    t: "Soru 02"
+  - key: quiz.quiz_css_spec.question
+    t: >
+      Bu kuruluşlardan hangisi CSS spesifikasyonunu sürdürmektedir?
+  - key: options.quiz_css_spec.w3c
+    t: W3C
+  - key: options.quiz_css_spec.w3schools
+    t: W3Schools
+  - key: options.quiz_css_spec.mdn
+    t: MDN
+  - key: quiz.quiz_css_spec.answer
+    t: >
+      W3C'nin [CSS Çalışma Grubu] (https://www.w3.org/groups/wg/css) CSS spesifikasyonunu sürdürür ve bu spesifikasyon daha sonra tarayıcı şirketleri tarafından uygulanır.
+  - key: quiz.quiz_css_spec.description
+    aliasFor: quiz.quiz_css_spec.question
+
+  ###########################################################################
+  # Sponsors
+  ###########################################################################
+
+  - key: sponsors.frontendmasters.description
+    t: Derinlemesine, modern ön uç mühendisliği kursları ile becerilerinizi geliştirin.
+  - key: sponsors.polypane.description
+    t:  Hırslı geliştiriciler için tarayıcı. Kolaylıkla duyarlı, erişilebilir ve hızlı web siteleri oluşturun.
+  - key: sponsors.nijibox.description
+    t: Tokyo'nun kalbinde UX ve Ürün Geliştirme danışmanlığı.
+  - key: sponsors.renderatl.description
+    t: Tasarım ve CSS alanına özel ayrılmış en büyük teknoloji konferansı.
+    t: Çalışmalarımızı destekledikleri için Google Chrome ekibine teşekkür ederiz.
+
+  ###########################################################################
+  # FAQ/About
+  ###########################################################################
+
+  - key: about.content
+    t: >
+      2023 State of CSS anketi 15 Haziran - 15 Temmuz 2023 tarihleri arasında gerçekleştirilmiş ve 9.108 yanıt toplanmıştır. Anket [Devographics] (https://www.devographics.com/) tarafından, açık kaynak katkıda bulunanlar ve danışmanlardan oluşan bir ekibin yardımıyla yürütülmektedir. 
+
+
+      State of CSS logosu ve tişörtü [Christopher Kirk-Nielsen] (http://chriskirknielsen.com/) tarafından tasarlanmış ve canlandırılmıştır.
+
+
+      ### Anket Hedefleri
+
+      Bu anket, [JavaScript'in Durumu] (https://stateofjs.com/) anketi ile birlikte, geliştiricilerin teknolojik seçimler yapmasına yardımcı olmak amacıyla web geliştirme ekosisteminde yaklaşan eğilimleri belirlemek için oluşturulmuştur. 
+
+
+      Bu nedenle, bu anketler şu anda neyin popüler olduğunu analiz etmekten ziyade önümüzdeki birkaç yıl içinde neler olacağını tahmin etmeye odaklanmaktadır, bu nedenle şu anda en yaygın olan özellikler veya teknolojiler her zaman dahil edilmemektedir. 
+
+
+      Ayrıca, anket verileri tarayıcı satıcıları tarafından özelliklere öncelik vermek ve [Interop 2023] (https://web.dev/interop-2023/) gibi girişimleri bilgilendirmek için de kullanılmaktadır.
+
+
+      ### Anket Tasarımı
+
+       Bu yıl anket tasarımı, Google Chrome ekibinin sağladığı fon sayesinde [Chen Hui Jing] (https://chenhuijing.com/) tarafından gerçekleştirilmiştir. Tüm anket soruları isteğe bağlıydı.
+
+      ### Anket Kitlesi
+
+      Anket çevrimiçi olarak açık bir şekilde erişilebilirdi ve katılımcılar herhangi bir şekilde filtrelenmedi veya seçilmedi. Katılımcılar öncelikle geçmiş anketlerden (özel bir posta listesi aracılığıyla uyarılan) ve sosyal medya trafiğinden gelen katılımcıların bir karışımıydı.
+
+      ### Proje Finansmanı
+
+      Bu projenin finansmanı çeşitli kaynaklardan sağlanmaktadır:
+
+      - **Tişört satışları**. 
+
+      - **Sponsorlu Bağlantılar**: Her sayfanın altındaki önerilen kaynaklara bağlantılar ortağımız [Frontend Masters] (https://frontendmasters.com/) tarafından sağlanmaktadır.
+
+      - **Sponsorlu Grafikler**: Geçen yıldan itibaren, artık herkes 10 $ veya daha fazla bir ücret karşılığında bir grafiğe doğrudan sponsor olmayı seçebilir ve Twitter avatarının grafiğin yanında görüntülenmesini sağlayabilir.
+
+      - Google**: Bu yıl [Google Chrome](https://www.google.com/chrome/) ekibi, anketin tasarlanmasına yardımcı olması için Lea'yı işe almak üzere bir bütçe ayırdı ve çalışmalarımı desteklemek için doğrudan bana fon sağladı. 
+
+      - **Nijibox**: Japonya merkezli [Nijibox] (https://nijibox.jp/) da bu yıllık anketlerin daha sürdürülebilir olmasına yardımcı olmak için çabalarıma sponsor olmayı nezaketle kabul etti.
+
+
+      ### Teknik Genel Bakış
+
+      Anketlerin nasıl yürütüldüğüne dair daha derinlemesine bir teknik genel bakış bulabilirsiniz [burada](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Kodumuz [açık kaynaklıdır](https://github.com/Devographics/Monorepo/).
+
+      ### Geri Bildirim
+
+
+      - [Teknik sorunu bildirin](https://github.com/Devographics/Monorepo/issues)
+
+      - [Bir dahaki yıl için öneri yapın](https://github.com/Devographics/surveys/issues/193)
+
+      - [Teknik olmayan diğer sorunlar](https://github.com/Devographics/surveys/issues)
+
+      - [Discord kanalımıza katılın](https://discord.gg/tuWRUWVyJs)
