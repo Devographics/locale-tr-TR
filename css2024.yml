@@ -401,7 +401,7 @@ translations:
   #   t: Yazılım Mühendisi @ Microsoft
   # - key: picks.5t3ph.description
   #   t: |
-  #        Bu konferans konuşmasında Manuel Matuzovic, ilgi çekici, 
+  #        Bu konferans konuşmasında Manuel Matuzovic, ilgi çekici,
   #        ulaşılabilir ve eyleme geçirilebilir, özenle hazırlanmış örnekler sunuyor.
 
   # - key: picks.hugogiraudel.bio
@@ -423,7 +423,7 @@ translations:
   #   t: Tasarım sistemleri savunucusu ve uygulayıcısı
   # - key: picks.jina.description
   #   t: |
-  #       Hareketi azaltma media query'si, 
+  #       Hareketi azaltma media query'si,
   #       baş dönmesi ve rahatsızlığı tetiklemekten kaçınmaya yardımcı olur.
 
   ###########################################################################
@@ -443,7 +443,7 @@ translations:
     t: CSS Zen Garden
   - key: quiz.quiz_dave_shea.answer
     t: >
-       [CSS Zen Garden] (https://www.csszengarden.com/), biçimlendirme ve stili ayrı tuttuğunuzda nelerin mümkün olduğunu göstererek büyük bir etki yarattı.
+      [CSS Zen Garden] (https://www.csszengarden.com/), biçimlendirme ve stili ayrı tuttuğunuzda nelerin mümkün olduğunu göstererek büyük bir etki yarattı.
   - key: quiz.quiz_dave_shea.description
     aliasFor: quiz.quiz_dave_shea.question
 
@@ -471,11 +471,12 @@ translations:
   - key: sponsors.frontendmasters.description
     t: Derinlemesine, modern ön uç mühendisliği kursları ile becerilerinizi geliştirin.
   - key: sponsors.polypane.description
-    t:  Hırslı geliştiriciler için tarayıcı. Kolaylıkla duyarlı, erişilebilir ve hızlı web siteleri oluşturun.
+    t: Hırslı geliştiriciler için tarayıcı. Kolaylıkla duyarlı, erişilebilir ve hızlı web siteleri oluşturun.
   - key: sponsors.nijibox.description
     t: Tokyo'nun kalbinde UX ve Ürün Geliştirme danışmanlığı.
   - key: sponsors.renderatl.description
     t: Tasarım ve CSS alanına özel ayrılmış en büyük teknoloji konferansı.
+  - key: sponsors.google_chrome.description
     t: Çalışmalarımızı destekledikleri için Google Chrome ekibine teşekkür ederiz.
 
   ###########################################################################
