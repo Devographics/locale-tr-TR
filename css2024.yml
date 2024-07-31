@@ -493,7 +493,7 @@ translations:
 
       ### Anket Hedefleri
 
-      Bu anket, [JavaScript'in Durumu] (https://stateofjs.com/) anketi ile birlikte, geliştiricilerin teknolojik seçimler yapmasına yardımcı olmak amacıyla web geliştirme ekosisteminde yaklaşan eğilimleri belirlemek için oluşturulmuştur. 
+      Bu anket, [State of JavaScript] (https://stateofjs.com/) anketi ile birlikte, geliştiricilerin teknolojik seçimler yapmasına yardımcı olmak amacıyla web geliştirme ekosisteminde yaklaşan eğilimleri belirlemek için oluşturulmuştur. 
 
 
       Bu nedenle, bu anketler şu anda neyin popüler olduğunu analiz etmekten ziyade önümüzdeki birkaç yıl içinde neler olacağını tahmin etmeye odaklanmaktadır, bu nedenle şu anda en yaygın olan özellikler veya teknolojiler her zaman dahil edilmemektedir. 
@@ -532,9 +532,9 @@ translations:
       ### Geri Bildirim
 
 
-      - [Teknik sorunu bildirin](https://github.com/Devographics/Monorepo/issues)
+      - [Teknik sorun bildirin](https://github.com/Devographics/Monorepo/issues)
 
-      - [Bir dahaki yıl için öneri yapın](https://github.com/Devographics/surveys/issues/193)
+      - [Önümüzdeki yıl için öneri yapın](https://github.com/Devographics/surveys/issues/193)
 
       - [Teknik olmayan diğer sorunlar](https://github.com/Devographics/surveys/issues)
 
