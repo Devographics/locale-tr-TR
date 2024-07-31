@@ -518,7 +518,7 @@ translations:
 
       - **Sponsorlu Bağlantılar**: Her sayfanın altındaki önerilen kaynaklara bağlantılar ortağımız [Frontend Masters] (https://frontendmasters.com/) tarafından sağlanmaktadır.
 
-      - **Sponsorlu Grafikler**: Geçen yıldan itibaren, artık herkes 10 $ veya daha fazla bir ücret karşılığında bir grafiğe doğrudan sponsor olmayı seçebilir ve Twitter avatarının grafiğin yanında görüntülenmesini sağlayabilir.
+      - **Sponsorlu Grafikler**: Geçen yıldan itibaren, artık herkes 10$ veya daha fazla bir ücret karşılığında bir grafiğe doğrudan sponsor olmayı seçebilir ve Twitter avatarının grafiğin yanında görüntülenmesini sağlayabilir.
 
       - Google**: Bu yıl [Google Chrome](https://www.google.com/chrome/) ekibi, anketin tasarlanmasına yardımcı olması için Lea'yı işe almak üzere bir bütçe ayırdı ve çalışmalarımı desteklemek için doğrudan bana fon sağladı. 
 
@@ -527,7 +527,7 @@ translations:
 
       ### Teknik Genel Bakış
 
-      Anketlerin nasıl yürütüldüğüne dair daha derinlemesine bir teknik genel bakış bulabilirsiniz [burada](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a). Kodumuz [açık kaynaklıdır](https://github.com/Devographics/Monorepo/).
+      Anketlerin nasıl yürütüldüğüne dair [buraya tıklayarak](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) daha derinlemesine bir teknik genel bakış bulabilirsiniz. Kodumuz [açık kaynaklıdır](https://github.com/Devographics/Monorepo/).
 
       ### Geri Bildirim
 
