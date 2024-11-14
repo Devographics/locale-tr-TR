@@ -1,424 +1,424 @@
 locale: tr-TR
 translations:
-    ###########################################################################
-    # General
-    ###########################################################################
+  ###########################################################################
+  # General
+  ###########################################################################
 
-    - key: results.start
-      t: Başla
+  - key: results.start
+    t: Başla
 
-    - key: page.previous
-      t: 'Önceki:'
-    - key: page.next
-      t: 'Sonraki:'
+  - key: page.previous
+    t: "Önceki:"
+  - key: page.next
+    t: "Sonraki:"
 
-    - key: general.state_of_css_link
-      t: State of CSS
+  - key: general.state_of_css_link
+    t: State of CSS
 
-    - key: general.netlify_link
-      t: <a href="{link}">Netlify</a> tarafından barındırlıyor.
+  - key: general.netlify_link
+    t: <a href="{link}">Netlify</a> tarafından barındırlıyor.
 
-    - key: general.completion_percentage
-      t: 'Tamamlanma yüzdesi:'
+  - key: general.completion_percentage
+    t: "Tamamlanma yüzdesi:"
 
-    ###########################################################################
-    # Options
-    ###########################################################################
-  
-    - key: options.experience_ranking.satisfaction
-      t: Memnuniyet
-    - key: options.experience_ranking.interest
-      t: Interest
-    - key: options.experience_ranking.awareness
-      t: Haberdarlık
+  ###########################################################################
+  # Options
+  ###########################################################################
 
-    - key: options.features_simplified.know_it
-      t: Ne olduğunu biliyorum
-    - key: options.features_simplified.used_it
-      t: Daha önce kullandım
-    - key: options.features_simplified.usage_ratio
-      t: Usage ratio
+  - key: options.experience_ranking.satisfaction
+    t: Memnuniyet
+  - key: options.experience_ranking.interest
+    t: Interest
+  - key: options.experience_ranking.awareness
+    t: Haberdarlık
 
-    - key: options.quadrant.assess
-      t: DEĞER BİÇ
-    - key: options.quadrant.assess.long
-      t: |
-        DEĞER BİÇ: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
-    - key: options.quadrant.adopt
-      t: BENİMSE
-    - key: options.quadrant.adopt.long
-      t: |
-        BENİMSE: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
-    - key: options.quadrant.avoid
-      t: KAÇIN
-    - key: options.quadrant.avoid.long
-      t: |
-        KAÇIN: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
-    - key: options.quadrant.analyze
-      t: DEĞERLENDİR
-    - key: options.quadrant.analyze.long
-      t: |
-        DEĞERLENDİR: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
+  - key: options.features_simplified.know_it
+    t: Ne olduğunu biliyorum
+  - key: options.features_simplified.used_it
+    t: Daha önce kullandım
+  - key: options.features_simplified.usage_ratio
+    t: Usage ratio
 
-    ###########################################################################
-    # Sections
-    ###########################################################################
- 
-    - key: sections.introduction.title
-      t: Önsöz
+  - key: options.quadrant.assess
+    t: DEĞER BİÇ
+  - key: options.quadrant.assess.long
+    t: |
+      DEĞER BİÇ: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
+  - key: options.quadrant.adopt
+    t: BENİMSE
+  - key: options.quadrant.adopt.long
+    t: |
+      BENİMSE: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
+  - key: options.quadrant.avoid
+    t: KAÇIN
+  - key: options.quadrant.avoid.long
+    t: |
+      KAÇIN: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
+  - key: options.quadrant.analyze
+    t: DEĞERLENDİR
+  - key: options.quadrant.analyze.long
+    t: |
+      DEĞERLENDİR: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
 
-    - key: sections.demographics.title
-      t: Demografik Bilgiler
+  ###########################################################################
+  # Sections
+  ###########################################################################
 
-    - key: sections.tshirt.title
-      t: Tişört
+  - key: sections.introduction.title
+    t: Önsöz
 
-    - key: sections.technologies.title
-      t: Teknolojiler
+  - key: sections.demographics.title
+    t: Demografik Bilgiler
 
-    - key: sections.conclusion.title
-      t: Sonuç
+  - key: sections.tshirt.title
+    t: Tişört
 
-    ###########################################################################
-    # User Info
-    ###########################################################################
+  - key: sections.technologies.title
+    t: Teknolojiler
 
-    - key: user_info.locale
-      t: Dil
-    - key: user_info.locale.description
-      t: Katılımcılar anketi doldurmak için hangi dili seçti?
+  - key: sections.conclusion.title
+    t: Sonuç
 
-    - key: user_info.source
-      t: Kaynak
-    - key: user_info.source.description
-      t: Katılımcılar anketi nereden duydu?
-    - key: user_info.source.note
-      t: >
-      
-        Bu grafik, yönlendirmelerin, URL parametrelerinin ve serbest yanıtların bir karışımını toplar.
+  ###########################################################################
+  # User Info
+  ###########################################################################
 
-        - State of JS: [State of JS](https://stateofjs.com) e-posta listesi.
+  - key: user_info.locale
+    t: Dil
+  - key: user_info.locale.description
+    t: Katılımcılar anketi doldurmak için hangi dili seçti?
 
-        - State of CSS: State of CSS e-posta listesi; ayrıca `email`, `email ile` gibi eşleşmeler.
+  - key: user_info.source
+    t: Kaynak
+  - key: user_info.source.description
+    t: Katılımcılar anketi nereden duydu?
+  - key: user_info.source.note
+    t: >
 
-        - İş ve Çalışma: `çalışma`, `meslektaşlar`, `iş arkadaşları`, gibi eşleşmeler.
+      Bu grafik, yönlendirmelerin, URL parametrelerinin ve serbest yanıtların bir karışımını toplar.
 
-    ###########################################################################
-    # Locales
-    ###########################################################################
+      - State of JS: [State of JS](https://stateofjs.com) e-posta listesi.
 
-    - key: options.locale.en-US
-      t: İngilizce
-    - key: options.locale.ca-ES
-      t: Katalanca
-    - key: options.locale.es-ES
-      t: İspanyolca
-    - key: options.locale.ru-RU
-      t: Rusça
-    - key: options.locale.ua-UA
-      t: Ukrayna
-    - key: options.locale.fr-FR
-      t: Fransızca
-    - key: options.locale.zh-Hant
-      t: Çince (Geleneksel)
-    - key: options.locale.de-DE
-      t: Almanca
-    - key: options.locale.cs-CZ
-      t: Çek dili
-    - key: options.locale.pt-PT
-      t: Portekizce
-    - key: options.locale.it-IT
-      t: İtalyanca
-    - key: options.locale.sv-SE
-      t: İsveççe
-    - key: options.locale.tr-TR
-      t: Türkçe
-    - key: options.locale.id-ID
-      t: Endonezya dili
-    - key: options.locale.hi-IN
-      t: Hintçe
-    - key: options.locale.pl-PL
-      t: Lehçe
-    - key: options.locale.nl-NL
-      t: Flemenkçe
+      - State of CSS: State of CSS e-posta listesi; ayrıca `email`, `email ile` gibi eşleşmeler.
 
-    ###########################################################################
-    # Features
-    ###########################################################################
+      - İş ve Çalışma: `çalışma`, `meslektaşlar`, `iş arkadaşları`, gibi eşleşmeler.
 
-    - key: features.learn_more 
-      t: Daha fazla bilgi edin (MDN)
-    - key: features.mdn_link 
-      t: MDN
-    - key: features.caniuse_link 
-      t: CanIUse
-    - key: features.specification_link 
-      t: W3C Tanımlaması
+  ###########################################################################
+  # Locales
+  ###########################################################################
 
-    ###########################################################################
-    # Tools & Methodologies
-    ###########################################################################
+  - key: options.locale.en-US
+    t: İngilizce
+  - key: options.locale.ca-ES
+    t: Katalanca
+  - key: options.locale.es-ES
+    t: İspanyolca
+  - key: options.locale.ru-RU
+    t: Rusça
+  - key: options.locale.ua-UA
+    t: Ukrayna
+  - key: options.locale.fr-FR
+    t: Fransızca
+  - key: options.locale.zh-Hant
+    t: Çince (Geleneksel)
+  - key: options.locale.de-DE
+    t: Almanca
+  - key: options.locale.cs-CZ
+    t: Çek dili
+  - key: options.locale.pt-PT
+    t: Portekizce
+  - key: options.locale.it-IT
+    t: İtalyanca
+  - key: options.locale.sv-SE
+    t: İsveççe
+  - key: options.locale.tr-TR
+    t: Türkçe
+  - key: options.locale.id-ID
+    t: Endonezya dili
+  - key: options.locale.hi-IN
+    t: Hintçe
+  - key: options.locale.pl-PL
+    t: Lehçe
+  - key: options.locale.nl-NL
+    t: Flemenkçe
 
-    # general
-    - key: tools.links 
-      t: Bağlantılar
-    - key: tools.github_link 
-      t: GitHub
-    - key: tools.github_stars 
-      t: yıldız
-    - key: tools.homepage_link 
-      t: Anasayfa
-    - key: tools.npm_link 
-      t: NPM
+  ###########################################################################
+  # Features
+  ###########################################################################
 
-    ###########################################################################
-    # Blocks
-    ###########################################################################
+  - key: features.learn_more
+    t: Daha fazla bilgi edin (MDN)
+  - key: features.mdn_link
+    t: MDN
+  - key: features.caniuse_link
+    t: CanIUse
+  - key: features.specification_link
+    t: W3C Tanımlaması
 
-    # heatmaps
-    - key: blocks.tools_company_size_heatmap
-      t: Şirket Büyüklüğüne Göre Kullanım
-    - key: blocks.tools_company_size_heatmap.description
-      t: |
-        Her teknoloji için, farklı şirket büyüklüğü aralıklarını seçen 
-        katılımcılar arasında kullanımın nasıl yayıldığı.
+  ###########################################################################
+  # Tools & Methodologies
+  ###########################################################################
 
-    - key: blocks.tools_yearly_salary_heatmap
-      t: Maaş Aralığına Göre Kullanım
-    - key: blocks.tools_yearly_salary_heatmap.description
-      t: |
-        Her teknoloji için, farklı maaş aralıklarını seçen katılımcılar 
-        arasında kullanımın nasıl yayıldığı.
+  # general
+  - key: tools.links
+    t: Bağlantılar
+  - key: tools.github_link
+    t: GitHub
+  - key: tools.github_stars
+    t: yıldız
+  - key: tools.homepage_link
+    t: Anasayfa
+  - key: tools.npm_link
+    t: NPM
 
-    - key: blocks.tools_years_of_experience_heatmap
-      t: Yıllık Deneyime Göre Kullanım
-    - key: blocks.tools_years_of_experience_heatmap.description
-      t: |
-        Her teknoloji için, farklı deneyim aralıklarını seçen katılımcılar arasında kullanımın nasıl yayıldığı. 
-        Buradaki söz konusu deneyimin, belirli bir teknolojiyle ilgili deneyim değil, genel deneyim olduğunu unutmayın.
+  ###########################################################################
+  # Blocks
+  ###########################################################################
 
-    # tool
-    - key: blocks.entity.homepage_link
-      t: Anasayfa
-    - key: blocks.entity.github_link
-      t: GitHub
+  # heatmaps
+  - key: blocks.tools_company_size_heatmap
+    t: Şirket Büyüklüğüne Göre Kullanım
+  - key: blocks.tools_company_size_heatmap.description
+    t: |
+      Her teknoloji için, farklı şirket büyüklüğü aralıklarını seçen 
+      katılımcılar arasında kullanımın nasıl yayıldığı.
 
-    # tools quadrant
-    - key: blocks.tools_quadrant
-      t: Memnuniyet ve Kullanım Analizi
-    - key: blocks.tools_quadrant.description
-      t: |
-        Bu grafik, her bir teknolojinin **toplam kullanıcı sayısı** üzerindeki **memnuniyet oranını** gösterir. 
-        Dört bölüme ayrılabilir:
+  - key: blocks.tools_yearly_salary_heatmap
+    t: Maaş Aralığına Göre Kullanım
+  - key: blocks.tools_yearly_salary_heatmap.description
+    t: |
+      Her teknoloji için, farklı maaş aralıklarını seçen katılımcılar 
+      arasında kullanımın nasıl yayıldığı.
 
-          - **DEĞER BİÇ**: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
+  - key: blocks.tools_years_of_experience_heatmap
+    t: Yıllık Deneyime Göre Kullanım
+  - key: blocks.tools_years_of_experience_heatmap.description
+    t: |
+      Her teknoloji için, farklı deneyim aralıklarını seçen katılımcılar arasında kullanımın nasıl yayıldığı. 
+      Buradaki söz konusu deneyimin, belirli bir teknolojiyle ilgili deneyim değil, genel deneyim olduğunu unutmayın.
 
-          - **BENİMSE**: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
+  # tool
+  - key: blocks.entity.homepage_link
+    t: Anasayfa
+  - key: blocks.entity.github_link
+    t: GitHub
 
-          - **KAÇIN**: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
+  # tools quadrant
+  - key: blocks.tools_quadrant
+    t: Memnuniyet ve Kullanım Analizi
+  - key: blocks.tools_quadrant.description
+    t: |
+      Bu grafik, her bir teknolojinin **toplam kullanıcı sayısı** üzerindeki **memnuniyet oranını** gösterir. 
+      Dört bölüme ayrılabilir:
 
-          - **DEĞERLENDİR**: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
+        - **DEĞER BİÇ**: Düşük kullanım, Yüksek memnuniyet. Göz atmaya değer teknolojiler.
 
-    - key: blocks.tools_quadrant.interest.description
-      t: |
-        This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
-        Bu grafik, her bir teknolojinin toplam **kullanıcı sayısı** üzerinden **ilgi oranını** gösterir (Bir teknolojinin farkında olan ancak henüz kullanmayan katılımcılar tarafından tanımlandığı şekliyle).
+        - **BENİMSE**: Yüksek kullanım, yüksek memnuniyet. Benimsenecek güvenli teknolojiler.
 
-        (Düşük kullanıcı sayılarının bilinmeyen bir teknolojiden ya da tam tersi birçok katılımcının zaten kullandığı bir teknolojiden kaynaklanıyor olabileceğini unutmayın.)
+        - **KAÇIN**: Düşük kullanım, düşük memnuniyet. Muhtemelen şu an için bu teknolojilerden kaçınılması en iyisi.
 
-    # category other tools
-    - key: blocks.category_other_tools
-      t: Diğer Araçlar
-    - key: blocks.category_other_tools.description
-      t: Bu kategorideki diğer araçlar (serbes yanıt alanları).
+        - **DEĞERLENDİR**: Yüksek kullanım, düşük memnuniyet. Şu anda kullanıyorsanız bu teknolojileri yeniden değerlendirin.
 
-    # tool experience
-    - key: blocks.tool_experience
-      t: '{name} Deneyimi'
-    - key: blocks.tool_experience.description
-      t: Yanıtlayanların {name} ile olan deneyimi.
+  - key: blocks.tools_quadrant.interest.description
+    t: |
+      This chart shows each technology’s **interest ratio** over its total **user count** (as defined by respondents who are aware of a technology but *haven't* used it yet).
+      Bu grafik, her bir teknolojinin toplam **kullanıcı sayısı** üzerinden **ilgi oranını** gösterir (Bir teknolojinin farkında olan ancak henüz kullanmayan katılımcılar tarafından tanımlandığı şekliyle).
 
-    # tools section streams
-    - key: blocks.tools_section_streams
-      t: Zamana Göre Değişen Deneyim
-    - key: blocks.tools_section_streams.description
-      t: |
-        Zaman içinde aketteki teknolojiler hakkındaki görüşlerin değişimine genel bir bakış.
+      (Düşük kullanıcı sayılarının bilinmeyen bir teknolojiden ya da tam tersi birçok katılımcının zaten kullandığı bir teknolojiden kaynaklanıyor olabileceğini unutmayın.)
 
-    # tools section overview
-    - key: blocks.tools_section_overview
-      t: Kategoriye Genel Bakış
-    - key: blocks.tools_section_overview.description
-      t: |
-        İncelenen teknolojiler hakkındaki görüşlere genel bakış. Daha koyu bölümler olumlu görüşleri temsil ederken, 
-        daha açık bölümler olumsuz düşünceleri temsil eder.
+  # category other tools
+  - key: blocks.category_other_tools
+    t: Diğer Araçlar
+  - key: blocks.category_other_tools.description
+    t: Bu kategorideki diğer araçlar (serbes yanıt alanları).
 
-    # tools experience ranking
-    - key: blocks.tools_experience_ranking
-      t: Sıralamalar
-    - key: blocks.tools_experience_ranking.description
-      t: Farkındalık, ilgi ve memnuniyet oranı sıralaması.
+  # tool experience
+  - key: blocks.tool_experience
+    t: "{name} Deneyimi"
+  - key: blocks.tool_experience.description
+    t: Yanıtlayanların {name} ile olan deneyimi.
 
-    # happiness
-    - key: blocks.happiness
-      t: Genel Memnuniyet
-    - key: blocks.happiness.description
-      t: |
-        Bir (hiç memnun değil) ile beş (çok memnun) arasında bir ölçekte, 
-        geliştiriciler bu kategorinin mevcut genel durumundan ne kadar memnun?
+  # tools section streams
+  - key: blocks.tools_section_streams
+    t: Zamana Göre Değişen Deneyim
+  - key: blocks.tools_section_streams.description
+    t: |
+      Zaman içinde aketteki teknolojiler hakkındaki görüşlerin değişimine genel bir bakış.
 
-    # newsletter
-    - key: blocks.newsletter.title
-      t: Bizi izlemeye devam edin
-    - key: blocks.newsletter.description
-      t: |
-        Ek sonuçları ne zaman yayınlayacağımızı veya gelecek yılki anketi ne zaman duyuracağımızı öğrenmek isterseniz, 
-        e-postanızı bizim için aşağıya bırakın:
-    - key: blocks.newsletter.email
-      t: E-posta Adresiniz
-    - key: blocks.newsletter.submit
-      t: Beni haberdar et
+  # tools section overview
+  - key: blocks.tools_section_overview
+    t: Kategoriye Genel Bakış
+  - key: blocks.tools_section_overview.description
+    t: |
+      İncelenen teknolojiler hakkındaki görüşlere genel bakış. Daha koyu bölümler olumlu görüşleri temsil ederken, 
+      daha açık bölümler olumsuz düşünceleri temsil eder.
 
-    # features_overview
-    - key: blocks.features_overview
-      t: Kullanıma Genel Bakış
-    - key: blocks.features_overview.description
-      t: |
-        Bu grafik, kategoriye göre gruplandırılmış olarak tüm özellikler için çeşitli benimseme oranlarını göstermektedir.  
+  # tools experience ranking
+  - key: blocks.tools_experience_ranking
+    t: Sıralamalar
+  - key: blocks.tools_experience_ranking.description
+    t: Farkındalık, ilgi ve memnuniyet oranı sıralaması.
 
-        <span class="text-teal-darker text-bold">Dış çemberin</span> boyutu, 
-        bir özelliği bilen toplam kullanıcı sayısına karşılık gelirken, 
-        <span class="text-teal text-bold">iç çember</span> onu gerçekten kullananları temsil eder.
+  # happiness
+  - key: blocks.happiness
+    t: Genel Memnuniyet
+  - key: blocks.happiness.description
+    t: |
+      Bir (hiç memnun değil) ile beş (çok memnun) arasında bir ölçekte, 
+      geliştiriciler bu kategorinin mevcut genel durumundan ne kadar memnun?
 
-        Ankete katılanların toplam sayısını temsil eden bir <span class="text-blackpink text-bold">katmanın</span> yanı sıra 
-        ayrıntılı verileri görüntülemek için fareyle her bir düğümün üzerine gelin.
+  # newsletter
+  - key: blocks.newsletter.title
+    t: Bizi izlemeye devam edin
+  - key: blocks.newsletter.description
+    t: |
+      Ek sonuçları ne zaman yayınlayacağımızı veya gelecek yılki anketi ne zaman duyuracağımızı öğrenmek isterseniz, 
+      e-postanızı bizim için aşağıya bırakın:
+  - key: blocks.newsletter.email
+    t: E-posta Adresiniz
+  - key: blocks.newsletter.submit
+    t: Beni haberdar et
+
+  # features_overview
+  - key: blocks.features_overview
+    t: Kullanıma Genel Bakış
+  - key: blocks.features_overview.description
+    t: |
+      Bu grafik, kategoriye göre gruplandırılmış olarak tüm özellikler için çeşitli benimseme oranlarını göstermektedir.  
+
+      <span class="text-teal-darker text-bold">Dış çemberin</span> boyutu, 
+      bir özelliği bilen toplam kullanıcı sayısına karşılık gelirken, 
+      <span class="text-teal text-bold">iç çember</span> onu gerçekten kullananları temsil eder.
+
+      Ankete katılanların toplam sayısını temsil eden bir <span class="text-blackpink text-bold">katmanın</span> yanı sıra 
+      ayrıntılı verileri görüntülemek için fareyle her bir düğümün üzerine gelin.
 
   # export
-    - key: export.export
-      t: Dışa Aktar
-    - key: export.title
-      t: '{title} için verileri dışa aktar'
-    - key: export.nocsv
-      t: Maalesef bu veri kümesi için CSV dışa aktarımı yapılamaz.
-    - key: export.graphql
-      t: >
-          Bu sorguyu <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/"> açık GraphQL API </a> ’mize kopyalayıp yapıştırabilirsiniz.
+  - key: export.export
+    t: Dışa Aktar
+  - key: export.title
+    t: "{title} için verileri dışa aktar"
+  - key: export.nocsv
+    t: Maalesef bu veri kümesi için CSV dışa aktarımı yapılamaz.
+  - key: export.graphql
+    t: >
+      Bu sorguyu <a target="_blank" rel="nofollow" href="https://graphiql.devographics.com/"> açık GraphQL API </a> ’mize kopyalayıp yapıştırabilirsiniz.
 
-    ###########################################################################
-    # Charts
-    ###########################################################################
+  ###########################################################################
+  # Charts
+  ###########################################################################
 
-    - key: chart_units.percentage
-      t: Yüzde
-    - key: chart_units.count
-      t: Miktar
+  - key: chart_units.percentage
+    t: Yüzde
+  - key: chart_units.count
+    t: Miktar
 
-    - key: charts.axis_legends.years_of_experience
-      t: Yıllık Deneyim
-    - key: charts.axis_legends.yearly_salary
-      t: Maaş Aralığı (USD)
-    - key: charts.axis_legends.company_size
-      t: Çalışan Sayısı
-    - key: charts.axis_legends.backend_proficiency
-      t: Arkayüz (Back-end) Yeterliliği
-    - key: charts.axis_legends.css_proficiency
-      t: CSS Yeterliliği
-    - key: charts.axis_legends.javascript_proficiency
-      t: JavaScript Yeterliliği
-    - key: charts.axis_legends.users_percentage
-      t: Kullanıcı Yüzdesi
-    - key: charts.axis_legends.users_count
-      t: Kullanıcı Sayısı
-    - key: charts.axis_legends.interest_percentage
-      t: İlgi Yüzdesi
-    - key: charts.axis_legends.satisfaction_percentage
-      t: Memnuniyet Yüzdesi
-    - key: charts.axis_legends.happiness
-      t: Memnuniyet
-    - key: charts.axis_legends.knowledge_score
-      t: Haberdar Olunan Özellikler
-    - key: charts.axis_legends.frequency
-      t: Sıklık
+  - key: charts.axis_legends.years_of_experience
+    t: Yıllık Deneyim
+  - key: charts.axis_legends.yearly_salary
+    t: Maaş Aralığı (USD)
+  - key: charts.axis_legends.company_size
+    t: Çalışan Sayısı
+  - key: charts.axis_legends.backend_proficiency
+    t: Arkayüz (Back-end) Yeterliliği
+  - key: charts.axis_legends.css_proficiency
+    t: CSS Yeterliliği
+  - key: charts.axis_legends.javascript_proficiency
+    t: JavaScript Yeterliliği
+  - key: charts.axis_legends.users_percentage
+    t: Kullanıcı Yüzdesi
+  - key: charts.axis_legends.users_count
+    t: Kullanıcı Sayısı
+  - key: charts.axis_legends.interest_percentage
+    t: İlgi Yüzdesi
+  - key: charts.axis_legends.satisfaction_percentage
+    t: Memnuniyet Yüzdesi
+  - key: charts.axis_legends.happiness
+    t: Memnuniyet
+  - key: charts.axis_legends.knowledge_score
+    t: Haberdar Olunan Özellikler
+  - key: charts.axis_legends.frequency
+    t: Sıklık
 
-    ###########################################################################
-    # Sharing
-    ###########################################################################
+  ###########################################################################
+  # Sharing
+  ###########################################################################
 
-    - key: share.share
-      t: Paylaş
-    - key: share.site.title
-      t: '{siteTitle} sonuçlarını keşfedin'
-    - key: share.site.twitter_text
-      t: '{siteTitle} sonuçlarını keşfedin {link} {hashtag}'
-    - key: share.site.subject
-      t: '{siteTitle} Anket Sonuçları'
-    - key: share.site.body
-      t: 'İşte bazı ilginç anket sonuçları: {link}'
-    - key: share.block.twitter_text
-      t: '{hashtag} {year}: {title} {link}'
-    - key: share.block.subject
-      t: '{siteTitle} Anket Sonuçları'
-    - key: share.block.body
-      t: 'İşte bazı ilginç anket sonuçları ({title}): {link}'
-    - key: share.twitter
-      t: Twitter'da paylaş
-    - key: share.facebook
-      t: Facebook'ta Paylaş
-    - key: share.linkedin
-      t: LinkedIn'de paylaş
-    - key: share.email
-      t: E-posta ile paylaş
-    - key: share.image
-      t: Fotoğraf Al
+  - key: share.share
+    t: Paylaş
+  - key: share.site.title
+    t: "{siteTitle} sonuçlarını keşfedin"
+  - key: share.site.twitter_text
+    t: "{siteTitle} sonuçlarını keşfedin {link}"
+  - key: share.site.subject
+    t: "{siteTitle} Anket Sonuçları"
+  - key: share.site.body
+    t: "İşte bazı ilginç anket sonuçları: {link}"
+  - key: share.block.twitter_text
+    t: "{hashtag} {year}: {title} {link}"
+  - key: share.block.subject
+    t: "{siteTitle} Anket Sonuçları"
+  - key: share.block.body
+    t: "İşte bazı ilginç anket sonuçları ({title}): {link}"
+  - key: share.twitter
+    t: Twitter'da paylaş
+  - key: share.facebook
+    t: Facebook'ta Paylaş
+  - key: share.linkedin
+    t: LinkedIn'de paylaş
+  - key: share.email
+    t: E-posta ile paylaş
+  - key: share.image
+    t: Fotoğraf Al
 
-    ###########################################################################
-    # Awards
-    ###########################################################################
+  ###########################################################################
+  # Awards
+  ###########################################################################
 
-    - key: awards.runner_ups
-      t: Arkasından Gelenler
-      
-    - key: award.feature_adoption_award.title
-      t: En Çok Benimsenen Edilen Özellik
-    - key: award.feature_adoption_award.description
-      t: En çok benimsenen özelliğe verildi.
+  - key: awards.runner_ups
+    t: Arkasından Gelenler
 
-    - key: award.feature_adoption_delta_award.title
-      t: En Çok Benimsenen Edilen Özellik
-    - key: award.feature_adoption_delta_award.description
-      t: Yıldan yıla en büyük ilerlemeyi gösteren özelliğe verildi.
+  - key: award.feature_adoption_award.title
+    t: En Çok Benimsenen Edilen Özellik
+  - key: award.feature_adoption_award.description
+    t: En çok benimsenen özelliğe verildi.
 
-    - key: award.tool_usage_award.title
-      t: En Çok Kullanılan Teknoloji
-    - key: award.tool_usage_award.description
-      t: En geniş kullanıcı tabanına sahip teknolojiye verildi.
+  - key: award.feature_adoption_delta_award.title
+    t: En Çok Benimsenen Edilen Özellik
+  - key: award.feature_adoption_delta_award.description
+    t: Yıldan yıla en büyük ilerlemeyi gösteren özelliğe verildi.
 
-    - key: award.tool_usage_delta_award.title
-      t: En Çok Kullanılan Teknoloji
-    - key: award.tool_usage_delta_award.description
-      t: Yıldan yıla en büyük ilerlemeyi gösteren teknolojiye verildi.
+  - key: award.tool_usage_award.title
+    t: En Çok Kullanılan Teknoloji
+  - key: award.tool_usage_award.description
+    t: En geniş kullanıcı tabanına sahip teknolojiye verildi.
 
-    - key: award.tool_satisfaction_award.title
-      t: En Yüksek Memnuniyet
-    - key: award.tool_satisfaction_award.description
-      t: En yüksek memnun kullanıcı yüzdesine sahip teknolojiye verildi.
+  - key: award.tool_usage_delta_award.title
+    t: En Çok Kullanılan Teknoloji
+  - key: award.tool_usage_delta_award.description
+    t: Yıldan yıla en büyük ilerlemeyi gösteren teknolojiye verildi.
 
-    - key: award.tool_interest_award.title
-      t: En Yüksek İlgi
-    - key: award.tool_interest_award.description
-      t: Geliştiricilerin öğrenmeye en çok ilgi duyduğu teknolojiye verildi.
+  - key: award.tool_satisfaction_award.title
+    t: En Yüksek Memnuniyet
+  - key: award.tool_satisfaction_award.description
+    t: En yüksek memnun kullanıcı yüzdesine sahip teknolojiye verildi.
 
-    - key: award.resource_usage_award.title
-      t: En Çok Kullanılan Kaynak
-    - key: award.resource_usage_award.description
-      t: En geniş kullanıcı tabanına sahip kaynağa verildi.
+  - key: award.tool_interest_award.title
+    t: En Yüksek İlgi
+  - key: award.tool_interest_award.description
+    t: Geliştiricilerin öğrenmeye en çok ilgi duyduğu teknolojiye verildi.
 
-    - key: award.prediction_award.title
-      t: Öngörü Ödülü
-    - key: award.prediction_award.description
-      t: Gelecekte en çok parlayacak -veya belkide parlamayacak- olan teknolojiye verildi.
+  - key: award.resource_usage_award.title
+    t: En Çok Kullanılan Kaynak
+  - key: award.resource_usage_award.description
+    t: En geniş kullanıcı tabanına sahip kaynağa verildi.
 
-    - key: award.most_write_ins_award.title
-      t: En Çok Yazılı Yanıt
-    - key: award.most_write_ins_award.descriptiona
-      t: En çok yazılı yanıta sahip öğeye verildi.
+  - key: award.prediction_award.title
+    t: Öngörü Ödülü
+  - key: award.prediction_award.description
+    t: Gelecekte en çok parlayacak -veya belkide parlamayacak- olan teknolojiye verildi.
+
+  - key: award.most_write_ins_award.title
+    t: En Çok Yazılı Yanıt
+  - key: award.most_write_ins_award.descriptiona
+    t: En çok yazılı yanıta sahip öğeye verildi.
