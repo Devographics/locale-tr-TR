@@ -54,6 +54,10 @@ translations:
     t: Kaydol
   - key: accounts.sign_in
     t: Oturum Aç
+  - key: accounts.switch_to_sign_up
+    t: Hesabınız yok mu? Kaydolun
+  - key: accounts.switch_to_sign_in
+    t: Zaten bir hesabınız mı var? Oturum açın
   - key: accounts.sign_out
     t: Oturumu Kapat
   - key: accounts.cancel
