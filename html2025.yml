@@ -74,11 +74,12 @@ translations:
 
       `<select/>` öğesinin stilini belirlemek her zaman zor olmuştur, bu nedenle JavaScript tabanlı hilelere başvurmadan ihtiyaçlarınıza göre özelleştirebilmek çok hoş bir gelişme!
 
-- key: highlight.jpeg_xl.html2025
+  - key: highlight.jpeg_xl.html2025
     t: |
       “JIF/GIF” telaffuz fiyaskosunun ve kafa karıştırıcı adı “PNG” (‘pi-en-ci‘? ‘ping’?) olayının ardından, görüntü formatlarının isimlendirmesinden sorumlu kişi bu sefer işleri basit tutmaya karar verdi: zaten popüler olan JPEG'e “XL” ekleyerek daha havalı hale getirdi.
 
       Ancak daha büyük değil, çünkü adlarının aksine JPEG XL görüntüleri aslında sıkıcı eski JPEG'lerden *daha küçüktür* ve bir şekilde geriye dönük uyumludur. Bunun nasıl çalıştığını bana sormayın.
+
 
   - key: highlight.hidden_until_found.html2025
     t: |
