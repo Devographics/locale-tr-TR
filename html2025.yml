@@ -74,9 +74,9 @@ translations:
 
       `<select/>` öğesinin stilini belirlemek her zaman zor olmuştur, bu nedenle JavaScript tabanlı hilelere başvurmadan ihtiyaçlarınıza göre özelleştirebilmek çok hoş bir gelişme!
 
-  - key: highlight.jpeg_xl.html2025
+- key: highlight.jpeg_xl.html2025
     t: |
-      “JIF/GIF” telaffuz fiyaskosunun ve kafa karıştırıcı adı “PNG” (“pi-en-ci”? ‘ping’?) olayının ardından, görüntü formatlarının isimlendirmesinden sorumlu kişi bu sefer işleri basit tutmaya karar verdi: zaten popüler olan JPEG'e “XL” ekleyerek daha havalı hale getirdi.
+      “JIF/GIF” telaffuz fiyaskosunun ve kafa karıştırıcı adı “PNG” (‘pi-en-ci‘? ‘ping’?) olayının ardından, görüntü formatlarının isimlendirmesinden sorumlu kişi bu sefer işleri basit tutmaya karar verdi: zaten popüler olan JPEG'e “XL” ekleyerek daha havalı hale getirdi.
 
       Ancak daha büyük değil, çünkü adlarının aksine JPEG XL görüntüleri aslında sıkıcı eski JPEG'lerden *daha küçüktür* ve bir şekilde geriye dönük uyumludur. Bunun nasıl çalıştığını bana sormayın.
 
@@ -89,7 +89,6 @@ translations:
   - key: highlight.popover_api.html2025
     t: |
       **Popover API**, bu yıl itibarıyla “Yeni Kullanıma Sunuldu”, yani artık dört büyük tarayıcının hepsinde de destekleniyor. Bu da, JavaScript kodundan kurtulmanıza ve onu güzel bir bildirimsel API ile değiştirmenize nasıl yardımcı olabileceğini öğrenmek için mükemmel bir zaman olduğunu gösteriyor!
-
   - key: highlight.blocking_render.html2025
     t: |
       Web sitelerinin nasıl yüklendiğini kontrol etmekle ilgilenenler, `blocking="render"` özelliğini öğrenince mutlu olacaklardır. Adından da anlaşılacağı gibi, bu özellik `<link>`, `<script>` veya `<style>` etiketlerinin tamamen yüklenene kadar sayfanın görüntülenmesini engellemesini sağlar.
