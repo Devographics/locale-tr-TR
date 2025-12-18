@@ -11,13 +11,13 @@ translations:
     t: |
       2023 yılında, State of JS ve State of CSS anketleri birkaç yıldır devam ettikten sonra, bir şeyin eksik olduğunu fark ettik: tüm bunları bir araya getiren teknoloji ne olacak?
 
-      Sonuçta, HTML artık etiketler ve özniteliklerin ötesine geçerek dinamik güncellemeler, zengin gömülü öğeler, performans ipuçları, şablonlar ve bileşenler için API'leri ve daha fazlasını kapsıyor. 
+      Sonuçta, HTML artık etiketler ve özniteliklerin ötesine geçerek dinamik güncellemeler, zengin gömülü öğeler, performans ipuçları, şablonlar ve bileşenler için API'leri ve daha fazlasını kapsıyor.
 
-      Web süperstarı [Lea Verou](https://lea.verou.me/) tarafından yürütülen ilk HTML Durumu, 21.000 katılımcıyla yeni bir anket için tüm önceki rekorları kırdı ve gelecekteki tüm anketleri iyileştiren yeni UI paradigmaları tanıttı. 
+      Web süperstarı [Lea Verou](https://lea.verou.me/) tarafından yürütülen ilk HTML Durumu, 21.000 katılımcıyla yeni bir anket için tüm önceki rekorları kırdı ve gelecekteki tüm anketleri iyileştiren yeni UI paradigmaları tanıttı.
 
       Bu yıl, Lea'nın yeniden liderliğinde ✨35 yeni özellik✨ ekledik ve iki yeni bölüm tanıttık: **Grafikler ve Multimedya** ve **Performans**.
 
-      Dahası, önceki sürümlerde olduğu gibi, bu yılın sonuçları da tarayıcı satıcıları tarafından yol haritalarını belirlerken dikkate alınacak, bu nedenle katılım, web'in geleceğini şekillendirmeye yardımcı olabilir! 
+      Dahası, önceki sürümlerde olduğu gibi, bu yılın sonuçları da tarayıcı satıcıları tarafından yol haritalarını belirlerken dikkate alınacak, bu nedenle katılım, web'in geleceğini şekillendirmeye yardımcı olabilir!
 
       Hazır mısınız? Yerlerinize, hazır, başla!
 
@@ -26,13 +26,13 @@ translations:
 
   - key: introduction.html2025
     t: |
-      Web platformunun son birkaç yılda ne kadar gelişmiş olduğunu görmek istiyorsanız, bu ankette yer alan kategori listesine bakmanız yeterli. 
+      Web platformunun son birkaç yılda ne kadar gelişmiş olduğunu görmek istiyorsanız, bu ankette yer alan kategori listesine bakmanız yeterli.
 
       Formlar, grafikler, performans özellikleri, çeşitli sistem ve cihaz API'leriyle etkileşim yöntemleri, erişilebilirlik... Bunların hepsini takip edebilenlerin olması gerçekten şaşırtıcı!
 
-      Neyse ki en azından bir kişi bunu başardı: [Lea Verou](https://lea.verou.me/), 2023'te anketin orijinal versiyonunu tasarladıktan sonra, bu yıl da bize katılarak anketi güncelledi. 
+      Neyse ki en azından bir kişi bunu başardı: [Lea Verou](https://lea.verou.me/), 2023'te anketin orijinal versiyonunu tasarladıktan sonra, bu yıl da bize katılarak anketi güncelledi.
 
-      Ve birlikte, bu yıl odaklandığımız alanlardan biri, çeşitli sorunlu alanlarla ilgili toplanan çok sayıda serbest biçimli yanıtı analiz etmekti. 
+      Ve birlikte, bu yıl odaklandığımız alanlardan biri, çeşitli sorunlu alanlarla ilgili toplanan çok sayıda serbest biçimli yanıtı analiz etmekti.
 
       Artık kategorize edilmiş verileri daha derinlemesine inceleyebilir ve yanıt verenlerin orijinal yanıtlarına erişebilir (ve bunları arayabilirsiniz).
 
@@ -70,7 +70,7 @@ translations:
 
   - key: highlight.customizable_select.html2025
     t: |
-      **Customizable Select** şu anda yaygın olarak desteklenmiyor olabilir, ancak yine de bilinmesi gereken bir özelliktir. Ankete katılanların yalnızca **%7,1'i** tarafından kullanılmasına rağmen, bu özelliği *kullanmış* olan geliştiricilerin **%89'u** olumlu bir deneyim yaşadığını bildirmiştir. 
+      **Customizable Select** şu anda yaygın olarak desteklenmiyor olabilir, ancak yine de bilinmesi gereken bir özelliktir. Ankete katılanların yalnızca **%7,1'i** tarafından kullanılmasına rağmen, bu özelliği *kullanmış* olan geliştiricilerin **%89'u** olumlu bir deneyim yaşadığını bildirmiştir.
 
       `<select/>` öğesinin stilini belirlemek her zaman zor olmuştur, bu nedenle JavaScript tabanlı hilelere başvurmadan ihtiyaçlarınıza göre özelleştirebilmek çok hoş bir gelişme!
 
@@ -104,7 +104,7 @@ translations:
 
   - key: highlight.payment_request_api.html2025
     t: |
-      “En sevdiğim havuçlu kek tarifi mi? Tabii, size söyleyeyim! Ama önce, yeni bir yatak ister misiniz? Ya da belki yeni bir ayakkabı?”. 
+      “En sevdiğim havuçlu kek tarifi mi? Tabii, size söyleyeyim! Ama önce, yeni bir yatak ister misiniz? Ya da belki yeni bir ayakkabı?”.
 
       Reklamlar, özellikle de yeni bir hamur işi pişirmeye çalışırken web’in kaçınılmaz bir parçası gibi görünebilir. Ancak PaymentRequest API, tarayıcı entegreli mikro ödemeleri gerçeğe dönüştürme yolundaki ilk adım olabilir. Ve sırf bu gerçek bile, onu yakından takip etmeye değer kılıyor.
 
@@ -121,7 +121,7 @@ translations:
 
   - key: forms.forms_features.takeaway.html2025
     t: |
-      Şaşırtıcı bir şekilde, `<input type="color"/>` bu yıl en çok kullanılan form ile ilgili özellik oldu ve ankete katılanların **%41,8'i** bunu kullandığını bildirdi. 
+      Şaşırtıcı bir şekilde, `<input type="color"/>` bu yıl en çok kullanılan form ile ilgili özellik oldu ve ankete katılanların **%41,8'i** bunu kullandığını bildirdi.
 
       Ancak olumlu duygulara bakıldığında, otomatik tamamlama (`<datalist>`) ve açılır menüler (Özelleştirilebilir Seçim) gibi temel UI yapı taşları sıralamanın en üstünde yer alıyor ve bu da geliştiricilerin özelleştirilebilir ve ihtiyaçlarına göre uyarlanabilen özelliklere değer verdiklerini gösteriyor.
 
@@ -141,7 +141,7 @@ translations:
 
   - key: content.content_features.takeaway.html2025
     t: |
-      En çok beğenilen ve en çok beğenilmeyen özelliklerin her ikisi de güvenlikle ilgiliydi: **Sanitizer API** en olumlu görüşleri alırken, **Content-Security Policy** en çok şikayet edilenler listesinin başında yer aldı. 
+      En çok beğenilen ve en çok beğenilmeyen özelliklerin her ikisi de güvenlikle ilgiliydi: **Sanitizer API** en olumlu görüşleri alırken, **Content-Security Policy** en çok şikayet edilenler listesinin başında yer aldı.
 
       Bu zıtlık, sürtünmeyi azaltan ve mevcut iş akışlarıyla sorunsuz bir şekilde entegre olan güvenlik mekanizmalarının ne kadar memnuniyetle karşılandığını, buna karşılık katı politikalar uygulayan, titiz bir yapılandırma gerektiren veya önceden çalışan kodları bozan mekanizmaların ise ne kadar tepki çektiğini ortaya koymaktadır.
 
@@ -156,7 +156,7 @@ translations:
   - key: interactivity.interactivity_pain_points.takeaway.html2025
     t: |
      Burada bahsedilen tarayıcı desteği sorunlarının büyük bir kısmı açık bir mesaj veriyor: “Bize sunduğunuz tüm bu yeni özellikleri çok seviyoruz – şimdi bunları her yerde çalışır hale getirin ki biz de gerçekten kullanabilelim!”.
-     
+
   - key: performance.performance_features.takeaway.html2025
     t: |
       Açık ve net: `srcset` ve `sizes` geliştirici deneyimini iyileştirilebilir! Her iki uç da bunun etrafında toplanıyor: `srcset`/`sizes` en çok şikayet edilen özellikler listesinin başında yer alırken, `sizes="auto` en çok beğenilen özellik oluyor, çünkü bu sorunu bir ölçüde hafifletiyor.
@@ -224,7 +224,7 @@ translations:
 
   - key: usage.html_missing_elements.takeaway.html2025
     t: |
-      Bu yıl da **datatable** en çok talep edilen yeni öğe oldu. Yerleşik filtreleme, sıralama, arama vb. özelliklerin olması kesinlikle güzel olurdu, ancak bu özelliklerin yakın zamanda hayata geçeceği pek olası görünmüyor. 
+      Bu yıl da **datatable** en çok talep edilen yeni öğe oldu. Yerleşik filtreleme, sıralama, arama vb. özelliklerin olması kesinlikle güzel olurdu, ancak bu özelliklerin yakın zamanda hayata geçeceği pek olası görünmüyor.
 
       Öte yandan, yerel **switch** öğesi gibi diğer uzun zamandır beklenen özelliklerde ilerleme kaydediliyor, bu da sıralamadaki düşüşünü açıklıyor.
 
@@ -250,7 +250,7 @@ translations:
 
   - key: usage.html_pain_points_freeform.takeaway.html2025
     t: |
-      Web platformunun sorunlu noktalarını daha genel olarak ele aldığımızda, tarayıcı desteği öne çıkıyor – özellikle Apple ekosistemi söz konusu olduğunda. 
+      Web platformunun sorunlu noktalarını daha genel olarak ele aldığımızda, tarayıcı desteği öne çıkıyor – özellikle Apple ekosistemi söz konusu olduğunda.
 
       Sonuç olarak, [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) hashtag'i gibi topluluk girişimleri ivme kazanırken, sağlayıcılar cephesinde [Interop](https://web.dev/blog/interop-2025) her yıl doğru yönde adımlar atmaktadır.
 
@@ -318,21 +318,21 @@ translations:
 
   - key: about.content.html2025
     t: |
-      2025 HTML Durumu anketi 19 Temmuz ile 1 Eylül 2025 tarihleri arasında gerçekleştirildi ve 6.223 yanıt toplandı. 
+      2025 HTML Durumu anketi 19 Temmuz ile 1 Eylül 2025 tarihleri arasında gerçekleştirildi ve 6.223 yanıt toplandı.
 
       Anket, öncelikle [Lea Verou](https://lea.verou.me/) tarafından tasarlanmış ve [açık bir GitHub başlığı](https://github.com/Devographics/surveys/issues/253) aracılığıyla işbirliği içinde gerçekleştirilmiştir.
 
-      Anket altyapısı, açık kaynak katkıcıları ve danışmanlardan oluşan bir ekibin yardımıyla [Sacha Greif](https://sachagreif.com/) tarafından yönetilmektedir. 
+      Anket altyapısı, açık kaynak katkıcıları ve danışmanlardan oluşan bir ekibin yardımıyla [Sacha Greif](https://sachagreif.com/) tarafından yönetilmektedir.
 
       Bu yılın logosu ve tişörtü [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) tarafından tasarlanmıştır.
 
       ### Anket Hedefleri
 
-      Bu anket, geliştiricilerin teknolojik seçimler yapmalarına yardımcı olmak amacıyla web geliştirme ekosistemindeki gelecek trendleri belirlemek için oluşturulmuştur. 
+      Bu anket, geliştiricilerin teknolojik seçimler yapmalarına yardımcı olmak amacıyla web geliştirme ekosistemindeki gelecek trendleri belirlemek için oluşturulmuştur.
 
-      Bu nedenle, anket şu anda popüler olanları analiz etmekten ziyade önümüzdeki birkaç yıl içinde neler olacağını öngörmeye odaklanmıştır. Bu nedenle, şu anda en yaygın olan özellikler veya teknolojiler her zaman dahil edilmemiştir. 
+      Bu nedenle, anket şu anda popüler olanları analiz etmekten ziyade önümüzdeki birkaç yıl içinde neler olacağını öngörmeye odaklanmıştır. Bu nedenle, şu anda en yaygın olan özellikler veya teknolojiler her zaman dahil edilmemiştir.
 
-      Ayrıca, bu anket **geliştiricilerin belirli bir alt kümesinin anlık görüntüsü** olarak değerlendirilmeli ve tüm ekosistemi temsil ettiği düşünülmemelidir. 
+      Ayrıca, bu anket **geliştiricilerin belirli bir alt kümesinin anlık görüntüsü** olarak değerlendirilmeli ve tüm ekosistemi temsil ettiği düşünülmemelidir.
 
       Anket çevrimiçi olarak herkese açık bir şekilde erişilebilirdi ve yanıt verenler hiçbir şekilde filtrelenmedi veya seçilmedi.
 
@@ -340,7 +340,7 @@ translations:
 
       Bu projenin finansmanı çeşitli kaynaklardan sağlanmaktadır:
 
-      - **T-shirt satışları**. 
+      - **T-shirt satışları**.
 
       - **Sponsorlu bağlantılar**: Her sayfanın alt kısmında bulunan önerilen kaynaklara yönlendiren bağlantılar, ortağımız [Frontend Masters](https://frontendmasters.com/) tarafından sağlanmaktadır.
 
