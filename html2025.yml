@@ -59,7 +59,7 @@ translations:
     t: “Yeni Kullanılabilir” Temel Durumuna sahip olanlar arasında en çok kullanılan özellik olan **lazy loading** özelliğini kullanmış olan yanıtlayıcıların oranı.
 
   - key: figure.figure_content_security_usage.html2025
-    t: **Content-Security Policy** için yıllık bazda en büyük kullanım artışı.
+    t: "**Content-Security Policy** için yıllık bazda en büyük kullanım artışı."
 
   - key: figure.figure_forms_features.html2025
     t: En çok yorum yapılan özellik olan **datalist** hakkında yapılan yorum sayısı.
