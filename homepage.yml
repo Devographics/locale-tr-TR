@@ -5,46 +5,134 @@ translations:
   ###########################################################################
 
   - key: homepage.hand_coded
-    t: Japonya'da özenle kodlandı.
+    t: Japonya'da elle kodlandı.
   - key: homepage.leave_issue
-    t: Bir sorun iletisi bırakın
+    t: Bir sorun bildir
   - key: homepage.get_in_touch
     t: İletişime geçin
 
-  - key: homepage.made_by
-    t: "The State of CSS, yaratan:"
-
   - key: homepage.previous_years
-    t: "Önceki Seneler:"
-  - key: homepage.intro
-    t: >
-      ## CSS her zamankinden daha hızlı gelişiyor.
-
-      Flexbox, Grid, Multi-Column… ve CSS-in-JS gibi tamamen yepyeni paradigmalar.
-
-      Senelik olarak gerçekleştirdiğimiz [State of JavaScript](https://stateofjs.com) 
-      anketinin başarısının ardından, stiller ve tasarım dünyasına da
-      adım atmaya ve giderek büyüyen "büyük önyüz (front-end) ayrımını" kapatmaya çalışmaya karar verdik!
+    t: "Önceki Yıllar:"
 
   - key: homepage.take_survey
-    t: Anketi Doldur
+    t: Ankete Katıl
 
   - key: homepage.view_results
-    t: 2019 Sonuçlarını Görüntüle
+    t: Sonuçları Görüntüle
+
+  - key: homepage.results_coming_soon
+    t: Sonuçlar Yakında...
 
   - key: share.help_spread
-    t: Anketin Yayılmasına Yardım Edin!
+    t: Yayılmasına Yardım Edin!
 
+  - key: homepage.other_surveys
+    t: "Diğer Anketler:"
+
+  - key: homepage.survey_open_now
+    t: Şu Anda Açık
+
+  - key: homepage.survey_preview
+    t: Anketi Önizle
+
+  - key: homepage.most_recent_survey
+    t: En Güncel
+
+  - key: homepage.current_survey
+    t: Mevcut Anket
+
+  - key: homepage.past_surveys
+    t: Geçmiş Anketler
+
+  - key: homepage.view_questions
+    t: Soruları Görüntüle
+
+  - key: homepage.preview_questions
+    t: Soruları Önizle
+
+  # newsletter
   - key: newsletter.stay_tuned
-    t: Takipte Kalın
+    t: Bir Sonraki Anketi Kaçırmayın
   - key: newsletter.leave_your_email
-    t: Bize e-postanızı bırakın, bir sonraki anketin ne zaman yapılacağını size bildirelim.
+    t: E-postanızı bırakın, bir sonraki anket gerçekleşeceği zaman size haber verelim.
+  - key: newsletter.email
+    t: E-posta Adresiniz
+  - key: newsletter.submit
+    t: Bana Bildir
+  - key: newsletter.thanks
+    t: Kaydolduğunuz için teşekkürler!
 
-  - key: author.sacha.bio
-    t: >
-      JavaScript veri görselleştirme kütüphanesi [Nivo](http://nivo.rocks/)'nun ve 
-      güzel gösterge panelleri olşuturabileceğiniz [Mozaik](http://mozaik.rocks/)'in yaratıcısı.
-  - key: author.raphael.bio
-    t: >
-      Günlük haber bülteni [Sidebar](http://sidebar.io)'ın ve
-      açık kaynak React+GraphQL çerçevesi [VulcanJS](http://vulcanjs.org)'nin yaratıcısı.
+  # languages
+  - key: languages.available_languages
+    t: "Mevcut diller:"
+  - key: languages.help_us_translate
+    t: Anketi kendi dilinize çevirmemize yardım edin →
+
+  # partners
+  - key: homepage.with_support_from
+    aliasFor: sponsors.with_support_from
+
+  # footer
+  - key: homepage.made_by_devographics
+    aliasFor: general.made_by_devographics
+  - key: homepage.netlify_link
+    aliasFor: general.netlify_link
+
+  - key: homepage.join_discord
+    aliasFor: general.join_discord
+  - key: homepage.astro_link
+    t: "Altyapı: [Astro](https://astro.build/)"
+
+  # creators
+  - key: creators.heading
+    t: Desteklediğimiz İçerik Üreticileri
+
+  - key: creators.description
+    t: |
+      Anketlerimiz ancak geliştirici topluluğunun süregelen desteği sayesinde mümkün olabiliyor ve elimizden geldiğince karşılığını vermek bizim için en doğrusu.
+
+      Bunlar, anketler hakkında farkındalık yaratmaları karşılığında finansal olarak desteklediğimiz harika içerik üreticilerinden ve organizasyonlardan bazıları.
+
+  - key: creators.stephanie_walter.description
+    t: |
+      Stéphanie Walter; Lüksemburg'da yaşayan, karmaşık konuları net ve anlaşılması kolay hale getirme konusunda yetenekli, başarılı bir UX Araştırmacısı, Tasarımcı ve Yazardır.
+
+  - key: creators.afor_digital.description
+    t: |
+      Afor, İspanyolca web geliştirme yayıncılığı (streaming) topluluğunda kilit bir isimdir ve programlama içeriğini ilgi çekici hale getirme yeteneği, ona hak ettiği başarıyı getirmiştir.
+
+  - key: creators.shruti_kapoor.description
+    t: |
+      Blog yazarlığı, YouTube videoları üretmek, konferanslarda konuşmak ve genel olarak harika bir insan olmak arasında Shruti, bir süredir React ekosisteminin değişmez parçalarından biri olmuştur.
+
+  - key: creators.codebar.description
+    t: |
+      Codebar, normalde binlerce dolara mal olacak atölye çalışmalarını bir araya getiren ve daha kapsayıcı bir geliştirici topluluğu oluşturmak amacıyla bunları çevrimiçi olarak ücretsiz sunan harika bir organizasyondur.
+
+  # calendar
+
+  - key: calendar.heading
+    t: |
+      {currentYear} Anketleri
+  - key: calendar.feedbackAt
+    t: Geri bildirim başlangıcı
+  - key: calendar.startedAt
+    t: Anket başlangıcı
+  - key: calendar.endedAt
+    t: Anket bitişi
+  - key: calendar.releasedAt
+    t: Sonuçların yayını
+  - key: calendar.past_editions
+    t: Geçmiş Anketler
+  - key: calendar.ongoing_editions
+    t: Devam Eden Anketler
+  - key: calendar.upcoming_editions
+    t: Gelecek Anketler
+  - key: calendar.no_editions
+    t: Anket yok.
+  - key: calendar.give_feedback
+    t: Soru önerin →
+  - key: calendar.take_survey
+    t: Ankete katıl →
+  - key: calendar.view_results
+    t: Sonuçları görüntüle →

@@ -1,0 +1,351 @@
+locale: tr-TR
+translations:
+  ###########################################################################
+  # General
+  ###########################################################################
+
+  - key: general.results.description
+    t: HTML ekosistemindeki en son trendler hakkında yıllık anketin 2025 sürümü.
+
+  - key: general.html2025.survey_intro
+    t: |
+      2023 yılında, State of JS ve State of CSS anketleri birkaç yıldır devam ettikten sonra, bir şeyin eksik olduğunu fark ettik: tüm bunları bir araya getiren teknoloji ne olacak?
+
+      Sonuçta, HTML artık etiketler ve özniteliklerin ötesine geçerek dinamik güncellemeler, zengin gömülü öğeler, performans ipuçları, şablonlar ve bileşenler için API'leri ve daha fazlasını kapsıyor.
+
+      Web süperstarı [Lea Verou](https://lea.verou.me/) tarafından yürütülen ilk HTML Durumu, 21.000 katılımcıyla yeni bir anket için tüm önceki rekorları kırdı ve gelecekteki tüm anketleri iyileştiren yeni UI paradigmaları tanıttı.
+
+      Bu yıl, Lea'nın yeniden liderliğinde ✨35 yeni özellik✨ ekledik ve iki yeni bölüm tanıttık: **Grafikler ve Multimedya** ve **Performans**.
+
+      Dahası, önceki sürümlerde olduğu gibi, bu yılın sonuçları da tarayıcı satıcıları tarafından yol haritalarını belirlerken dikkate alınacak, bu nedenle katılım, web'in geleceğini şekillendirmeye yardımcı olabilir!
+
+      Hazır mısınız? Yerlerinize, hazır, başla!
+
+  - key: features.features_intro_html2025
+    aliasFor: features.features_intro_html2024
+
+  - key: introduction.html2025
+    t: |
+      Web platformunun son birkaç yılda ne kadar gelişmiş olduğunu görmek istiyorsanız, bu ankette yer alan kategori listesine bakmanız yeterli.
+
+      Formlar, grafikler, performans özellikleri, çeşitli sistem ve cihaz API'leriyle etkileşim yöntemleri, erişilebilirlik... Bunların hepsini takip edebilenlerin olması gerçekten şaşırtıcı!
+
+      Neyse ki en azından bir kişi bunu başardı: [Lea Verou](https://lea.verou.me/), 2023'te anketin orijinal versiyonunu tasarladıktan sonra, bu yıl da bize katılarak anketi güncelledi.
+
+      Ve birlikte, bu yıl odaklandığımız alanlardan biri, çeşitli sorunlu alanlarla ilgili toplanan çok sayıda serbest biçimli yanıtı analiz etmekti.
+
+      Artık kategorize edilmiş verileri daha derinlemesine inceleyebilir ve yanıt verenlerin orijinal yanıtlarına erişebilir (ve bunları arayabilirsiniz).
+
+      En azından bu, hepimizin aynı sıkıntıları paylaştığımızı, ama aynı umutları da paylaştığımızı anlamamıza yardımcı olacaktır!
+
+      <span class="conclusion__byline">– Sacha Greif</span>
+
+  - key: faq.survey_design_html2025
+    t: Bu anket nasıl tasarlandı?
+  - key: faq.survey_design_html2025.description
+    t: >
+       Bu anket, tarayıcı üreticileri ve web geliştirme topluluğunun katıldığı [açık tasarım süreci](https://github.com/Devographics/surveys/issues/253) sonucunda tasarlanmıştır.
+
+  - key: faq.results_released_html2025
+    t: Sonuçlar ne zaman açıklanacak?
+  - key: faq.results_released_html2025.description
+    t: Anket, 15 Temmuz ile 15 Ağustos 2025 tarihleri arasında gerçekleştirilecek ve anket sonuçları 15 Eylül 2025 civarında açıklanacaktır.
+
+  ###########################################################################
+  # Figures
+  ###########################################################################
+
+  - key: figure.figure_lazy_loading_usage.html2025
+    t: “Yeni Kullanılabilir” Temel Durumuna sahip olanlar arasında en çok kullanılan özellik olan **lazy loading** özelliğini kullanmış olan yanıtlayıcıların oranı.
+
+  - key: figure.figure_content_security_usage.html2025
+    t: "**Content-Security Policy** için yıllık bazda en büyük kullanım artışı."
+
+  - key: figure.figure_forms_features.html2025
+    t: En çok yorum yapılan özellik olan **datalist** hakkında yapılan yorum sayısı.
+
+  ###########################################################################
+  # Highlights
+  ###########################################################################
+
+  - key: highlight.customizable_select.html2025
+    t: |
+      **Customizable Select** şu anda yaygın olarak desteklenmiyor olabilir, ancak yine de bilinmesi gereken bir özelliktir. Ankete katılanların yalnızca **%7,1'i** tarafından kullanılmasına rağmen, bu özelliği *kullanmış* olan geliştiricilerin **%89'u** olumlu bir deneyim yaşadığını bildirmiştir.
+
+      `<select/>` öğesinin stilini belirlemek her zaman zor olmuştur, bu nedenle JavaScript tabanlı hilelere başvurmadan ihtiyaçlarınıza göre özelleştirebilmek çok hoş bir gelişme!
+
+  - key: highlight.jpeg_xl.html2025
+    t: |
+      “JIF/GIF” telaffuz fiyaskosunun ve kafa karıştırıcı adı “PNG” (‘pi-en-ci‘? ‘ping’?) olayının ardından, görüntü formatlarının isimlendirmesinden sorumlu kişi bu sefer işleri basit tutmaya karar verdi, zaten popüler olan JPEG'e “XL” ekleyerek daha havalı hale getirdi.
+
+      Ancak daha büyük değil, çünkü adlarının aksine JPEG XL görüntüleri aslında sıkıcı eski JPEG'lerden *daha küçüktür* ve bir şekilde geriye dönük uyumludur. Bunun nasıl çalıştığını bana sormayın.
+
+  - key: highlight.hidden_until_found.html2025
+    t: |
+      Tarayıcıların artık saklambaç oynayabildiğini biliyor muydunuz? `hidden="until-found"` özniteliği, kullanıcı (örneğin) ona işaret eden bir bağlantı bağlantısını tıklayarak tetikleyene kadar bir öğeyi gizlemenizi sağlar.
+
+      Şu anda bu özellik kesinlikle “gizli” bir durumdadır ve ankete katılanların **%79,4'ü** daha önce bu özelliği hiç duymadığını belirtti. Ayrıca tarayıcı desteği de şu anda yetersizdir (Safari, sana bakıyoruz!). Ancak birlikte çalışabilirlik iyileştiğinde, bu özelliği araç setinize eklemeye değer olabilir.
+
+  - key: highlight.popover_api.html2025
+    t: |
+      **Popover API**, bu yıl itibarıyla “Yeni Kullanıma Sunuldu”, yani artık dört büyük tarayıcının hepsinde de destekleniyor. Bu da, JavaScript kodundan kurtulmanıza ve onu güzel bir bildirimsel API ile değiştirmenize nasıl yardımcı olabileceğini öğrenmek için mükemmel bir zaman olduğunu gösteriyor!
+  
+  - key: highlight.blocking_render.html2025
+    t: |
+      Web sitelerinin nasıl yüklendiğini kontrol etmekle ilgilenenler, `blocking="render"` özelliğini öğrenince mutlu olacaklardır. Adından da anlaşılacağı gibi, bu özellik `<link>`, `<script>` veya `<style>` etiketlerinin tamamen yüklenene kadar sayfanın görüntülenmesini engellemesini sağlar.
+
+      Tarayıcı desteği henüz tam olarak hazır değil, ancak yaygın olarak desteklenmeye başladığında web yükleme kullanıcı deneyimini çok daha sorunsuz hale getirecek bir özellik olduğu kesin.
+
+  - key: highlight.element_internals.html2025
+    t: |
+      Web bileşenleri yazıyorsanız, sık sık özel sözde sınıflar, varsayılan ARIA parametreleri belirlemeniz veya bir bileşenin normal bir form öğesi gibi davranmasını sağlamanız gerekmiş olabilir mi?
+
+      **ElementInternals** tüm bunları ve daha fazlasını yapar! En iyi yanı ne mi? 2023'ten beri tüm tarayıcılar tarafından desteklenen, yaygın olarak kullanılabilir bir araç olması!
+
+  - key: highlight.payment_request_api.html2025
+    t: |
+      “En sevdiğim havuçlu kek tarifi mi? Tabii, size söyleyeyim! Ama önce, yeni bir yatak ister misiniz? Ya da belki yeni bir ayakkabı?”.
+
+      Reklamlar, özellikle de yeni bir hamur işi pişirmeye çalışırken web’in kaçınılmaz bir parçası gibi görünebilir. Ancak PaymentRequest API, tarayıcı entegreli mikro ödemeleri gerçeğe dönüştürme yolundaki ilk adım olabilir. Ve sırf bu gerçek bile, onu yakından takip etmeye değer kılıyor.
+
+
+  - key: highlight.search_element.html2025
+    t: |
+      `<search>` öğesi, en iyi uygulamalar listenize eklemek için çok az çaba gerektiren kolay kazançlardan biridir. Adım 1: Uygulamalarınızda herhangi bir arama alanını belirtmek için kullanın. Adım 2: Aslında hepsi bu kadar!
+
+      Artık dört büyük tarayıcıda da desteklendiğine göre, kullanmamak için hiçbir neden yok.
+
+  ###########################################################################
+  # Takeaways
+  ###########################################################################
+
+  - key: forms.forms_features.takeaway.html2025
+    t: |
+      Şaşırtıcı bir şekilde, `<input type="color"/>` bu yıl en çok kullanılan form ile ilgili özellik oldu ve ankete katılanların **%41,8'i** bunu kullandığını bildirdi.
+
+      Ancak olumlu duygulara bakıldığında, otomatik tamamlama (`<datalist>`) ve açılır menüler (Özelleştirilebilir Seçim) gibi temel UI yapı taşları sıralamanın en üstünde yer alıyor ve bu da geliştiricilerin özelleştirilebilir ve ihtiyaçlarına göre uyarlanabilen özelliklere değer verdiklerini gösteriyor.
+
+  - key: forms.forms_pain_points.takeaway.html2025
+    t: |
+      Varsayılan form kontrolü UI öğelerinin **styling ve özelleştirilmesi**, sorunların neredeyse **yarısının** bu konuyla ilgili olması nedeniyle büyük bir engel olmaya devam ediyor.
+
+      **Form doğrulama** da, özellikle bir alanın değerini başka bir alana göre doğrulamak gibi daha gelişmiş kullanım durumlarında sorun teşkil ediyor.
+
+  - key: graphics_multimedia.graphics_multimedia_features.takeaway.html2025
+    t: |
+      **JPEG XL** ve **ctx.drawElement()** en olumlu tepkileri alan iki yeni özellikti. Buna karşılık, artırılmış veya genişletilmiş gerçeklik API'leri gibi daha karmaşık alanlar o kadar yüksek puan almadı. Bu da, geliştiricilerin öncelikle günlük hayatlarını kolaylaştıran temel öğelerle ilgilendiklerini bir kez daha gösterdi.
+
+  - key: graphics_multimedia.graphics_pain_points.takeaway.html2025
+    t: |
+      SVG, web'in her zaman gizli kahramanı olmuştur. Tarayıcı üreticileri tarafından sürekli ihmal edilmesine rağmen, neredeyse her web sitesinde kullanılmaktadır. Bu nedenle, sorunların dörtte birinin SVG ile ilgili olması ve bu alanda hakim olması şaşırtıcı değildir.
+
+  - key: content.content_features.takeaway.html2025
+    t: |
+      En çok beğenilen ve en çok beğenilmeyen özelliklerin her ikisi de güvenlikle ilgiliydi: **Sanitizer API** en olumlu görüşleri alırken, **Content-Security Policy** en çok şikayet edilenler listesinin başında yer aldı.
+
+      Bu zıtlık, sürtünmeyi azaltan ve mevcut iş akışlarıyla sorunsuz bir şekilde entegre olan güvenlik mekanizmalarının ne kadar memnuniyetle karşılandığını, buna karşılık katı politikalar uygulayan, titiz bir yapılandırma gerektiren veya önceden çalışan kodları bozan mekanizmaların ise ne kadar tepki çektiğini ortaya koymaktadır.
+
+  - key: content.content_pain_points.takeaway.html2025
+    t: |
+      Veriler çok net bir tablo çiziyor: En acil içerik konusu, hem sayfalar arasında hem de aynı sayfa içinde **HTML yeniden kullanımı**. Bu, yapı araçları ve bileşen tabanlı ön uç çerçeveleriyle zaten mümkün olsa da, platformda yerel bir özellik için büyük bir talep olduğu görülüyor.
+
+  - key: interactivity.interactivity_features.takeaway.html2025
+    t: |
+      Bu kategorideki her bir HTML özelliği için olumlu görüşlerin büyük bir kısmının da gösterdiği gibi, basit ama özelleştirilebilir, bildirimsel temel öğelere yönelik büyük bir talep vardır.
+
+  - key: interactivity.interactivity_pain_points.takeaway.html2025
+    t: |
+     Burada bahsedilen tarayıcı desteği sorunlarının büyük bir kısmı açık bir mesaj veriyor: “Bize sunduğunuz tüm bu yeni özellikleri çok seviyoruz – şimdi bunları her yerde çalışır hale getirin ki biz de gerçekten kullanabilelim!”.
+
+  - key: performance.performance_features.takeaway.html2025
+    t: |
+      Açık ve net: `srcset` ve `sizes` geliştirici deneyimini iyileştirilebilir! Her iki uç da bunun etrafında toplanıyor: `srcset`/`sizes` en çok şikayet edilen özellikler listesinin başında yer alırken, `sizes="auto` en çok beğenilen özellik oluyor, çünkü bu sorunu bir ölçüde hafifletiyor.
+
+  - key: performance.performance_pain_points.takeaway.html2025
+    t: |
+      İnternetin amacı, insanlara uzak mesafedeki içeriğe erişim sağlamaktır. Bu durumda, bu verilerin **yüklenmesinin** çoğu zaman ikinci planda kalması ve son 30 yılda biraz daha hoş dönen animasyonlar dışında pek bir ilerleme kaydedilmemesi biraz garip geliyor.
+
+  - key: web_components.web_components_features.takeaway.html2025
+    t: |
+      Bir kez daha, **declarative custom elements**in duygu grafiğinde en üst sırada yer almasıyla, deklaratif çözümlerin hakim olduğunu görüyoruz.
+
+  - key: web_components.web_components_pain_points.takeaway.html2025
+    t: |
+      **Yerleşik öğelerin genişletilmesi** uzun süredir talep edilen bir özellik olduğunu biliyoruz ve bu sonuçlar bunu doğruluyor, çünkü buradaki en önemli somut sorun konusu bu (karmaşıklık, JS'e bağımlılık ve erişilebilirlik gibi daha soyut konuların ardından).
+
+  - key: web_components.web_components_other_pain_points.takeaway.html2025
+    t: |
+      Önceki yıllara kıyasla aynı temalar hala geçerli: yüksek bilişsel aşırı yük, çerçeve bileşenlerine kıyasla yetersizlik ve Shadow DOM'un çözümden çok sorun olması.
+
+  - key: system_capabilities.system_capabilities_features.takeaway.html2025
+    t: |
+      Bir dosyayı açmak ve kaydetmek, en temel uygulama özelliklerinden biridir, ancak yakın zamana kadar web uygulamaları için ulaşılamaz bir özellikti — ta ki **Dosya Sistemi Erişim API** ortaya çıkana kadar. Bu nedenle, olumlu duygu sıralamasında birinci sırada yer alması şaşırtıcı değildir.
+
+      Öte yandan, **WebUSB**, **Web Bluetooth** veya **WebNFC** gibi cihaz API'leri en az ilgiyi topladı ve en çok ilgi gören özelliklerin temel, yaygın sorunları çözen özellikler olduğunu bir kez daha doğruladı.
+
+  - key: system_capabilities.system_capabilities_pain_points.takeaway.html2025
+    t: |
+      Veriler çok net bir tablo çiziyor: Buradaki en büyük sorun ergonomi ya da sınırlamalar değil, **tarayıcı desteği** ve daha spesifik olarak, birçok geliştiricinin web platformunun ilerlemesini engellediğini düşündüğü belirli bir sağlayıcı.
+
+  # a11y
+
+  - key: accessibility.accessibility_features.takeaway.html2025
+    t: |
+      **Landmark öğeleri** (`<main>`, `<nav>` vb.) çok yeni veya heyecan verici değildir, ancak web erişilebilirliğinin temelini oluşturmaya devam etmektedir.
+
+  - key: accessibility.accessibility_pain_points.takeaway.html2025
+    t: |
+      Erişilebilirlik konusunda teknik eksiklikler olsa da (örneğin, cross-root ARIA), bu konuyu her sorduğumuzda tekrarlanan bir tema, asıl sorunların işyeri öncelikleri, eğitim ve bilişsel yük gibi konularda yer alan *insanlar* ile ilgili olduğu yönündedir.
+
+  - key: accessibility.accessibility_techniques.takeaway.html2025
+    t: |
+      Alt metin veya uygun başlık hiyerarşisi gibi şeyler çoğu ön uç geliştiricisi için artık ikinci doğa haline gelmiş olsa da, `prefers-` medya sorguları seti gibi yeni araçlar henüz tam anlamıyla yaygınlaşmış değildir.
+
+  - key: accessibility.accessibility_disabilities.takeaway.html2025
+    t: |
+      Görme engelli kullanıcıları dikkate almanın ötesinde, geçen yıla kıyasla daha fazla geliştiricinin atipik renk görme ve hareket engellerini de dikkate aldığını görmek güzel.
+
+  - key: accessibility.accessibility_screenreaders.takeaway.html2025
+    t: |
+      Bir kez daha, VoiceOver veya Chrome DevTools gibi kolay erişilebilir araçlar, daha özel seçeneklere göre üstünlük sağlıyor. Birçok geliştirici hala herhangi bir tür ekran okuyucu kullanmasa da (ankete katılanların %39'unun bu soruyu tamamen atladığını da unutmayın).
+
+  - key: accessibility.accessibility_tools.takeaway.html2025
+    t: |
+      Tarayıcı geliştirici araçlarının kullanımı geçen yılın sonuçlarına kıyasla büyük bir artış gösterdi ve Lighthouse'u geçerek erişilebilirlik test araçları arasında lider konuma yükseldi.
+
+  # usage
+  - key: usage.html_interoperability_features.takeaway.html2025
+    t: |
+      Web platformunun durumu ile gerçek dünyada benimsenmesi arasında her zaman biraz gecikme olur, bu nedenle **Popover API**'ın hala sıralamada ilk sırada olması şaşırtıcı değil. Şüphesiz, bu özellik resmi olarak “Yeni Kullanılabilir” Temel Durumuna sahiptir, yani bundan sonra tarayıcılar arasında kullanılması daha az sorun teşkil edeceği kesindir.
+
+  - key: usage.html_functionality_features.takeaway.html2025
+    t: |
+      Form kontrolleri ve diğer etkileşimli öğeler yine en kısıtlayıcı olarak algılanan öğelerdir. Özelleştirilebilir seçimler ortadan kalktığına göre, belki de tarih seçiciler bir sonraki hedef olmalı gibi görünüyor.
+
+  - key: usage.html_missing_elements.takeaway.html2025
+    t: |
+      Bu yıl da **datatable** en çok talep edilen yeni öğe oldu. Yerleşik filtreleme, sıralama, arama vb. özelliklerin olması kesinlikle güzel olurdu, ancak bu özelliklerin yakın zamanda hayata geçeceği pek olası görünmüyor.
+
+      Öte yandan, yerel **switch** öğesi gibi diğer uzun zamandır beklenen özelliklerde ilerleme kaydediliyor, bu da sıralamadaki düşüşünü açıklıyor.
+
+  - key: usage.html_styling_issues.takeaway.html2025
+    t: |
+      Form girişlerinin stil vermek için en zor öğeler listesinin başında yer alması şaşırtıcı değil. Neyse ki, [customizable select öğeleri](https://developer.chrome.com/blog/a-customizable-select) üzerinde çalışılmaktadır, ancak [tarayıcı desteği](https://web-platform-dx.github.io/web-features-explorer/features/customizable-select/) hala yetersizdir.
+
+  - key: usage.component_strategies.takeaway.html2025
+    t: |
+      JavaScript bileşenlerinin web üzerinde kullanıcı arayüzleri oluşturmanın baskın paradigması haline geldiğini inkar etmek zor. Evet, tüm bu rakip front-end frameworkleri ile uğraşmak karmaşık olabilir, ancak bu bizim bildiğimiz (ve belki de sevdiğimiz?) bir karmaşadır. Bu durum, web bileşenlerinin dördüncü sıranın ötesine geçmesini zorlaştırmaktadır.
+
+  - key: usage.design_system_strategies.takeaway.html2025
+    t: |
+      Tasarım sistemleri, çoğu büyük ölçekli proje için bir gereklilik haline gelmiştir ve bu gerçek, tüm bu çeşitli yaklaşımların popülaritesine de yansımaktadır.
+
+  - key: usage.html_css_js_balance.takeaway.html2025
+    t: |
+      Yukarıdaki “Bileşen Stratejileri” tablosunda gösterildiği gibi, JavaScript, ürettiğimiz HTML kodlarının çoğunun fiili taşıyıcısıdır. Bu da neden bu kadar çok zamanımızı onu yazmaya harcadığımızı açıklıyor!
+
+  - key: usage.what_do_you_use_html_for.takeaway.html2025
+    t: |
+      Anket katılımcılarının çoğu dinamik web uygulamaları üzerinde çalışsa da, çoğumuz bloglar veya diğer metin ağırlıklı siteler oluşturmak için de zaman harcıyoruz. Bu da HTML'nin belge odaklı bir dil olarak köklerine geri dönmemizi sağlıyor.
+
+  - key: usage.html_pain_points_freeform.takeaway.html2025
+    t: |
+      Web platformunun sorunlu noktalarını daha genel olarak ele aldığımızda, tarayıcı desteği öne çıkıyor – özellikle Apple ekosistemi söz konusu olduğunda.
+
+      Sonuç olarak, [#AppleBrowserBan](https://open-web-advocacy.org/apple-browser-ban/) hashtag'i gibi topluluk girişimleri ivme kazanırken, sağlayıcılar cephesinde [Interop](https://web.dev/blog/interop-2025) her yıl doğru yönde adımlar atmaktadır.
+
+  # opinions
+
+  - key: opinions.accessibility_is_valued.takeaway.html2025
+    t: |
+      İşyerinde kabul görmemesi, uygun erişilebilirlik uygulamalarının önündeki bir engel olarak sıklıkla gösterildiğinden, en azından anket katılımcıları arasında durumun iyileştiğini görmek güzel. Her iki “katılıyorum” çubuğu da geçen yıla göre artış gösteriyor.
+
+  - key: opinions.validation_is_important.takeaway.html2025
+    t: |
+      Modern web geliştirmenin kaosuyla uğraşırken HTML doğrulamasını unutmak kolaydır. Ancak ankete katılanlar, bunun sürecin önemli bir parçası olmaya devam ettiği konusunda hemfikirdir.
+
+  - key: opinions.keeping_informed_is_challenging.takeaway.html2025
+    t: |
+      [Baseline](https://web-platform-dx.github.io/web-features/) gibi harika girişimlere rağmen, [web platformunu takip etmek](https://css-tricks.com/how-to-keep-up-with-new-css-features/) hala zorlu bir görev. Umarım bu anket en azından biraz yardımcı olur!
+
+  - key: opinions.browser_interoperability_is_obstacle.takeaway.html2025
+    t: |
+      2025 yılında tarayıcı satıcısı olmak kolay değil. Geliştiriciler platformun durgunluğundan şikayet ediyor, siz de yeni özellikler ve API'ler sunuyorsunuz... ama şimdi de geliştiriciler çapraz tarayıcı desteğinin eksikliğinden şikayet ediyor!
+
+      Bu nedenle, [Interop](https://web.dev/blog/interop-2025) son birkaç yıldır bu sürecin önemli bir parçası haline geldi. Tarayıcı satıcılarına özellik uyumluluğu konusunda koordinasyon sağlama ve tüm emeklerinin yetersiz birlikte çalışabilirlik nedeniyle boşa gitmesini önleme şansı veriyor.
+
+  - key: opinions.browser_interoperability_pace.takeaway.html2025
+    t: |
+      Bu birlikte çalışabilirlik çabalarının sonuçları bu grafikte yansıtılmıştır. Ankete katılanların **%75'i**, işlerin eskisinden daha hızlı ilerlediğini kabul etmektedir.
+
+  - key: opinions.web_platform_right_direction.takeaway.html2025
+    t: |
+      Benzer şekilde, ankete katılanların **%77'si** web platformunun genel yönelimine ilişkin olumlu görüşlere sahip.
+
+  ###########################################################################
+  # Conclusion
+  ###########################################################################
+
+  - key: conclusion.html2025.lea_verou.name
+    t: Dr Lea Verou
+  - key: conclusion.html2025.lea_verou.bio
+    t: Konuşmacı, Yazar, Ödüllü Web Mimarisi Danışmanı
+  - key: conclusion.html2025.lea_verou
+    t: >
+      Genelde en gösterişli özelliklerin geliştiricilerin ilgisini en çok çekeceğini umarız. Yapay zeka destekli API'ler, 3D/XR/AR veya cihaz API'leri gibi şeyler. Ancak her yıl zirveye çıkan şeyler hiç de “süslü“ değil. Hatta neredeyse... sıradan: Dropdowns. Comboboxes. Popovers. Dialogs. Form doğrulama. Dosya yükleme ve kaydetme. Templating. Kullanıcı tarafından oluşturulan içeriği güvenli bir şekilde görüntüleme. İkonlar.
+
+      ### API'leri Kullanışlı Hale Getirmek
+
+      “Ama bunların çoğu zaten var!“ diye itiraz edebilirsiniz. Evet varlar; ancak yerleşik arayüzler özelleştirilemediğinde veya stillendirilemediğinde, fiilen kullanılamaz hale gelirler. Geliştiriciler de mecburen bunları baştan yaratmak zorunda kalır.
+
+      Jeton düştüğünde, bu durum anket sonuçlarının çoğunu açıklıyor. Customizable Select'in neden listelerin başında yer aldığını açıklıyor. Popover'lar ve invoker'lar gibi düşük seviyeli yapı taşlarının neden bu kadar iyi karşılandığını açıklıyor. Neden SVG ve HTML'i canvas üzerine çizmenin AR/VR'ın çok üzerinde yer aldığını açıklıyor. Hatta yerleşik öğeleri genişletmenin (extending built-in elements) neden Web Components konusunda bu kadar büyük bir sıkıntı kaynağı olarak ortaya çıktığını bile açıklıyor.
+
+      Sonuçta: Aklınızı kaçırmadan önce bir butonu veya açılır menüyü kaç kez yeniden yapabilirsiniz? Ve doğru yaptığınızdan ne kadar eminsiniz?
+
+      Sonuç olarak, profesyonel interaktif arayüzler oluşturmak, tescilli platformlarda rutin olan işler için bile hala çok sayıda üçüncü taraf çözümün bir araya getirilmesini gerektiriyor.
+
+      ### LLM'lerin Etkisi
+
+      Yapay zeka tarafından oluşturulan kodların yükselişi de buna katkıda bulunan bir faktör. LLM'ler modern web platformu özelliklerine şaşırtıcı derecede hakim ve topluluğu ileriye taşımaya yardımcı olabilirlerdi, ancak önerilerinde aşırı muhafazakarlar. Pratikte bu durum, benimsenmeyi yavaşlatıyor bile olabilir! Bunun ölçeklenebilir şekilde nasıl düzeltileceği henüz yanıtlanmamış bir soru. Bu arada, net tarayıcı desteği talimatları (prompt'ları) yardımcı oluyor ve kim bilir, eğer yeterince geliştirici bunu yaparsa, sorun kendi kendine bile çözülebilir.
+
+      ### Geleceğe Bakış
+
+      İleriye baktığımızda, gelecek parlak görünüyor. Vurgulanan sıkıntıların çoğu üzerinde aktif olarak çalışılıyor ve bazı durumlarda çözümler halihazırda yayınlanıyor. Hatta daha önce çıkmaz sokak olarak görülen "genişletilebilir yerleşik öğeler" (extensible built-ins) bile, özel nitelikler (custom attributes) etrafındaki erken aşama çalışmalarla potansiyel bir ilerleme kaydediyor.
+
+      Tüm bu temel yapı taşları aynı yönü işaret ediyor: Giderek daha esnek, daha etkileyici ve geliştiricilerin arayüzleri gerçekte oluşturma biçimleriyle daha uyumlu hale gelen bir web platformu.
+
+      Web üzerindeki ilerleme nadiren dramatiktir, ancak birikimlidir. Her yeni temel yapı taşı (primitive); geçici çözümlere, kütüphanelere ve kırılgan "hack"lere olan ihtiyacı azaltır. Ve bu temeller yerine oturduğunda, etki her yerde hissedilecektir.
+
+  - key: about.content.html2025
+    t: |
+      2025 HTML Durumu anketi 19 Temmuz ile 1 Eylül 2025 tarihleri arasında gerçekleştirildi ve 6.223 yanıt toplandı.
+
+      Anket, öncelikle [Lea Verou](https://lea.verou.me/) tarafından tasarlanmış ve [açık bir GitHub başlığı](https://github.com/Devographics/surveys/issues/253) aracılığıyla işbirliği içinde gerçekleştirilmiştir.
+
+      Anket altyapısı, açık kaynak katkıcıları ve danışmanlardan oluşan bir ekibin yardımıyla [Sacha Greif](https://sachagreif.com/) tarafından yönetilmektedir.
+
+      Bu yılın logosu ve tişörtü [Christopher Kirk-Nielsen](http://chriskirknielsen.com/) tarafından tasarlanmıştır.
+
+      ### Anket Hedefleri
+
+      Bu anket, geliştiricilerin teknolojik seçimler yapmalarına yardımcı olmak amacıyla web geliştirme ekosistemindeki gelecek trendleri belirlemek için oluşturulmuştur.
+
+      Bu nedenle, anket şu anda popüler olanları analiz etmekten ziyade önümüzdeki birkaç yıl içinde neler olacağını öngörmeye odaklanmıştır. Bu nedenle, şu anda en yaygın olan özellikler veya teknolojiler her zaman dahil edilmemiştir.
+
+      Ayrıca, bu anket **geliştiricilerin belirli bir alt kümesinin anlık görüntüsü** olarak değerlendirilmeli ve tüm ekosistemi temsil ettiği düşünülmemelidir.
+
+      Anket çevrimiçi olarak herkese açık bir şekilde erişilebilirdi ve yanıt verenler hiçbir şekilde filtrelenmedi veya seçilmedi.
+
+      ### Proje Finansmanı
+
+      Bu projenin finansmanı çeşitli kaynaklardan sağlanmaktadır:
+
+      - **T-shirt satışları**.
+
+      - **Sponsorlu bağlantılar**: Her sayfanın alt kısmında bulunan önerilen kaynaklara yönlendiren bağlantılar, ortağımız [Frontend Masters](https://frontendmasters.com/) tarafından sağlanmaktadır.
+
+      - **Diğer Fonlar**: [Google](https://www.google.com/) ve [TokyoDev](https://www.tokyodev.com/) de anket çalışmalarına fon sağlamıştır.
+
+      ### Teknik Genel Bakış
+
+      Anketlerin nasıl yürütüldüğüne dair daha ayrıntılı bir teknik genel bakışı [burada](https://dev.to/sachagreif/how-the-devographics-surveys-are-run-2023-edition-1p6a) bulabilirsiniz.
